@@ -1,0 +1,156 @@
+/* Programm System Design Project */
+
+
+#define motor_right OUT_A
+#define motor_left OUT_B
+#define motor_arm OUT_C
+#define sensor_right SENSOR_1
+#define sensor_mid SENSOR_2
+#define sensor_left SENSOR_3
+
+/* Variablendefinition */
+int power = 40;               // Basisleistung der Motoren
+int power_left, power_right;  // Leistung Motoren links und rechts
+int error = 0;                // Fehler
+int prev_error = 0;           // letzter Fehler
+int derivative = 0;           // Derivat
+int integral = 0;             // Integral
+float kp = 160;                // Korrektor P
+float ki = 20;                 // Korrektor I
+float kd = 800;               // Korrektor D
+int e;
+int turn;
+
+/* Definition der Funktionen */
+
+// Basisfunktion fahren
+void drive()
+{
+  while(TRUE)
+  {
+    e = sensor_left-sensor_right;
+    integral = (1/10)*integral + e;
+    derivative = e - prev_error;
+    turn = kp * e + kd * derivative;
+    turn = turn/100;
+    power_left= power+turn;
+    power_right= power-turn;
+    OnRev(motor_left, power_left);
+    OnRev(motor_right, power_right);
+    prev_error = e;
+    Wait(2);
+  }
+}
+
+// Ausgabe auf Bildschirm
+void print()
+{
+ int diff;
+ ClearScreen();
+ while(TRUE)
+ {
+   diff = sensor_left-sensor_right+5;
+   TextOut(0, LCD_LINE1, "links");
+   NumOut(0, LCD_LINE2, sensor_left);
+   TextOut(0, LCD_LINE3, "rechts");
+   NumOut(0, LCD_LINE4, sensor_right);
+   TextOut(0, LCD_LINE5, "Differenz");
+   NumOut(0, LCD_LINE6, diff);
+   TextOut(0, LCD_LINE7, "Mitte");
+   NumOut(0, LCD_LINE8, sensor_mid);
+   Wait(3000);
+ }
+}
+
+void print2()
+{
+ ClearScreen();
+ while(TRUE)
+ {
+  e = sensor_left-sensor_right+5;
+  integral = integral + e;
+  derivative = e - prev_error;
+  turn = kp * e + kd * derivative;
+  turn = turn/100;
+  power_left= power+turn;
+  power_right= power-turn;
+  TextOut(0, LCD_LINE1, "fehler");
+  NumOut(0, LCD_LINE2, e);
+  TextOut(0, LCD_LINE3, "turn");
+  NumOut(0, LCD_LINE4, turn);
+  TextOut(0, LCD_LINE5, "power left");
+  NumOut(0, LCD_LINE6, power_left);
+  TextOut(0, LCD_LINE7, "power right");
+  NumOut(0, LCD_LINE8, power_right);
+  Wait(1000);
+ }
+}
+
+/* Funktion Ball aufnehmen
+
+fahre bis Ultraschallsensor meldet 25cm Abstand
+stoppen
+warten Zeit oder bis Abstand wieder größer
+
+*/
+
+
+/* Funktion Klotz schieben
+
+- wenn alle Sensoren gleich und > 35
+- zähle (vielleicht SENSOR_MODE_PULSE)
+- Strichcode erkannt
+- biege rechts ab (90 Grad drehen)
+- zähle Motorumdrehungen
+- fahre bis Ultraschallsensor Abstand 0
+- fahre sehr langsam bis Abstand maximal
+- gezählte Motorumdrehungen rückwärts fahren
+- 90 Grad nach links drehen
+- Ende der Funktion und weiter mit drive()
+
+*/
+
+
+/* Funktion Ball abwerfen
+
+- wenn alle Sensoren gleich und < 35
+- stoppen
+- rotiere Motor3 zum Ballabwurf
+
+*/
+
+
+/* Main */
+task main()
+{
+     SetSensorLight(IN_1);
+     SetSensorLight(IN_2);
+     SetSensorLight(IN_3);
+     //SetSensorLowspeed(IN_4);
+
+     // Warte vor Programmstart einige Sekunden
+     Wait(3000);
+
+     // Fahre bis keine Differenz
+     while (TRUE)
+     {
+      //print2();
+      drive();
+     }
+     Off(OUT_AB);
+     
+
+
+     // Wende
+     //RotateMotor(motor_left, -100);
+     //RotateMotor(motor_right, 100);
+
+     // Fahren bis Schranke
+
+
+     //Fahren bis Strichcode
+     //SetSensorMode(IN_2, SENSOR_MODE_PULSE);
+     //switch(sensor_mid)
+     // case 3: Off(OUT_AB);
+
+}
