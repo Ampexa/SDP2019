@@ -1,6 +1,6 @@
 /* Programm System Design Project */
 
-
+#define BTNCENTER BTN4
 #define motor_right OUT_A
 #define motor_left OUT_B
 #define motor_arm OUT_C
@@ -9,19 +9,72 @@
 #define sensor_left SENSOR_3
 
 /* Variablendefinition */
+int init_diff;      //initial difference of left and right
+int diff_white;
+int diff_black;
+
 int power = 40;               // Basisleistung der Motoren
 int power_left, power_right;  // Leistung Motoren links und rechts
 int error = 0;                // Fehler
 int prev_error = 0;           // letzter Fehler
 int derivative = 0;           // Derivat
 int integral = 0;             // Integral
-float kp = 160;                // Korrektor P
+float kp = 140;                // Korrektor P
 float ki = 20;                 // Korrektor I
-float kd = 800;               // Korrektor D
+float kd = 700;               // Korrektor D
 int e;
 int turn;
 
 /* Definition der Funktionen */
+
+// Initializing the differnce between sensors
+int get_difference()
+{
+ // Initialize differnce on white background
+ ClearScreen();
+ TextOut(0, LCD_LINE1, "all on white?");
+ TextOut(0, LCD_LINE2, "Press Enter to save");
+ while(!ButtonPressed(BTNCENTER, false))
+ {
+  TextOut(0, LCD_LINE3, "links");
+  NumOut(40, LCD_LINE3, sensor_left);
+  TextOut(0, LCD_LINE4, "rechts");
+  NumOut(40, LCD_LINE4, sensor_right);
+  TextOut(0, LCD_LINE5, "diff");
+  NumOut(40, LCD_LINE5, sensor_left-sensor_right);
+ }
+ diff_white = sensor_left-sensor_right;
+ ClearScreen();
+ TextOut(0, LCD_LINE3, "saved difference white:");
+ NumOut(0, LCD_LINE4, diff_white);
+ Wait(2000);
+
+ // Initialize differnce on black background
+ ClearScreen();
+ TextOut(0, LCD_LINE1, "all on black?");
+ TextOut(0, LCD_LINE2, "Press Enter to save");
+ while(!ButtonPressed(BTNCENTER, false))
+ {
+  TextOut(0, LCD_LINE3, "links");
+  NumOut(40, LCD_LINE3, sensor_left);
+  TextOut(0, LCD_LINE4, "rechts");
+  NumOut(40, LCD_LINE4, sensor_right);
+  TextOut(0, LCD_LINE5, "diff");
+  NumOut(40, LCD_LINE5, sensor_left-sensor_right);
+ }
+ diff_black = sensor_left-sensor_right;
+ ClearScreen();
+ TextOut(0, LCD_LINE3, "saved difference white:");
+ NumOut(0, LCD_LINE4, diff_black);
+ Wait(2000);
+
+ // build avarage diffence and print on screen
+ ClearScreen();
+ init_diff = ((diff_black+diff_white)/2);
+ TextOut(0, LCD_LINE3, "Initial Differnce:");
+ NumOut(0, LCD_LINE4, init_diff);
+}
+
 
 // Basisfunktion fahren
 void drive()
@@ -67,7 +120,7 @@ void print2()
  ClearScreen();
  while(TRUE)
  {
-  e = sensor_left-sensor_right+5;
+  e = (sensor_left-sensor_right) - init_diff;
   integral = integral + e;
   derivative = e - prev_error;
   turn = kp * e + kd * derivative;
@@ -128,8 +181,11 @@ task main()
      SetSensorLight(IN_3);
      //SetSensorLowspeed(IN_4);
 
+     // Initialize difference
+     get_difference();
+     
      // Warte vor Programmstart einige Sekunden
-     Wait(3000);
+     Wait(5000);
 
      // Fahre bis keine Differenz
      while (TRUE)
