@@ -7,6 +7,7 @@
 #define sensor_right SENSOR_1
 #define sensor_mid SENSOR_2
 #define sensor_left SENSOR_3
+#define ultrasonic SENSOR_4
 
 /* Variablendefinition */
 int init_diff;      //initial difference of left and right
@@ -19,9 +20,9 @@ int error = 0;                // Fehler
 int prev_error = 0;           // letzter Fehler
 int derivative = 0;           // Derivat
 int integral = 0;             // Integral
-float kp = 140;                // Korrektor P
+float kp = 150;                // Korrektor P
 float ki = 20;                 // Korrektor I
-float kd = 700;               // Korrektor D
+float kd = 800;               // Korrektor D
 int e;
 int turn;
 
@@ -84,14 +85,18 @@ void drive()
     e = sensor_left-sensor_right;
     integral = (1/10)*integral + e;
     derivative = e - prev_error;
-    turn = kp * e + kd * derivative;
+    turn = kp * e + ki * integral + kd * derivative;
     turn = turn/100;
+    if (e > 10 || e < -10)
+    {
+     turn = turn * 1.2;
+    }
     power_left= power+turn;
     power_right= power-turn;
     OnRev(motor_left, power_left);
     OnRev(motor_right, power_right);
     prev_error = e;
-    Wait(2);
+    Wait(3);
   }
 }
 
@@ -179,7 +184,7 @@ task main()
      SetSensorLight(IN_1);
      SetSensorLight(IN_2);
      SetSensorLight(IN_3);
-     //SetSensorLowspeed(IN_4);
+     SetSensorLowspeed(IN_4);
 
      // Initialize difference
      get_difference();
