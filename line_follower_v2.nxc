@@ -1,13 +1,13 @@
 /* Version 2: System Design Project */
 
 #define BTNCENTER BTN4
-#define motor_right OUT_A
-#define motor_left OUT_B
+#define motor_left OUT_A
+#define motor_right OUT_B
 #define motor_arm OUT_C
 #define sensor_right SENSOR_1
 #define sensor_mid SENSOR_2
 #define sensor_left SENSOR_3
-#define ultrasonic SENSOR_4
+//#define ultrasonic SENSOR_4
 
 /* variable definition */
 int init_diff;      //initial difference of left and right
@@ -20,10 +20,12 @@ int error = 0;
 int prev_error = 0;
 int derivative = 0;
 int integral = 0;
-float kp = 1.1;
-float ki = 0.01;
-float kd = 0.04;
+float kp = 1.2;
+float ki = 0;
+float kd = 0;
 int turn;
+bool not_black = TRUE;
+bool no_obstacle = TRUE;
 
 
 /* function definition */
@@ -82,40 +84,33 @@ int get_difference()
 
 void drive()
 {
- while(TRUE)
- {
-  error = (sensor_left-sensor_right); //differnce to optimum
+  error = (sensor_left-sensor_right);
   integral = integral + error;
   derivative = error - prev_error;
-  turn = kp * error + ki * integral + kd * derivative;
   ClearScreen();
-  TextOut(0, LCD_LINE1, "error");
-  NumOut(0, LCD_LINE2, error);
-  TextOut(0, LCD_LINE3, "turn");
-  NumOut(0, LCD_LINE4, turn);
+  TextOut(0, LCD_LINE1, "ultrasonic");
+  NumOut(0, LCD_LINE2, SensorUS(IN_4));
+  turn = kp * error + ki * integral + kd * derivative;
   if (error < 2 && error > -2)
   // if error small drive straight
   {
-   power_left = power*1.5;
-   power_right = power*1.5;
+   power_left = power*1.3;
+   power_right = power*1.3;
   }
   else
   // steer for bigger errors
   {
-   power_left= power-turn;
-   power_right= power+turn;
-   TextOut(0, LCD_LINE5, "left");
-   NumOut(0, LCD_LINE6, error);
-   TextOut(0, LCD_LINE7, "right");
-   NumOut(0, LCD_LINE8, turn);
+   power_left= power+turn;
+   power_right= power-turn;
   }
   OnFwd(motor_left, power_left);
   OnFwd(motor_right, power_right);
   prev_error = error;
   Wait(3);
- }
 }
 
+
+// Pushing Block
 
 
 
@@ -133,11 +128,57 @@ task main()
  // Warte vor Programmstart einige Sekunden
  Wait(5000);
 
- // Fahre
- while (TRUE)
+ // Fahre solange es kein Hinderniss gibt
+ while (no_obstacle)
  {
+  if (SensorUS(IN_4) < 38)
+  {
+   no_obstacle = FALSE;
+  }
   drive();
+  Wait(3);
  }
+ Off(OUT_AB);
+ 
+ while (sensor_right > 30)
+ {
+  OnFwd(motor_right, 20);
+  OnRev(motor_left, 20);
+  Wait(3);
+ }
+ 
+ while (not_black)
+ {
+   if (sensor_mid < 40 && sensor_right > 40)
+   {
+    not_black = FALSE;
+   }
+  drive();
+  Wait(3);
+ }
+
+ //OnFwd(motor_right, 20);
+ //OnFwd(motor_left, 20);
+ //Wait(500);
+ 
+ OnRev(motor_right, 20);
+ OnFwd(motor_left, 20);
+ Wait(1200);
+
+
+
+ no_obstacle = TRUE;
+ while (no_obstacle)
+ {
+  if (SensorUS(IN_4) < 38)
+  {
+   no_obstacle = FALSE;
+  }
+  drive();
+  Wait(3);
+ }
+ Off(OUT_AB);
+
 }
 
 
