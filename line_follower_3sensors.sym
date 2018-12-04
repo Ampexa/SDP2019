@@ -1,0 +1,706 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0SetSensorLowspeed_inline_main	5	1	0	4	5
+1	__D0SetSensorLowspeed_inline_main	6	1	4	4	2
+2	__PointOutMutex	9	0	8	4	2
+3	ki	10	0	12	4	1
+4	kp	10	0	16	4	1
+5	__D0main	6	1	20	4	4
+6	__D0SetSensorLight_inline_main	6	1	24	4	6
+7	__DF0drive	10	1	28	4	4
+8	__DU0SetSensorLight_inline_main	5	1	32	4	15
+9	__D0drive	6	1	36	4	78
+10	__constValf1P2	10	0	40	4	1
+11	__float_stack_002drive	10	1	44	4	4
+12	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	48	4	2
+13	__Wait_7qG2_ms_7qG2_000_inline_drive	5	1	52	4	4
+14	__float_stack_001drive	10	1	56	4	6
+15	kd	10	0	60	4	1
+16	__TextOutMutex	9	0	64	4	8
+17	__signed_stack_001drive	6	1	68	4	46
+18	__signed_stack_002drive	6	1	72	4	8
+19	power_right	4	1	76	2	2
+20	b	4	1	78	2	8
+21	turn	4	1	80	2	7
+22	c	4	1	82	2	5
+23	a	4	1	84	2	7
+24	derivative	4	1	86	2	2
+25	prev_error	4	1	88	2	2
+26	e	4	1	90	2	7
+27	integral	4	1	92	2	3
+28	power_left	4	1	94	2	2
+29	__constVal200	4	0	96	2	2
+30	power	4	0	98	2	2
+31	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	100	1	6
+32	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	101	1	6
+33	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	102	1	6
+34	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	103	1	6
+35	__OnRev_Tmp	2	1	104	1	4
+36	____initialize_global_data_return	1	1	105	1	3
+37	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	106	1	15
+38	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	107	1	6
+39	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	108	1	2
+40	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	109	1	2
+41	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	110	1	2
+42	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	111	1	2
+43	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	112	1	3
+44	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	113	1	4
+45	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	114	1	2
+46	__ResetSensorTmp	1	1	115	1	2
+47	__ResetSensorPort	1	1	116	1	6
+48	__constVal3	2	0	117	1	4
+49	__PFTmp	1	1	118	1	1
+50	__constVal2	2	0	119	1	1
+51	____ResetSensorSubroutine_return	1	1	120	1	6
+52	__constVal0	2	1	121	1	16
+53	__constVal32	2	0	122	1	12
+54	__constVal63	2	0	123	1	4
+55	__constVal96	2	0	124	1	4
+56	__constVal1	2	0	125	1	9
+57	__drive_return	1	1	126	1	3
+58	__constValNeg10	2	0	127	1	1
+59	__TextOutArgs	8	0	4	16	24
+60	__TextOutArgs.Result	2	1	128	1	24
+61	__TextOutArgs.Location	8	0	2	4	24
+62	__TextOutArgs.Location.X	4	1	132	2	24
+63	__TextOutArgs.Location.Y	4	1	134	2	24
+64	__TextOutArgs.Text	7	0	136	4	24
+65	__TextOutArgs.Text.Text_type	1	0	0	1	0
+66	__TextOutArgs.Options	5	1	140	4	24
+67	__PointOutArgs	8	0	3	12	4
+68	__PointOutArgs.Result	2	1	144	1	4
+69	__PointOutArgs.Location	8	0	2	4	4
+70	__PointOutArgs.Location.X	4	1	148	2	4
+71	__PointOutArgs.Location.Y	4	1	150	2	4
+72	__PointOutArgs.Options	5	1	152	4	4
+73	__OUT_AB	7	0	156	4	2
+74	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	229	0	#line 229 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	230	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	229	2	#line 229 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	229	2	#line 229 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	230	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	229	5	#line 229 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	230	5	#line 230 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	231	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	7	#line 4313 "NXCDefs.h"
+0	4314	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	9	#line 4313 "NXCDefs.h"
+0	4313	9	#line 4313 "NXCDefs.h"
+0	4314	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	11	#line 4313 "NXCDefs.h"
+0	4314	11		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	14	#line 4313 "NXCDefs.h"
+0	4314	14		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	17	#line 4313 "NXCDefs.h"
+0	4314	17		set __DU0SetSensorLight_inline_main, 5
+0	4313	20	#line 4313 "NXCDefs.h"
+0	4313	20	#line 4313 "NXCDefs.h"
+0	4314	20		jmp __001__ASM_Label_5
+0	4313	22	#line 4313 "NXCDefs.h"
+0	4314	22		set __DU0SetSensorLight_inline_main, 6
+0	4313	25	#line 4313 "NXCDefs.h"
+0	4313	25	#line 4313 "NXCDefs.h"
+0	4314	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4314	31	#line 4314 "NXCDefs.h"
+0	4314	31	#line 4314 "NXCDefs.h"
+0	4315	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	33	#line 4314 "NXCDefs.h"
+0	4314	33	#line 4314 "NXCDefs.h"
+0	4315	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	36	#line 4314 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4315	40	#line 4315 "NXCDefs.h"
+0	4315	40	#line 4315 "NXCDefs.h"
+0	4316	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	42	#line 4315 "NXCDefs.h"
+0	4278	42	#line 4278 "NXCDefs.h"
+0	4279	42	#pragma macro 4
+0	4279	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6465	46	#line 6465 "NXCDefs.h"
+0	4278	46	#line 4278 "NXCDefs.h"
+0	4316	46	#line 4316 "NXCDefs.h"
+0	230	46	#line 230 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	230	46	#line 230 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	231	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	230	49	#line 230 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	231	49	#line 231 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	232	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	51	#line 4313 "NXCDefs.h"
+0	4314	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	53	#line 4313 "NXCDefs.h"
+0	4313	53	#line 4313 "NXCDefs.h"
+0	4314	53		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	55	#line 4313 "NXCDefs.h"
+0	4314	55		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	58	#line 4313 "NXCDefs.h"
+0	4314	58		brtst 4, __002__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	61	#line 4313 "NXCDefs.h"
+0	4314	61		set __DU0SetSensorLight_inline_main, 5
+0	4313	64	#line 4313 "NXCDefs.h"
+0	4313	64	#line 4313 "NXCDefs.h"
+0	4314	64		jmp __002__ASM_Label_5
+0	4313	66	#line 4313 "NXCDefs.h"
+0	4314	66		set __DU0SetSensorLight_inline_main, 6
+0	4313	69	#line 4313 "NXCDefs.h"
+0	4313	69	#line 4313 "NXCDefs.h"
+0	4314	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	71	#line 4247 "NXCDefs.h"
+0	4248	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	75	#line 4247 "NXCDefs.h"
+0	4314	75	#line 4314 "NXCDefs.h"
+0	4314	75	#line 4314 "NXCDefs.h"
+0	4315	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	77	#line 4314 "NXCDefs.h"
+0	4314	77	#line 4314 "NXCDefs.h"
+0	4315	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	80	#line 4314 "NXCDefs.h"
+0	4260	80	#line 4260 "NXCDefs.h"
+0	4261	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	84	#line 4260 "NXCDefs.h"
+0	4315	84	#line 4315 "NXCDefs.h"
+0	4315	84	#line 4315 "NXCDefs.h"
+0	4316	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	86	#line 4315 "NXCDefs.h"
+0	4278	86	#line 4278 "NXCDefs.h"
+0	4279	86	#pragma macro 4
+0	4279	86		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6528	90	#line 6528 "NXCDefs.h"
+0	4278	90	#line 4278 "NXCDefs.h"
+0	4316	90	#line 4316 "NXCDefs.h"
+0	231	90	#line 231 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	231	90	#line 231 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	232	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	231	93	#line 231 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	232	93	#line 232 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	233	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	95	#line 4313 "NXCDefs.h"
+0	4314	95		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	97	#line 4313 "NXCDefs.h"
+0	4313	97	#line 4313 "NXCDefs.h"
+0	4314	97		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	99	#line 4313 "NXCDefs.h"
+0	4314	99		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	102	#line 4313 "NXCDefs.h"
+0	4314	102		brtst 4, __003__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	105	#line 4313 "NXCDefs.h"
+0	4314	105		set __DU0SetSensorLight_inline_main, 5
+0	4313	108	#line 4313 "NXCDefs.h"
+0	4313	108	#line 4313 "NXCDefs.h"
+0	4314	108		jmp __003__ASM_Label_5
+0	4313	110	#line 4313 "NXCDefs.h"
+0	4314	110		set __DU0SetSensorLight_inline_main, 6
+0	4313	113	#line 4313 "NXCDefs.h"
+0	4313	113	#line 4313 "NXCDefs.h"
+0	4314	113		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	115	#line 4247 "NXCDefs.h"
+0	4248	115		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	119	#line 4247 "NXCDefs.h"
+0	4314	119	#line 4314 "NXCDefs.h"
+0	4314	119	#line 4314 "NXCDefs.h"
+0	4315	119		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	121	#line 4314 "NXCDefs.h"
+0	4314	121	#line 4314 "NXCDefs.h"
+0	4315	121		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	124	#line 4314 "NXCDefs.h"
+0	4260	124	#line 4260 "NXCDefs.h"
+0	4261	124		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	128	#line 4260 "NXCDefs.h"
+0	4315	128	#line 4315 "NXCDefs.h"
+0	4315	128	#line 4315 "NXCDefs.h"
+0	4316	128		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	130	#line 4315 "NXCDefs.h"
+0	4278	130	#line 4278 "NXCDefs.h"
+0	4279	130	#pragma macro 4
+0	4279	130		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	132		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6591	134	#line 6591 "NXCDefs.h"
+0	4278	134	#line 4278 "NXCDefs.h"
+0	4316	134	#line 4316 "NXCDefs.h"
+0	232	134	#line 232 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	232	134	#line 232 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	233	134		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	232	137	#line 232 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	238	137	#line 238 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	239	137		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	139	#line 4342 "NXCDefs.h"
+0	4343	139		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	141	#line 4342 "NXCDefs.h"
+0	4342	141	#line 4342 "NXCDefs.h"
+0	4343	141		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	143	#line 4342 "NXCDefs.h"
+0	4343	143		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	146	#line 4342 "NXCDefs.h"
+0	4343	146		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	149	#line 4342 "NXCDefs.h"
+0	4343	149		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	152	#line 4342 "NXCDefs.h"
+0	4342	152	#line 4342 "NXCDefs.h"
+0	4343	152		jmp __004__ASM_Label_37
+0	4342	154	#line 4342 "NXCDefs.h"
+0	4343	154		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	157	#line 4342 "NXCDefs.h"
+0	4342	157	#line 4342 "NXCDefs.h"
+0	4343	157		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	159	#line 4247 "NXCDefs.h"
+0	4248	159		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	163	#line 4247 "NXCDefs.h"
+0	4343	163	#line 4343 "NXCDefs.h"
+0	4343	163	#line 4343 "NXCDefs.h"
+0	4344	163		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	165	#line 4343 "NXCDefs.h"
+0	4343	165	#line 4343 "NXCDefs.h"
+0	4344	165		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	168	#line 4343 "NXCDefs.h"
+0	4260	168	#line 4260 "NXCDefs.h"
+0	4261	168		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	172	#line 4260 "NXCDefs.h"
+0	4344	172	#line 4344 "NXCDefs.h"
+0	4344	172	#line 4344 "NXCDefs.h"
+0	4344	172	#line 4344 "NXCDefs.h"
+0	4278	172	#line 4278 "NXCDefs.h"
+0	4279	172	#pragma macro 4
+0	4279	172		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	174		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6682	176	#line 6682 "NXCDefs.h"
+0	4278	176	#line 4278 "NXCDefs.h"
+0	4345	176	#line 4345 "NXCDefs.h"
+0	238	176	#line 238 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	238	176	#line 238 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	239	176		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	238	179	#line 238 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	8551	179	#line 8551 "NXCDefs.h"
+0	8552	179		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	182	#line 8551 "NXCDefs.h"
+0	241	182	#line 241 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	242	182	#line 242 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	243	182		set __D0main, 1
+0	244	185	#line 244 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	245	185		tst 5, __D0main, __D0main
+0	244	188	#line 244 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	245	188		brtst 4, __ASM_Label_841, __D0main
+0	246	191	#line 246 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	247	191		subcall drive, __drive_return
+0	246	193	#line 246 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	247	193	#line 247 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	248	193		jmp __ASM_Label_840
+0	247	195	#line 247 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	263	195	#line 263 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	264	195	#pragma macro 7
+0	264	195		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6713	218	#line 6713 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	263	218	#line 263 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+0	264	218		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	86	0	#line 86 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	87	0		set __D0drive, 1
+2	87	3	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	88	3		tst 5, __D0drive, __D0drive
+2	87	6	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	88	6		brtst 4, __ASM_Label_626, __D0drive
+2	87	9	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	88	9		getin __signed_stack_001drive, __constVal2, 4
+2	87	13	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	87	13	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	88	13		getin __D0drive, __constVal0, 4
+2	87	17	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	88	17		sub e, __signed_stack_001drive, __D0drive
+2	87	21	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	87	21	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	87	21	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	88	21	#line 88 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	89	21		set __signed_stack_001drive, 0
+2	88	24	#line 88 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	88	24	#line 88 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	89	24		mov __D0drive, integral
+2	88	26	#line 88 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	89	26		mul __signed_stack_001drive, __signed_stack_001drive, __D0drive
+2	88	30	#line 88 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	89	30	#line 89 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	30		mov __D0drive, e
+2	89	32	#line 89 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	32		add integral, __signed_stack_001drive, __D0drive
+2	89	36	#line 89 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	89	36	#line 89 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	89	36	#line 89 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	36		mov __signed_stack_001drive, e
+2	89	38	#line 89 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	38	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	38		mov __D0drive, prev_error
+2	90	40	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	40		sub derivative, __signed_stack_001drive, __D0drive
+2	90	44	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	44	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	44	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	44		mov __float_stack_001drive, kp
+2	90	46	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	46	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	46		mov __D0drive, e
+2	90	48	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	48		mul __float_stack_001drive, __float_stack_001drive, __D0drive
+2	90	52	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	52	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	52		mov __float_stack_002drive, ki
+2	90	54	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	54	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	54		mov __D0drive, integral
+2	90	56	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	56		mul __DF0drive, __float_stack_002drive, __D0drive
+2	90	60	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	60		add __float_stack_001drive, __float_stack_001drive, __DF0drive
+2	90	64	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	90	64	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	64		mov __float_stack_002drive, kd
+2	90	66	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	66	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	92	66		mov __D0drive, derivative
+2	91	68	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	92	68		mul __DF0drive, __float_stack_002drive, __D0drive
+2	91	72	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	92	72		add turn, __float_stack_001drive, __DF0drive
+2	91	76	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	76	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	91	76	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	92	76		mov __signed_stack_001drive, turn
+2	91	78	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	92	78	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	93	78		set __D0drive, 100
+2	92	81	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	93	81		div turn, __signed_stack_001drive, __D0drive
+2	92	85	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	92	85	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	92	85	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	93	85		mov __signed_stack_001drive, e
+2	92	87	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	92	87	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	93	87		set __D0drive, 10
+2	92	90	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	93	90		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+2	92	94	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	93	94		brtst 5, __ASM_Label_641, __D0drive
+2	92	97	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	93	97		mov __signed_stack_001drive, e
+2	92	99	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	93	99	#line 93 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	94	99		mov __D0drive, __constValNeg10
+2	93	101	#line 93 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	94	101		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
+2	94	105	#line 94 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	95	105		brtst 4, __ASM_Label_644, __D0drive
+2	94	108	#line 94 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	95	108		mov __signed_stack_001drive, turn
+2	94	110	#line 94 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	95	110	#line 95 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	95	110	#line 95 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	96	110		mul turn, __signed_stack_001drive, __constValf1P2
+2	95	114	#line 95 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	95	114	#line 95 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	96	114	#line 96 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	96	114	#line 96 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	97	114		mov __signed_stack_001drive, power
+2	96	116	#line 96 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	97	116	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	98	116		mov __D0drive, turn
+2	97	118	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	98	118		add power_left, __signed_stack_001drive, __D0drive
+2	97	122	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	97	122	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	97	122	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	98	122		mov __signed_stack_001drive, power
+2	97	124	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	98	124	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	99	124		mov __D0drive, turn
+2	98	126	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	99	126		sub power_right, __signed_stack_001drive, __D0drive
+2	98	130	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	98	130	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	98	130	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	99	130		mov __D0drive, power_left
+2	99	132	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	100	132	#pragma macro 10
+2	100	132		neg __OnRev_Tmp, __D0drive
+2	100	135		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	5277	158	#line 5277 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	99	158	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	99	158	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	100	158		mov __D0drive, power_right
+2	100	160	#line 100 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	101	160	#pragma macro 10
+2	101	160		neg __OnRev_Tmp, __D0drive
+2	101	163		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	5284	186	#line 5284 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	100	186	#line 100 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	102	186	#line 102 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	103	186		mov prev_error, e
+2	102	188	#line 102 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	102	188	#line 102 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	102	188	#line 102 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	103	188		getin __signed_stack_001drive, __constVal1, 4
+2	102	192	#line 102 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	103	192	#line 103 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	104	192		set __D0drive, 60
+2	103	195	#line 103 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	104	195		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+2	104	199	#line 104 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	105	199		brtst 4, __ASM_Label_659, __D0drive
+2	104	202	#line 104 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	105	202		mov __signed_stack_001drive, b
+2	104	204	#line 104 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	105	204	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	106	204		set __D0drive, 1
+2	105	207	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	106	207		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
+2	106	211	#line 106 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	107	211		brtst 4, __ASM_Label_662, __D0drive
+2	107	214	#line 107 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	108	214		set a, 0
+2	107	217	#line 107 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	107	217	#line 107 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	108	217	#line 108 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	109	217		set b, 1
+2	108	220	#line 108 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	108	220	#line 108 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	111	220	#line 111 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	112	220		jmp __ASM_Label_667
+2	111	222	#line 111 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	112	222		mov __signed_stack_001drive, b
+2	111	224	#line 111 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	112	224	#line 112 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	113	224		set __D0drive, 1
+2	112	227	#line 112 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	113	227		add b, __signed_stack_001drive, __D0drive
+2	112	231	#line 112 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	112	231	#line 112 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	114	231	#line 114 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	116	231	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	117	231		jmp __ASM_Label_670
+2	116	233	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	117	233		mov __signed_stack_001drive, b
+2	116	235	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	117	235	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	118	235		set __D0drive, 30
+2	117	238	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	118	238		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+2	118	242	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	119	242		brtst 4, __ASM_Label_673, __D0drive
+2	118	245	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	119	245		mov __signed_stack_001drive, c
+2	118	247	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	119	247	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	120	247		set __D0drive, 1
+2	119	250	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	120	250		add c, __signed_stack_001drive, __D0drive
+2	119	254	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	119	254	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	122	254	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	122	254	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	122	254	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	123	254		mov __signed_stack_001drive, a
+2	122	256	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	122	256	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	123	256		set __D0drive, 300
+2	122	259	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	123	259		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+2	122	263	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	123	263		brtst 4, __ASM_Label_677, __D0drive
+2	122	266	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	123	266		mov __signed_stack_001drive, c
+2	122	268	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	123	268	#line 123 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	124	268		set __D0drive, 2
+2	123	271	#line 123 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	124	271		cmp 4, __D0drive, __signed_stack_001drive, __D0drive
+2	124	275	#line 124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	125	275		brtst 4, __ASM_Label_678, __D0drive
+2	125	278	#line 125 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	126	278		set b, 0
+2	125	281	#line 125 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	125	281	#line 125 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	126	281	#line 126 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	127	281	#pragma macro 7
+2	127	281		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	5419	304	#line 5419 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	126	304	#line 126 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	126	304	#line 126 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	127	304		set __Wait_7qG2_ms_7qG2_000_inline_drive, 10000
+2	126	307	#line 126 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	8551	307	#line 8551 "NXCDefs.h"
+2	8552	307		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drive
+2	8551	310	#line 8551 "NXCDefs.h"
+2	127	310	#line 127 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	128	310	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	129	310		set c, 0
+2	128	313	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	128	313	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	130	313	#line 130 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	130	313	#line 130 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	131	313		mov __signed_stack_001drive, a
+2	130	315	#line 130 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	131	315	#line 131 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	132	315		set __D0drive, 300
+2	131	318	#line 131 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	132	318		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+2	133	322	#line 133 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	134	322		brtst 4, __ASM_Label_687, __D0drive
+2	6678	325	#line 6678 "NXCDefs.h"
+2	6679	325	#pragma macro 6
+2	6679	325		acquire __PointOutMutex
+2	6679	326		mov __PointOutArgs.Location.X, __constVal200
+2	6679	328		mov __PointOutArgs.Location.Y, __constVal200
+2	6679	330		mov __PointOutArgs.Options, __constVal1
+2	6679	332		syscall 14, __PointOutArgs
+2	6679	335		release __PointOutMutex
+2	5455	336	#line 5455 "NXCDefs.h"
+2	6678	336	#line 6678 "NXCDefs.h"
+2	135	336	#line 135 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	136	336	#line 136 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	137	336		set b, 0
+2	136	339	#line 136 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	136	339	#line 136 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	137	339	#line 137 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	138	339		set a, 0
+2	137	342	#line 137 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	137	342	#line 137 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	139	342	#line 139 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	139	342	#line 139 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	140	342		mov __signed_stack_001drive, a
+2	139	344	#line 139 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	140	344	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	141	344		set __D0drive, 1
+2	140	347	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	141	347		add a, __signed_stack_001drive, __D0drive
+2	140	351	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	140	351	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	140	351	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	141	351		set __signed_stack_001drive, 0
+2	140	354	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	140	354	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	141	354		set __signed_stack_002drive, 56
+2	140	357	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	140	357	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	141	357		mov __D0drive, a
+2	141	359	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	359		acquire __TextOutMutex
+2	141	360	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	360		mov __TextOutArgs.Location.X, __signed_stack_001drive
+2	141	362	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	362		mov __TextOutArgs.Location.Y, __signed_stack_002drive
+2	141	364	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	364		set __TextOutArgs.Options, 0
+2	141	367	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	367		numtostr __TextOutArgs.Text, __D0drive
+2	141	370	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	370		syscall 13, __TextOutArgs
+2	141	373	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	373		mov __D0drive, __TextOutArgs.Result
+2	141	375	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	375		release __TextOutMutex
+2	141	376	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	141	376	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	376		set __signed_stack_001drive, 0
+2	141	379	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	141	379	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	379		set __signed_stack_002drive, 32
+2	141	382	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	141	382	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	382		getin __D0drive, __constVal1, 4
+2	142	386	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	386		acquire __TextOutMutex
+2	142	387	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	387		mov __TextOutArgs.Location.X, __signed_stack_001drive
+2	142	389	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	389		mov __TextOutArgs.Location.Y, __signed_stack_002drive
+2	142	391	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	391		set __TextOutArgs.Options, 0
+2	142	394	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	394		numtostr __TextOutArgs.Text, __D0drive
+2	142	397	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	397		syscall 13, __TextOutArgs
+2	142	400	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	400		mov __D0drive, __TextOutArgs.Result
+2	142	402	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	402		release __TextOutMutex
+2	142	403	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	403	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	403	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	403		set __signed_stack_001drive, 0
+2	142	406	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	406	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	406		set __signed_stack_002drive, 48
+2	142	409	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	142	409	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	409		mov __D0drive, b
+2	143	411	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	411		acquire __TextOutMutex
+2	143	412	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	412		mov __TextOutArgs.Location.X, __signed_stack_001drive
+2	143	414	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	414		mov __TextOutArgs.Location.Y, __signed_stack_002drive
+2	143	416	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	416		set __TextOutArgs.Options, 0
+2	143	419	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	419		numtostr __TextOutArgs.Text, __D0drive
+2	143	422	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	422		syscall 13, __TextOutArgs
+2	143	425	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	425		mov __D0drive, __TextOutArgs.Result
+2	143	427	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	427		release __TextOutMutex
+2	143	428	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	428	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	428		set __signed_stack_001drive, 0
+2	143	431	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	431	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	431		set __signed_stack_002drive, 40
+2	143	434	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	143	434	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	434		mov __D0drive, c
+2	144	436	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	145	436		acquire __TextOutMutex
+2	144	437	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	145	437		mov __TextOutArgs.Location.X, __signed_stack_001drive
+2	144	439	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	145	439		mov __TextOutArgs.Location.Y, __signed_stack_002drive
+2	144	441	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	145	441		set __TextOutArgs.Options, 0
+2	144	444	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	145	444		numtostr __TextOutArgs.Text, __D0drive
+2	144	447	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	145	447		syscall 13, __TextOutArgs
+2	144	450	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	145	450		mov __D0drive, __TextOutArgs.Result
+2	144	452	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	145	452		release __TextOutMutex
+2	144	453	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	144	453	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	145	453		set __Wait_7qG2_ms_7qG2_000_inline_drive, 3
+2	144	456	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	8551	456	#line 8551 "NXCDefs.h"
+2	8552	456		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drive
+2	8551	459	#line 8551 "NXCDefs.h"
+2	145	459	#line 145 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	149	459	#line 149 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	150	459		jmp __ASM_Label_625
+2	149	461	#line 149 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	149	461	#line 149 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+2	150	461		subret __drive_return
+3	266	0	#line 266 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc"
+3	267	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc
+1	__ResetSensorSubroutine	221	NXTDefs.h
+2	drive	234	E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc
+3	__initialize_global_data	697	E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_3sensors.nxc

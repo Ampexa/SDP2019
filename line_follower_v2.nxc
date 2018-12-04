@@ -1,0 +1,147 @@
+/* Version 2: System Design Project */
+
+#define BTNCENTER BTN4
+#define motor_right OUT_A
+#define motor_left OUT_B
+#define motor_arm OUT_C
+#define sensor_right SENSOR_1
+#define sensor_mid SENSOR_2
+#define sensor_left SENSOR_3
+#define ultrasonic SENSOR_4
+
+/* variable definition */
+int init_diff;      //initial difference of left and right
+int diff_white;
+int diff_black;
+
+int power = 40;               // power motors
+int power_left, power_right;  // power left and right
+int error = 0;
+int prev_error = 0;
+int derivative = 0;
+int integral = 0;
+float kp = 1.1;
+float ki = 0.01;
+float kd = 0.04;
+int turn;
+
+
+/* function definition */
+// Initializing the differnce between sensors
+int get_difference()
+{
+ // Initialize differnce on white background
+ ClearScreen();
+ TextOut(0, LCD_LINE1, "all on white?");
+ TextOut(0, LCD_LINE2, "Press Enter to save");
+ while(!ButtonPressed(BTNCENTER, false))
+ {
+  ClearScreen();
+  TextOut(0, LCD_LINE3, "left");
+  NumOut(40, LCD_LINE3, sensor_left);
+  TextOut(0, LCD_LINE4, "right");
+  NumOut(40, LCD_LINE4, sensor_right);
+  TextOut(0, LCD_LINE5, "difference");
+  NumOut(40, LCD_LINE5, sensor_left-sensor_right);
+ }
+ diff_white = sensor_left-sensor_right;
+ ClearScreen();
+ TextOut(0, LCD_LINE3, "saved difference white:");
+ NumOut(0, LCD_LINE4, diff_white);
+ Wait(2000);
+
+ // Initialize differnce on black background
+ ClearScreen();
+ TextOut(0, LCD_LINE1, "all on black?");
+ TextOut(0, LCD_LINE2, "Press Enter to save");
+ while(!ButtonPressed(BTNCENTER, false))
+ {
+  ClearScreen();
+  TextOut(0, LCD_LINE3, "left");
+  NumOut(40, LCD_LINE3, sensor_left);
+  TextOut(0, LCD_LINE4, "right");
+  NumOut(40, LCD_LINE4, sensor_right);
+  TextOut(0, LCD_LINE5, "difference");
+  NumOut(40, LCD_LINE5, sensor_left-sensor_right);
+ }
+ diff_black = sensor_left-sensor_right;
+ ClearScreen();
+ TextOut(0, LCD_LINE3, "saved difference black:");
+ NumOut(0, LCD_LINE4, diff_black);
+ Wait(2000);
+
+ // build avarage diffence and print on screen
+ ClearScreen();
+ init_diff = ((diff_black+diff_white)/2);
+ TextOut(0, LCD_LINE3, "Initial Differnce:");
+ NumOut(0, LCD_LINE4, init_diff);
+}
+
+
+// Driving
+
+void drive()
+{
+ while(TRUE)
+ {
+  error = (sensor_left-sensor_right); //differnce to optimum
+  integral = integral + error;
+  derivative = error - prev_error;
+  turn = kp * error + ki * integral + kd * derivative;
+  ClearScreen();
+  TextOut(0, LCD_LINE1, "error");
+  NumOut(0, LCD_LINE2, error);
+  TextOut(0, LCD_LINE3, "turn");
+  NumOut(0, LCD_LINE4, turn);
+  if (error < 2 && error > -2)
+  // if error small drive straight
+  {
+   power_left = power*1.5;
+   power_right = power*1.5;
+  }
+  else
+  // steer for bigger errors
+  {
+   power_left= power-turn;
+   power_right= power+turn;
+   TextOut(0, LCD_LINE5, "left");
+   NumOut(0, LCD_LINE6, error);
+   TextOut(0, LCD_LINE7, "right");
+   NumOut(0, LCD_LINE8, turn);
+  }
+  OnFwd(motor_left, power_left);
+  OnFwd(motor_right, power_right);
+  prev_error = error;
+  Wait(3);
+ }
+}
+
+
+
+
+/* Main */
+task main()
+{
+ SetSensorLight(IN_1);
+ SetSensorLight(IN_2);
+ SetSensorLight(IN_3);
+ SetSensorLowspeed(IN_4);
+
+ // Initialize difference
+ //get_difference();
+
+ // Warte vor Programmstart einige Sekunden
+ Wait(5000);
+
+ // Fahre
+ while (TRUE)
+ {
+  drive();
+ }
+}
+
+
+
+
+
+
