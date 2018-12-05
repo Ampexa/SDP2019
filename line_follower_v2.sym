@@ -2,126 +2,120 @@
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__DU0SetSensorLight_inline_main	5	1	0	4	15
 1	__D0SetSensorLight_inline_main	6	1	4	4	6
-2	__D0SetSensorLowspeed_inline_main	6	1	8	4	2
-3	__signed_stack_001drive	6	1	12	4	22
-4	__DU0SetSensorLowspeed_inline_main	5	1	16	4	5
-5	__D0drive	6	1	20	4	32
-6	__RLSBmutex3	9	0	24	4	6
-7	__DF0drive	10	1	28	4	4
-8	__DU0main	5	1	32	4	6
-9	__D0main	6	1	36	4	38
-10	kd	10	1	40	4	1
-11	ki	10	1	44	4	1
-12	__constValf1P3	10	0	48	4	2
-13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	12
-14	__Wait_7qG2_ms_7qG2_000_inline_drive	5	1	56	4	2
-15	__float_stack_001drive	10	1	60	4	6
-16	__signed_stack_002drive	6	1	64	4	4
-17	__float_stack_002drive	10	1	68	4	4
-18	kp	10	0	72	4	1
-19	__signed_stack_001main	6	1	76	4	10
-20	__PointOutMutex	9	0	80	4	2
-21	__CLSCSMutex3	9	0	84	4	2
-22	__CLSWMutex3	9	0	88	4	2
-23	__TextOutMutex	9	0	92	4	4
-24	__CLSRMutex3	9	0	96	4	2
-25	power_left	4	1	100	2	3
-26	power	4	0	102	2	4
-27	derivative	4	1	104	2	2
-28	integral	4	1	106	2	3
-29	turn	4	1	108	2	3
-30	power_right	4	1	110	2	3
-31	error	4	1	112	2	7
-32	prev_error	4	1	114	2	2
-33	__constVal200	4	0	116	2	2
-34	__constValNeg2	2	0	118	1	1
-35	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	119	1	2
-36	__constVal63	2	0	120	1	8
-37	__constVal96	2	0	121	1	8
-38	__constVal32	2	0	122	1	24
-39	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	123	1	2
-40	__constVal1	2	0	124	1	12
-41	not_black	1	0	125	1	2
-42	__drive_return	1	1	126	1	5
-43	no_obstacle	1	0	127	1	5
-44	__OnRev_Tmp	2	1	128	1	4
-45	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	129	1	6
-46	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	130	1	6
-47	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	131	1	3
-48	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	132	1	2
-49	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	133	1	4
-50	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	134	1	15
-51	____initialize_global_data_return	1	1	135	1	3
-52	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	136	1	6
-53	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	137	1	6
-54	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	138	1	6
-55	__ResetSensorTmp	1	1	139	1	2
-56	__ResetSensorPort	1	1	140	1	6
-57	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	141	1	2
-58	____ResetSensorSubroutine_return	1	1	142	1	6
-59	__LSWriteOptions3	1	1	143	1	1
-60	__constVal15	2	0	144	1	6
-61	__PFTmp	1	1	145	1	1
-62	__RLSBIterations3	1	1	146	1	4
-63	__constVal0	2	1	147	1	33
-64	__constVal2	2	0	148	1	1
-65	__constVal3	2	0	149	1	9
-66	____ReadLSBytes3_return	1	1	150	1	5
-67	__RLSBytesCount3	1	1	151	1	9
-68	__RLSBResult3	2	1	152	1	7
-69	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	153	1	2
-70	__TextOutArgs	8	0	4	16	12
-71	__TextOutArgs.Result	2	1	156	1	12
-72	__TextOutArgs.Location	8	0	2	4	12
-73	__TextOutArgs.Location.X	4	1	160	2	12
-74	__TextOutArgs.Location.Y	4	1	162	2	12
-75	__TextOutArgs.Text	7	0	164	4	12
-76	__TextOutArgs.Text.Text_type	1	0	0	1	0
-77	__TextOutArgs.Options	5	1	168	4	12
-78	__PointOutArgs	8	0	3	12	4
-79	__PointOutArgs.Result	2	1	172	1	4
-80	__PointOutArgs.Location	8	0	2	4	4
-81	__PointOutArgs.Location.X	4	1	176	2	4
-82	__PointOutArgs.Location.Y	4	1	178	2	4
-83	__PointOutArgs.Options	5	1	180	4	4
-84	__CLSCSArgs3	8	0	3	4	4
-85	__CLSCSArgs3.Result	2	1	184	1	4
-86	__CLSCSArgs3.Port	1	1	185	1	4
-87	__CLSCSArgs3.BytesReady	1	1	186	1	4
-88	__CLSWArgs3	8	0	4	12	5
-89	__CLSWArgs3.Result	2	1	188	1	5
-90	__CLSWArgs3.Port	1	1	189	1	5
-91	__CLSWArgs3.Buffer	7	0	190	4	5
-92	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
-93	__CLSWArgs3.ReturnLen	1	1	192	1	5
-94	__CLSRArgs3	8	0	4	12	5
-95	__CLSRArgs3.Result	2	1	196	1	5
-96	__CLSRArgs3.Port	1	1	197	1	5
-97	__CLSRArgs3.Buffer	7	0	198	4	5
-98	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
-99	__CLSRArgs3.BufferLen	1	1	200	1	5
-100	__OUT_AB	7	0	202	4	2
-101	__OUT_AB.__OUT_AB_type	1	0	0	1	0
-102	__RLSReadBuf3	7	0	204	4	12
-103	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
-104	__strbufdrive	7	0	206	4	2
-105	__strbufdrive.__strbufdrive_type	1	0	0	1	0
-106	__RLSLastGoodRead3	7	0	208	4	2
-107	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
-108	__constStr0018	7	0	210	4	1
-109	__constStr0018.__constStr0018_type	1	1	0	1	0
-110	__RLSBbufLSWrite1	7	0	212	4	3
-111	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+2	__DU0SetSensorLowspeed_inline_main	5	1	8	4	5
+3	__D0SetSensorLowspeed_inline_main	6	1	12	4	2
+4	__D0drive	6	1	16	4	41
+5	__RLSBmutex3	9	0	20	4	6
+6	__DU0main	5	1	24	4	6
+7	__D0main	6	1	28	4	38
+8	__constValf1P3	10	0	32	4	2
+9	kp	10	0	36	4	2
+10	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	40	4	12
+11	__Wait_7qG2_ms_7qG2_000_inline_drive	5	1	44	4	2
+12	__signed_stack_002drive	6	1	48	4	4
+13	__signed_stack_001drive	6	1	52	4	29
+14	__signed_stack_001main	6	1	56	4	10
+15	__float_stack_001drive	10	1	60	4	4
+16	__CLSWMutex3	9	0	64	4	2
+17	__CLSCSMutex3	9	0	68	4	2
+18	__CLSRMutex3	9	0	72	4	2
+19	power_low	4	0	76	2	2
+20	power	4	0	78	2	4
+21	__constVal200	4	0	80	2	2
+22	prev_error	4	1	82	2	2
+23	integral	4	1	84	2	2
+24	turn	4	1	86	2	6
+25	power_left	4	1	88	2	4
+26	power_right	4	1	90	2	4
+27	error	4	1	92	2	10
+28	__OnRev_Tmp	2	1	94	1	4
+29	__constVal63	2	0	95	1	8
+30	____initialize_global_data_return	1	1	96	1	3
+31	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	97	1	6
+32	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	98	1	15
+33	__constVal96	2	0	99	1	8
+34	no_obstacle	1	0	100	1	5
+35	not_black	1	0	101	1	2
+36	__drive_return	1	1	102	1	5
+37	__constVal32	2	0	103	1	24
+38	__constValNeg2	2	0	104	1	2
+39	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	105	1	2
+40	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	106	1	2
+41	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	107	1	2
+42	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	108	1	2
+43	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	109	1	2
+44	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	110	1	4
+45	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	111	1	6
+46	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	112	1	6
+47	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	113	1	6
+48	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	114	1	3
+49	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	115	1	6
+50	__ResetSensorPort	1	1	116	1	6
+51	__ResetSensorTmp	1	1	117	1	2
+52	__constVal0	2	1	118	1	33
+53	__constVal3	2	0	119	1	9
+54	____ResetSensorSubroutine_return	1	1	120	1	6
+55	__PFTmp	1	1	121	1	1
+56	__constVal15	2	0	122	1	6
+57	__RLSBytesCount3	1	1	123	1	9
+58	__RLSBIterations3	1	1	124	1	4
+59	__RLSBResult3	2	1	125	1	7
+60	__constVal2	2	0	126	1	1
+61	__constVal1	2	0	127	1	12
+62	____ReadLSBytes3_return	1	1	128	1	5
+63	__LSWriteOptions3	1	1	129	1	1
+64	__PointOutArgs	8	0	3	12	4
+65	__PointOutArgs.Result	2	1	132	1	4
+66	__PointOutArgs.Location	8	0	2	4	4
+67	__PointOutArgs.Location.X	4	1	136	2	4
+68	__PointOutArgs.Location.Y	4	1	138	2	4
+69	__PointOutArgs.Options	5	1	140	4	4
+70	__CLSRArgs3	8	0	4	12	5
+71	__CLSRArgs3.Result	2	1	144	1	5
+72	__CLSRArgs3.Port	1	1	145	1	5
+73	__CLSRArgs3.Buffer	7	0	146	4	5
+74	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+75	__CLSRArgs3.BufferLen	1	1	148	1	5
+76	__TextOutArgs	8	0	4	16	12
+77	__TextOutArgs.Result	2	1	152	1	12
+78	__TextOutArgs.Location	8	0	2	4	12
+79	__TextOutArgs.Location.X	4	1	156	2	12
+80	__TextOutArgs.Location.Y	4	1	158	2	12
+81	__TextOutArgs.Text	7	0	160	4	12
+82	__TextOutArgs.Text.Text_type	1	0	0	1	0
+83	__TextOutArgs.Options	5	1	164	4	12
+84	__CLSWArgs3	8	0	4	12	5
+85	__CLSWArgs3.Result	2	1	168	1	5
+86	__CLSWArgs3.Port	1	1	169	1	5
+87	__CLSWArgs3.Buffer	7	0	170	4	5
+88	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+89	__CLSWArgs3.ReturnLen	1	1	172	1	5
+90	__CLSCSArgs3	8	0	3	4	4
+91	__CLSCSArgs3.Result	2	1	176	1	4
+92	__CLSCSArgs3.Port	1	1	177	1	4
+93	__CLSCSArgs3.BytesReady	1	1	178	1	4
+94	__constStr0009	7	0	180	4	1
+95	__constStr0009.__constStr0009_type	1	1	0	1	0
+96	__RLSLastGoodRead3	7	0	182	4	2
+97	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+98	__OUT_AB	7	0	184	4	2
+99	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+100	__RLSBbufLSWrite1	7	0	186	4	3
+101	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+102	__strbufdrive	7	0	188	4	2
+103	__strbufdrive.__strbufdrive_type	1	0	0	1	0
+104	__RLSReadBuf3	7	0	190	4	12
+105	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	119	0	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	120	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	119	2	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	119	2	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	120	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
-0	119	5	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	120	5	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	121	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	73	0	#line 73 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	74	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	73	2	#line 73 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	73	2	#line 73 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	74	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	73	5	#line 73 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	74	5	#line 74 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	75	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	4313	7	#line 4313 "NXCDefs.h"
 0	4314	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4313	9	#line 4313 "NXCDefs.h"
@@ -162,15 +156,15 @@ Clump	Line	PC	Source
 0	4279	42	#pragma macro 4
 0	4279	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4279	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	5207	46	#line 5207 "NXCDefs.h"
+0	4217	46	#line 4217 "NXCDefs.h"
 0	4278	46	#line 4278 "NXCDefs.h"
 0	4316	46	#line 4316 "NXCDefs.h"
-0	120	46	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	120	46	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	121	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
-0	120	49	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	121	49	#line 121 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	122	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	74	46	#line 74 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	74	46	#line 74 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	75	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	74	49	#line 74 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	75	49	#line 75 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	76	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	4313	51	#line 4313 "NXCDefs.h"
 0	4314	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4313	53	#line 4313 "NXCDefs.h"
@@ -211,15 +205,15 @@ Clump	Line	PC	Source
 0	4279	86	#pragma macro 4
 0	4279	86		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4279	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	5270	90	#line 5270 "NXCDefs.h"
+0	4280	90	#line 4280 "NXCDefs.h"
 0	4278	90	#line 4278 "NXCDefs.h"
 0	4316	90	#line 4316 "NXCDefs.h"
-0	121	90	#line 121 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	121	90	#line 121 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	122	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
-0	121	93	#line 121 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	122	93	#line 122 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	123	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	75	90	#line 75 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	75	90	#line 75 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	76	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	75	93	#line 75 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	76	93	#line 76 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	77	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	4313	95	#line 4313 "NXCDefs.h"
 0	4314	95		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4313	97	#line 4313 "NXCDefs.h"
@@ -260,15 +254,15 @@ Clump	Line	PC	Source
 0	4279	130	#pragma macro 4
 0	4279	130		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4279	132		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	5333	134	#line 5333 "NXCDefs.h"
+0	4343	134	#line 4343 "NXCDefs.h"
 0	4278	134	#line 4278 "NXCDefs.h"
 0	4316	134	#line 4316 "NXCDefs.h"
-0	122	134	#line 122 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	122	134	#line 122 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	123	134		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
-0	122	137	#line 122 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	128	137	#line 128 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	129	137		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	76	134	#line 76 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	76	134	#line 76 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	77	134		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	76	137	#line 76 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	82	137	#line 82 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	83	137		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
 0	4342	139	#line 4342 "NXCDefs.h"
 0	4343	139		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4342	141	#line 4342 "NXCDefs.h"
@@ -308,214 +302,214 @@ Clump	Line	PC	Source
 0	4279	172	#pragma macro 4
 0	4279	172		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4279	174		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	5424	176	#line 5424 "NXCDefs.h"
+0	4434	176	#line 4434 "NXCDefs.h"
 0	4278	176	#line 4278 "NXCDefs.h"
 0	4345	176	#line 4345 "NXCDefs.h"
-0	128	176	#line 128 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	128	176	#line 128 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	129	176		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
-0	128	179	#line 128 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	82	176	#line 82 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	82	176	#line 82 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	83	176		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	82	179	#line 82 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
 0	8551	179	#line 8551 "NXCDefs.h"
 0	8552	179		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	8551	182	#line 8551 "NXCDefs.h"
-0	131	182	#line 131 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	132	182	#line 132 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	133	182		mov __DU0main, no_obstacle
-0	133	184	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	134	184		tst 5, __D0main, __DU0main
-0	133	187	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	134	187		brtst 4, __ASM_Label_676, __D0main
-0	133	190	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	134	190	#pragma macro 26
-0	134	190		acquire __RLSBmutex3
-0	134	191		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	134	193		set __RLSBytesCount3, 1
-0	134	196		wait2 NA, __constVal15
-0	134	199		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	134	201		index __D0main, __RLSReadBuf3, 65535
-0	134	205		release __RLSBmutex3
-0	5450	206	#line 5450 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	133	206	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	134	206		mov __signed_stack_001main, __D0main
-0	134	208	#line 134 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	135	208		set __D0main, 38
-0	134	211	#line 134 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	135	211		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	135	215	#line 135 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	136	215		brtst 4, __ASM_Label_681, __D0main
-0	136	218	#line 136 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	137	218		set no_obstacle, 0
-0	136	221	#line 136 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	136	221	#line 136 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	137	221	#line 137 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	138	221	#line 138 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	139	221		subcall drive, __drive_return
-0	138	223	#line 138 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	138	223	#line 138 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	139	223		set __Wait_7qG2_ms_7qG2_000_inline_main, 3
-0	138	226	#line 138 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	85	182	#line 85 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	86	182	#line 86 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	87	182		mov __DU0main, no_obstacle
+0	87	184	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	88	184		tst 5, __D0main, __DU0main
+0	87	187	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	88	187		brtst 4, __ASM_Label_550, __D0main
+0	87	190	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	88	190	#pragma macro 26
+0	88	190		acquire __RLSBmutex3
+0	88	191		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	88	193		set __RLSBytesCount3, 1
+0	88	196		wait2 NA, __constVal15
+0	88	199		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	88	201		index __D0main, __RLSReadBuf3, 65535
+0	88	205		release __RLSBmutex3
+0	4460	206	#line 4460 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	87	206	#line 87 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	88	206		mov __signed_stack_001main, __D0main
+0	88	208	#line 88 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	89	208		set __D0main, 38
+0	88	211	#line 88 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	89	211		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	89	215	#line 89 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	90	215		brtst 4, __ASM_Label_555, __D0main
+0	90	218	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	91	218		set no_obstacle, 0
+0	90	221	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	90	221	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	91	221	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	92	221	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	93	221		subcall drive, __drive_return
+0	92	223	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	92	223	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	93	223		set __Wait_7qG2_ms_7qG2_000_inline_main, 3
+0	92	226	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
 0	8551	226	#line 8551 "NXCDefs.h"
 0	8552	226		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	8551	229	#line 8551 "NXCDefs.h"
-0	139	229	#line 139 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	140	229	#line 140 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	141	229		jmp __ASM_Label_675
-0	140	231	#line 140 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	142	231	#line 142 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	143	231	#pragma macro 7
-0	143	231		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5486	254	#line 5486 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	142	254	#line 142 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	142	254	#line 142 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	143	254		getin __signed_stack_001main, __constVal0, 4
-0	142	258	#line 142 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	143	258	#line 143 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	144	258		set __D0main, 30
-0	143	261	#line 143 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	144	261		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	144	265	#line 144 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	145	265		brtst 4, __ASM_Label_687, __D0main
-0	144	268	#line 144 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	145	268		set __D0main, 20
-0	145	271	#line 145 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	146	271	#pragma macro 7
-0	146	271		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5506	294	#line 5506 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	145	294	#line 145 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	145	294	#line 145 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	146	294		set __D0main, 20
-0	146	297	#line 146 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	147	297	#pragma macro 10
-0	147	297		neg __OnRev_Tmp, __D0main
-0	147	300		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5511	323	#line 5511 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	146	323	#line 146 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	146	323	#line 146 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	147	323		set __Wait_7qG2_ms_7qG2_000_inline_main, 3
-0	146	326	#line 146 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	93	229	#line 93 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	94	229	#line 94 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	95	229		jmp __ASM_Label_549
+0	94	231	#line 94 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	96	231	#line 96 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	97	231	#pragma macro 7
+0	97	231		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4496	254	#line 4496 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	96	254	#line 96 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	96	254	#line 96 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	97	254		getin __signed_stack_001main, __constVal0, 4
+0	96	258	#line 96 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	97	258	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	98	258		set __D0main, 30
+0	97	261	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	98	261		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	98	265	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	99	265		brtst 4, __ASM_Label_561, __D0main
+0	98	268	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	99	268		set __D0main, 20
+0	99	271	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	100	271	#pragma macro 7
+0	100	271		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4516	294	#line 4516 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	99	294	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	99	294	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	100	294		set __D0main, 20
+0	100	297	#line 100 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	101	297	#pragma macro 10
+0	101	297		neg __OnRev_Tmp, __D0main
+0	101	300		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4521	323	#line 4521 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	100	323	#line 100 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	100	323	#line 100 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	101	323		set __Wait_7qG2_ms_7qG2_000_inline_main, 3
+0	100	326	#line 100 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
 0	8551	326	#line 8551 "NXCDefs.h"
 0	8552	326		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	8551	329	#line 8551 "NXCDefs.h"
-0	147	329	#line 147 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	149	329	#line 149 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	150	329		jmp __ASM_Label_686
-0	149	331	#line 149 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	150	331	#line 150 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	151	331		mov __DU0main, not_black
-0	151	333	#line 151 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	152	333		tst 5, __D0main, __DU0main
-0	151	336	#line 151 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	152	336		brtst 4, __ASM_Label_697, __D0main
-0	151	339	#line 151 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	152	339		getin __signed_stack_001main, __constVal1, 4
-0	151	343	#line 151 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	151	343	#line 151 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	152	343		set __D0main, 40
-0	151	346	#line 151 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	152	346		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	151	350	#line 151 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	152	350		brtst 4, __ASM_Label_701, __D0main
-0	151	353	#line 151 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	152	353		getin __signed_stack_001main, __constVal0, 4
-0	151	357	#line 151 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	152	357	#line 152 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	153	357		set __D0main, 40
-0	152	360	#line 152 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	153	360		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	153	364	#line 153 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	154	364		brtst 4, __ASM_Label_702, __D0main
-0	154	367	#line 154 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	155	367		set not_black, 0
-0	154	370	#line 154 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	154	370	#line 154 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	155	370	#line 155 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	156	370	#line 156 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	157	370		subcall drive, __drive_return
-0	156	372	#line 156 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	156	372	#line 156 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	157	372		set __Wait_7qG2_ms_7qG2_000_inline_main, 3
-0	156	375	#line 156 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	101	329	#line 101 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	103	329	#line 103 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	104	329		jmp __ASM_Label_560
+0	103	331	#line 103 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	104	331	#line 104 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	105	331		mov __DU0main, not_black
+0	105	333	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	106	333		tst 5, __D0main, __DU0main
+0	105	336	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	106	336		brtst 4, __ASM_Label_571, __D0main
+0	105	339	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	106	339		getin __signed_stack_001main, __constVal1, 4
+0	105	343	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	105	343	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	106	343		set __D0main, 40
+0	105	346	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	106	346		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	105	350	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	106	350		brtst 4, __ASM_Label_575, __D0main
+0	105	353	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	106	353		getin __signed_stack_001main, __constVal0, 4
+0	105	357	#line 105 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	106	357	#line 106 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	107	357		set __D0main, 40
+0	106	360	#line 106 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	107	360		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	107	364	#line 107 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	108	364		brtst 4, __ASM_Label_576, __D0main
+0	108	367	#line 108 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	109	367		set not_black, 0
+0	108	370	#line 108 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	108	370	#line 108 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	109	370	#line 109 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	110	370	#line 110 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	111	370		subcall drive, __drive_return
+0	110	372	#line 110 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	110	372	#line 110 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	111	372		set __Wait_7qG2_ms_7qG2_000_inline_main, 3
+0	110	375	#line 110 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
 0	8551	375	#line 8551 "NXCDefs.h"
 0	8552	375		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	8551	378	#line 8551 "NXCDefs.h"
-0	157	378	#line 157 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	163	378	#line 163 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	164	378		jmp __ASM_Label_696
-0	163	380	#line 163 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	163	380	#line 163 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	164	380		set __D0main, 20
-0	164	383	#line 164 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	165	383	#pragma macro 10
-0	165	383		neg __OnRev_Tmp, __D0main
-0	165	386		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5585	409	#line 5585 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	164	409	#line 164 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	164	409	#line 164 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	165	409		set __D0main, 20
-0	165	412	#line 165 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	166	412	#pragma macro 7
-0	166	412		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5590	435	#line 5590 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	165	435	#line 165 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	165	435	#line 165 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	166	435		set __Wait_7qG2_ms_7qG2_000_inline_main, 1200
-0	165	438	#line 165 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	111	378	#line 111 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	117	378	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	118	378		jmp __ASM_Label_570
+0	117	380	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	117	380	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	118	380		set __D0main, 20
+0	118	383	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	119	383	#pragma macro 10
+0	119	383		neg __OnRev_Tmp, __D0main
+0	119	386		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4595	409	#line 4595 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	118	409	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	118	409	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	119	409		set __D0main, 20
+0	119	412	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	120	412	#pragma macro 7
+0	120	412		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4600	435	#line 4600 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	119	435	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	119	435	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	120	435		set __Wait_7qG2_ms_7qG2_000_inline_main, 1200
+0	119	438	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
 0	8551	438	#line 8551 "NXCDefs.h"
 0	8552	438		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	8551	441	#line 8551 "NXCDefs.h"
-0	169	441	#line 169 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	170	441	#line 170 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	171	441		set no_obstacle, 1
-0	170	444	#line 170 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	170	444	#line 170 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	171	444	#line 171 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	172	444		mov __DU0main, no_obstacle
-0	172	446	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	173	446		tst 5, __D0main, __DU0main
-0	172	449	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	173	449		brtst 4, __ASM_Label_716, __D0main
-0	172	452	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	173	452	#pragma macro 26
-0	173	452		acquire __RLSBmutex3
-0	173	453		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	173	455		set __RLSBytesCount3, 1
-0	173	458		wait2 NA, __constVal15
-0	173	461		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	173	463		index __D0main, __RLSReadBuf3, 65535
-0	173	467		release __RLSBmutex3
-0	5615	468	#line 5615 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	172	468	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	173	468		mov __signed_stack_001main, __D0main
-0	173	470	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	174	470		set __D0main, 38
-0	173	473	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	174	473		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	174	477	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	175	477		brtst 4, __ASM_Label_721, __D0main
-0	175	480	#line 175 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	176	480		set no_obstacle, 0
-0	175	483	#line 175 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	175	483	#line 175 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	176	483	#line 176 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	177	483	#line 177 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	178	483		subcall drive, __drive_return
-0	177	485	#line 177 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	177	485	#line 177 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	178	485		set __Wait_7qG2_ms_7qG2_000_inline_main, 3
-0	177	488	#line 177 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	123	441	#line 123 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	124	441	#line 124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	125	441		set no_obstacle, 1
+0	124	444	#line 124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	124	444	#line 124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	125	444	#line 125 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	126	444		mov __DU0main, no_obstacle
+0	126	446	#line 126 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	127	446		tst 5, __D0main, __DU0main
+0	126	449	#line 126 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	127	449		brtst 4, __ASM_Label_590, __D0main
+0	126	452	#line 126 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	127	452	#pragma macro 26
+0	127	452		acquire __RLSBmutex3
+0	127	453		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	127	455		set __RLSBytesCount3, 1
+0	127	458		wait2 NA, __constVal15
+0	127	461		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	127	463		index __D0main, __RLSReadBuf3, 65535
+0	127	467		release __RLSBmutex3
+0	4625	468	#line 4625 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	126	468	#line 126 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	127	468		mov __signed_stack_001main, __D0main
+0	127	470	#line 127 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	128	470		set __D0main, 38
+0	127	473	#line 127 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	128	473		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	128	477	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	129	477		brtst 4, __ASM_Label_595, __D0main
+0	129	480	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	130	480		set no_obstacle, 0
+0	129	483	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	129	483	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	130	483	#line 130 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	131	483	#line 131 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	132	483		subcall drive, __drive_return
+0	131	485	#line 131 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	131	485	#line 131 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	132	485		set __Wait_7qG2_ms_7qG2_000_inline_main, 3
+0	131	488	#line 131 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
 0	8551	488	#line 8551 "NXCDefs.h"
 0	8552	488		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
 0	8551	491	#line 8551 "NXCDefs.h"
-0	178	491	#line 178 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	179	491	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	180	491		jmp __ASM_Label_715
-0	179	493	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	181	493	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	182	493	#pragma macro 7
-0	182	493		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5651	516	#line 5651 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	181	516	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	182	516		exit -1, -1
+0	132	491	#line 132 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	133	491	#line 133 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	134	491		jmp __ASM_Label_589
+0	133	493	#line 133 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	135	493	#line 135 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	136	493	#pragma macro 7
+0	136	493		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4661	516	#line 4661 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	135	516	#line 135 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+0	136	516		exit -1, -1
 1	5476	0		setin __constVal1, __ResetSensorPort, 5
 1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -562,221 +556,242 @@ Clump	Line	PC	Source
 2	6414	79		mov __RLSReadBuf3, __RLSLastGoodRead3
 2	6416	81		arrsize __RLSBytesCount3, __RLSReadBuf3
 2	6418	84		subret ____ReadLSBytes3_return
-3	86	0	#line 86 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	87	0		getin __signed_stack_001drive, __constVal2, 4
-3	86	4	#line 86 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	86	4	#line 86 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	87	4		getin __D0drive, __constVal0, 4
-3	86	8	#line 86 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	87	8		sub error, __signed_stack_001drive, __D0drive
-3	87	12	#line 87 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	87	12	#line 87 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	87	12	#line 87 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	87	12	#line 87 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	88	12		mov __signed_stack_001drive, integral
-3	87	14	#line 87 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	88	14	#line 88 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	89	14		mov __D0drive, error
-3	88	16	#line 88 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	89	16		add integral, __signed_stack_001drive, __D0drive
-3	88	20	#line 88 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	88	20	#line 88 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	88	20	#line 88 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	89	20		mov __signed_stack_001drive, error
-3	88	22	#line 88 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	89	22	#line 89 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	90	22		mov __D0drive, prev_error
-3	89	24	#line 89 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	90	24		sub derivative, __signed_stack_001drive, __D0drive
-3	89	28	#line 89 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	89	28	#line 89 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	6678	28	#line 6678 "NXCDefs.h"
-3	6679	28	#pragma macro 6
-3	6679	28		acquire __PointOutMutex
-3	6679	29		mov __PointOutArgs.Location.X, __constVal200
-3	6679	31		mov __PointOutArgs.Location.Y, __constVal200
-3	6679	33		mov __PointOutArgs.Options, __constVal1
-3	6679	35		syscall 14, __PointOutArgs
-3	6679	38		release __PointOutMutex
-3	4872	39	#line 4872 "NXCDefs.h"
-3	6678	39	#line 6678 "NXCDefs.h"
-3	90	39	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	90	39	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	91	39		set __signed_stack_001drive, 0
-3	90	42	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	90	42	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	91	42		set __signed_stack_002drive, 56
-3	90	45	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	90	45	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	91	45		strcat __strbufdrive, __constStr0018
-3	91	49	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	49		acquire __TextOutMutex
-3	91	50	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	50		mov __TextOutArgs.Location.X, __signed_stack_001drive
-3	91	52	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	52		mov __TextOutArgs.Location.Y, __signed_stack_002drive
-3	91	54	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	54		set __TextOutArgs.Options, 0
-3	91	57	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	57		mov __TextOutArgs.Text, __strbufdrive
-3	91	59	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	59		syscall 13, __TextOutArgs
-3	91	62	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	62		mov __D0drive, __TextOutArgs.Result
-3	91	64	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	64		release __TextOutMutex
-3	91	65	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	91	65	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	65		set __signed_stack_001drive, 0
-3	91	68	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	91	68	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	68		set __signed_stack_002drive, 48
-3	91	71	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	91	71	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	71	#pragma macro 26
-3	92	71		acquire __RLSBmutex3
-3	92	72		mov __RLSReadBuf3, __RLSBbufLSWrite1
-3	92	74		set __RLSBytesCount3, 1
-3	92	77		wait2 NA, __constVal15
-3	92	80		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-3	92	82		index __D0drive, __RLSReadBuf3, 65535
-3	92	86		release __RLSBmutex3
-3	4917	87	#line 4917 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	87	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	87		acquire __TextOutMutex
-3	92	88	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	88		mov __TextOutArgs.Location.X, __signed_stack_001drive
-3	92	90	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	90		mov __TextOutArgs.Location.Y, __signed_stack_002drive
-3	92	92	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	92		set __TextOutArgs.Options, 0
-3	92	95	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	95		numtostr __TextOutArgs.Text, __D0drive
-3	92	98	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	98		syscall 13, __TextOutArgs
-3	92	101	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	101		mov __D0drive, __TextOutArgs.Result
-3	92	103	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	103		release __TextOutMutex
-3	92	104	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	104	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	104	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	104		mov __float_stack_001drive, kp
-3	92	106	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	106	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	106		mov __D0drive, error
-3	92	108	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	108		mul __float_stack_001drive, __float_stack_001drive, __D0drive
-3	92	112	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	112	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	112		mov __float_stack_002drive, ki
-3	92	114	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	114	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	114		mov __D0drive, integral
-3	92	116	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	116		mul __DF0drive, __float_stack_002drive, __D0drive
-3	92	120	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	120		add __float_stack_001drive, __float_stack_001drive, __DF0drive
-3	92	124	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	92	124	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	124		mov __float_stack_002drive, kd
-3	92	126	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	126	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	94	126		mov __D0drive, derivative
-3	93	128	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	94	128		mul __DF0drive, __float_stack_002drive, __D0drive
-3	93	132	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	94	132		add turn, __float_stack_001drive, __DF0drive
-3	93	136	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	136	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	136	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	94	136		mov __signed_stack_001drive, error
-3	93	138	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	93	138	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	94	138		set __D0drive, 2
-3	93	141	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	94	141		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
-3	93	145	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	94	145		brtst 4, __ASM_Label_646, __D0drive
-3	93	148	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	94	148		mov __signed_stack_001drive, error
-3	93	150	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	95	150	#line 95 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	96	150		mov __D0drive, __constValNeg2
-3	95	152	#line 95 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	96	152		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
-3	96	156	#line 96 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	97	156		brtst 4, __ASM_Label_647, __D0drive
-3	96	159	#line 96 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	97	159		mov __signed_stack_001drive, power
-3	96	161	#line 96 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	97	161	#line 97 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	97	161	#line 97 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	98	161		mul power_left, __signed_stack_001drive, __constValf1P3
-3	97	165	#line 97 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	97	165	#line 97 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	97	165	#line 97 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	98	165		mov __signed_stack_001drive, power
-3	97	167	#line 97 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	98	167	#line 98 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	98	167	#line 98 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	99	167		mul power_right, __signed_stack_001drive, __constValf1P3
-3	98	171	#line 98 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	98	171	#line 98 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	102	171	#line 102 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	103	171		jmp __ASM_Label_652
-3	102	173	#line 102 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	103	173		mov __signed_stack_001drive, power
-3	102	175	#line 102 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	103	175	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	104	175		mov __D0drive, turn
-3	103	177	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	104	177		add power_left, __signed_stack_001drive, __D0drive
-3	103	181	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	103	181	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	103	181	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	104	181		mov __signed_stack_001drive, power
-3	103	183	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	104	183	#line 104 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	105	183		mov __D0drive, turn
-3	104	185	#line 104 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	105	185		sub power_right, __signed_stack_001drive, __D0drive
-3	104	189	#line 104 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	104	189	#line 104 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	105	189	#line 105 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	105	189	#line 105 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	106	189		mov __D0drive, power_left
-3	106	191	#line 106 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	107	191	#pragma macro 7
-3	107	191		setout __constVal0, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-3	5083	214	#line 5083 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	106	214	#line 106 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	106	214	#line 106 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	107	214		mov __D0drive, power_right
-3	107	216	#line 107 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	108	216	#pragma macro 7
-3	108	216		setout __constVal1, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-3	5090	239	#line 5090 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	107	239	#line 107 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	108	239	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	109	239		mov prev_error, error
-3	108	241	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	108	241	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	108	241	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	109	241		set __Wait_7qG2_ms_7qG2_000_inline_drive, 3
-3	108	244	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	8551	244	#line 8551 "NXCDefs.h"
-3	8552	244		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drive
-3	8551	247	#line 8551 "NXCDefs.h"
-3	109	247	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	117	247	#line 117 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	118	247		subret __drive_return
-4	189	0	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-4	190	0		subret ____initialize_global_data_return
+3	34	0	#line 34 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	35	0		getin __signed_stack_001drive, __constVal2, 4
+3	34	4	#line 34 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	34	4	#line 34 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	35	4		getin __D0drive, __constVal0, 4
+3	34	8	#line 34 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	35	8		sub error, __signed_stack_001drive, __D0drive
+3	35	12	#line 35 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	35	12	#line 35 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	35	12	#line 35 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	35	12	#line 35 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	36	12		mov __signed_stack_001drive, integral
+3	35	14	#line 35 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	36	14	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	37	14		mov __D0drive, error
+3	36	16	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	37	16		add integral, __signed_stack_001drive, __D0drive
+3	36	20	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	36	20	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	36	20	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	37	20		mov __signed_stack_001drive, error
+3	36	22	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	37	22	#line 37 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	38	22		mov __D0drive, prev_error
+3	37	24	#line 37 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	37	24	#line 37 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	37	24	#line 37 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	6678	24	#line 6678 "NXCDefs.h"
+3	6679	24	#pragma macro 6
+3	6679	24		mov __PointOutArgs.Location.X, __constVal200
+3	6679	26		mov __PointOutArgs.Location.Y, __constVal200
+3	6679	28		mov __PointOutArgs.Options, __constVal1
+3	6679	30		syscall 14, __PointOutArgs
+3	3838	33	#line 3838 "NXCDefs.h"
+3	6678	33	#line 6678 "NXCDefs.h"
+3	38	33	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	38	33	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	39	33		set __signed_stack_001drive, 0
+3	38	36	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	38	36	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	39	36		set __signed_stack_002drive, 56
+3	38	39	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	38	39	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	39	39		strcat __strbufdrive, __constStr0009
+3	39	43	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	39	43	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	43		mov __TextOutArgs.Location.X, __signed_stack_001drive
+3	39	45	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	45		mov __TextOutArgs.Location.Y, __signed_stack_002drive
+3	39	47	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	47		set __TextOutArgs.Options, 0
+3	39	50	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	50		mov __TextOutArgs.Text, __strbufdrive
+3	39	52	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	52		syscall 13, __TextOutArgs
+3	39	55	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	55		mov __D0drive, __TextOutArgs.Result
+3	39	57	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	39	57	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	39	57	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	57		set __signed_stack_001drive, 0
+3	39	60	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	39	60	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	60		set __signed_stack_002drive, 48
+3	39	63	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	39	63	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	63	#pragma macro 26
+3	40	63		acquire __RLSBmutex3
+3	40	64		mov __RLSReadBuf3, __RLSBbufLSWrite1
+3	40	66		set __RLSBytesCount3, 1
+3	40	69		wait2 NA, __constVal15
+3	40	72		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+3	40	74		index __D0drive, __RLSReadBuf3, 65535
+3	40	78		release __RLSBmutex3
+3	3883	79	#line 3883 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	79	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	79	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	79		mov __TextOutArgs.Location.X, __signed_stack_001drive
+3	40	81	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	81		mov __TextOutArgs.Location.Y, __signed_stack_002drive
+3	40	83	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	83		set __TextOutArgs.Options, 0
+3	40	86	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	86		numtostr __TextOutArgs.Text, __D0drive
+3	40	89	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	89		syscall 13, __TextOutArgs
+3	40	92	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	92		mov __D0drive, __TextOutArgs.Result
+3	40	94	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	94	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	94	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	94	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	94		mov __signed_stack_001drive, error
+3	40	96	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	40	96	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	96		set __D0drive, 2
+3	40	99	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	99		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
+3	40	103	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	103		brtst 4, __ASM_Label_508, __D0drive
+3	40	106	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	41	106		mov __signed_stack_001drive, error
+3	40	108	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	42	108	#line 42 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	43	108		mov __D0drive, __constValNeg2
+3	42	110	#line 42 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	43	110		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+3	43	114	#line 43 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	44	114		brtst 4, __ASM_Label_509, __D0drive
+3	43	117	#line 43 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	44	117		mov __signed_stack_001drive, power
+3	43	119	#line 43 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	44	119	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	44	119	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	45	119		mul power_left, __signed_stack_001drive, __constValf1P3
+3	44	123	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	44	123	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	44	123	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	45	123		mov __signed_stack_001drive, power
+3	44	125	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	45	125	#line 45 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	45	125	#line 45 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	46	125		mul power_right, __signed_stack_001drive, __constValf1P3
+3	45	129	#line 45 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	45	129	#line 45 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	46	129	#line 46 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	47	129		jmp __ASM_Label_514
+3	46	131	#line 46 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	47	131		mov __signed_stack_001drive, error
+3	46	133	#line 46 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	46	133	#line 46 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	47	133		set __D0drive, 5
+3	46	136	#line 46 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	47	136		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
+3	46	140	#line 46 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	47	140		brtst 4, __ASM_Label_516, __D0drive
+3	46	143	#line 46 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	47	143		mov __signed_stack_001drive, error
+3	46	145	#line 46 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	47	145	#line 47 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	48	145		mov __D0drive, __constValNeg2
+3	47	147	#line 47 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	48	147		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+3	48	151	#line 48 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	49	151		brtst 4, __ASM_Label_517, __D0drive
+3	48	154	#line 48 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	49	154		mov __float_stack_001drive, kp
+3	48	156	#line 48 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	49	156	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	50	156		mov __D0drive, error
+3	49	158	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	50	158		mul turn, __float_stack_001drive, __D0drive
+3	49	162	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	49	162	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	49	162	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	50	162		mov __signed_stack_001drive, power
+3	49	164	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	50	164	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	51	164		mov __D0drive, turn
+3	50	166	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	51	166		add power_left, __signed_stack_001drive, __D0drive
+3	50	170	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	50	170	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	50	170	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	51	170		mov __signed_stack_001drive, power
+3	50	172	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	51	172	#line 51 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	52	172		mov __D0drive, turn
+3	51	174	#line 51 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	52	174		sub power_right, __signed_stack_001drive, __D0drive
+3	51	178	#line 51 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	51	178	#line 51 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	55	178	#line 55 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	56	178		jmp __ASM_Label_524
+3	55	180	#line 55 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	56	180		mov __float_stack_001drive, kp
+3	55	182	#line 55 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	56	182	#line 56 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	57	182		mov __D0drive, error
+3	56	184	#line 56 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	57	184		mul turn, __float_stack_001drive, __D0drive
+3	56	188	#line 56 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	56	188	#line 56 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	56	188	#line 56 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	57	188		mov __signed_stack_001drive, power_low
+3	56	190	#line 56 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	57	190	#line 57 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	58	190		mov __D0drive, turn
+3	57	192	#line 57 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	58	192		add power_left, __signed_stack_001drive, __D0drive
+3	57	196	#line 57 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	57	196	#line 57 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	57	196	#line 57 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	58	196		mov __signed_stack_001drive, power_low
+3	57	198	#line 57 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	58	198	#line 58 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	59	198		mov __D0drive, turn
+3	58	200	#line 58 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	59	200		sub power_right, __signed_stack_001drive, __D0drive
+3	58	204	#line 58 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	58	204	#line 58 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	59	204	#line 59 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	59	204	#line 59 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	59	204	#line 59 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	60	204		mov __D0drive, power_left
+3	60	206	#line 60 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	61	206	#pragma macro 7
+3	61	206		setout __constVal0, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4093	229	#line 4093 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	60	229	#line 60 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	60	229	#line 60 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	61	229		mov __D0drive, power_right
+3	61	231	#line 61 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	62	231	#pragma macro 7
+3	62	231		setout __constVal1, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4100	254	#line 4100 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	61	254	#line 61 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	62	254	#line 62 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	63	254		mov prev_error, error
+3	62	256	#line 62 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	62	256	#line 62 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	62	256	#line 62 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	63	256		set __Wait_7qG2_ms_7qG2_000_inline_drive, 3
+3	62	259	#line 62 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	8551	259	#line 8551 "NXCDefs.h"
+3	8552	259		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drive
+3	8551	262	#line 8551 "NXCDefs.h"
+3	63	262	#line 63 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	71	262	#line 71 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+3	72	262		subret __drive_return
+4	143	0	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc"
+4	144	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+0	main	0	E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc
 1	__ResetSensorSubroutine	519	NXTDefs.h
 2	__ReadLSBytes3	532	NXTDefs.h
-3	drive	618	C:\Users\Marion\AppData\Local\Temp\temp.nxc
-4	__initialize_global_data	867	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+3	drive	618	E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc
+4	__initialize_global_data	882	E:\Eigene Dateien\Documents\GitHub\SDP2019\line_follower_v2.nxc

@@ -20,9 +20,9 @@ int error = 0;
 int prev_error = 0;
 int derivative = 0;
 int integral = 0;
-float kp = 1.3;
-float ki = 0.001;
-float kd = 0.01;
+float kp = 1.2;
+float ki = 0;
+float kd = 0;
 int turn;
 bool not_black = TRUE;
 bool no_obstacle = TRUE;
@@ -90,16 +90,16 @@ void drive()
   ClearScreen();
   TextOut(0, LCD_LINE1, "ultrasonic");
   NumOut(0, LCD_LINE2, SensorUS(IN_4));
+  turn = kp * error + ki * integral + kd * derivative;
   if (error < 2 && error > -2)
   // if error small drive straight
   {
-   power_left = power*1.5;
-   power_right = power*1.5;
+   power_left = power*1.3;
+   power_right = power*1.3;
   }
   else
   // steer for bigger errors
   {
-   turn = kp * error + ki * integral + kd * derivative;
    power_left= power+turn;
    power_right= power-turn;
   }
@@ -162,7 +162,7 @@ task main()
  //Wait(500);
  
  OnRev(motor_right, 20);
- OnFwd(motor_left, 30);
+ OnFwd(motor_left, 20);
  Wait(1200);
 
 
