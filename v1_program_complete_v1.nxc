@@ -1,0 +1,225 @@
+/* Version 2: System Design Project */
+
+#define BTNCENTER BTN4
+#define motor_left OUT_A
+#define motor_right OUT_B
+#define motor_arm OUT_C
+#define sensor_right SENSOR_1
+#define sensor_mid SENSOR_2
+#define sensor_left SENSOR_3
+//#define ultrasonic SENSOR_4
+
+/* variable definition */
+int power = 40;             // power motors
+int power_low = 20;
+int power_left, power_right;  // power left and right
+int error = 0;
+int prev_error = 0;
+int derivative = 0;
+int integral = 0;
+float kp = 0.8;
+float kp2 = 1.2;
+float ki = 0;
+float kd = 0;
+int turn;
+bool not_black = TRUE;
+bool no_obstacle = TRUE;
+int counter;                   // for push exercise
+
+
+/* function definition */
+// Driving
+
+void drive()
+/* function for regular line following */
+{
+  error = (sensor_left-sensor_right);
+  integral = integral + error;
+  derivative = error - prev_error;
+  if (error < 3 && error > -3)
+  // if error small drive straight
+  {
+   power_left = power*1.3;
+   power_right = power*1.3;
+  }
+  else if (error < 5 && error > -5)
+  {
+   turn = kp * error;
+   power_left= power+turn;
+   power_right= power-turn;
+  }
+  else
+  // steer for bigger errors
+  {
+   turn = kp2 * error;
+   power_left= power_low+turn;
+   power_right= power_low-turn;
+  }
+  OnFwd(motor_left, power_left);
+  OnFwd(motor_right, power_right);
+  prev_error = error;
+  Wait(3);
+}
+
+
+void turn_right()
+/* turn 90 degrees right*/
+{
+  OnRev(motor_right, 25);
+  OnFwd(motor_left, 20);
+  Wait(1200);
+}
+
+
+void turn_left()
+/* turn 90 degrees left*/
+{
+  OnRev(motor_left, 20);
+  OnFwd(motor_right, 20);
+  Wait(1200);
+}
+
+
+void catch_obstacle(int distance)
+/* drive as long as no obstacle in sight
+   stop when distance too low */
+{
+  no_obstacle = TRUE;
+  while (no_obstacle)
+  {
+    if (SensorUS(IN_4) < distance)
+    {
+      no_obstacle = FALSE;
+    }
+    drive();
+    Wait(3);
+  }
+  Off(OUT_AB);
+}
+
+
+void barcode()
+/* drive until you reach the barcode */
+{
+  while (not_black)
+  {
+    if (sensor_mid < 40 && sensor_right > 40)
+    {
+      not_black = FALSE;
+    }
+    drive();
+    Wait(3);
+  }
+}
+
+
+void push()
+/* push block over the edge by driving until distance too low
+   stop turn and go back to barcode */
+{
+  OnFwd(motor_right, 40);
+  OnFwd(motor_left, 40);
+  Wait(1000);
+  no_obstacle = TRUE;
+  while (no_obstacle)
+  {
+    if (SensorUS(IN_4) < 10)
+    {
+      no_obstacle = FALSE;
+    }
+    drive();
+    Wait(3);
+  }
+  while (SensorUS(IN_4) < 30)
+  {
+   OnFwd(motor_right, 40);
+   OnFwd(motor_left, 40);
+  }
+  Off(OUT_AB);
+  OnRev(motor_right, 40);
+  OnRev(motor_left, 40);
+  Wait(500);
+  turn_right();
+  turn_right();
+  barcode();
+}
+
+/* Main */
+task main()
+{
+  SetSensorLight(IN_1);
+  SetSensorLight(IN_2);
+  SetSensorLight(IN_3);
+  SetSensorLowspeed(IN_4);
+
+  // wait before starting
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Waiting");
+  Wait(5000);
+
+  // drive while no obstacle in sight
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Obstacle?");
+  catch_obstacle(25);
+
+  // turn to go back
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Turning");
+  turn_right();
+  turn_right();
+
+  // drive until you reach ball dropping point
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Obstacle");
+  catch_obstacle(10);
+  Off(OUT_AB);
+  Wait(5000);
+
+  // drive until you reach barcode
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Waiting for barcode");
+  barcode();
+
+  // turn right
+  turn_right();
+
+  // Push obstacle until it drops
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Push block");
+  not_black = TRUE;
+  push();
+  
+  turn_right();
+
+  // FOR TESTING ONLY
+  //counter = 0;
+  //while (counter < 800)
+  //{
+  // OnFwd(motor_right, 30);
+  // OnFwd(motor_left, 30);
+  // Wait(3);
+  // counter = counter + 1;
+  //}
+  //Off(OUT_AB);
+
+  //while (counter > 0)
+  //{
+  //  OnRev(motor_right, 30);
+  //  OnRev(motor_left, 30);
+  //  counter = counter - 1;
+  //  Wait(3);
+  //}
+  //Off(OUT_AB);
+  // END FOR TESTING ONLY
+
+
+  // drive until ball dropoff
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Waiting for finish");
+  
+  catch_obstacle(10);
+
+  //drop ball
+  // TO DO!  
+
+}
