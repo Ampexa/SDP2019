@@ -17,7 +17,7 @@ int error = 0;
 int prev_error = 0;
 int derivative = 0;
 int integral = 0;
-float kp = 0.6;
+float kp = 0.8;
 float kp2 = 1.2;
 float ki = 0;
 float kd = 0;
@@ -36,14 +36,11 @@ void drive()
   error = (sensor_left-sensor_right);
   integral = integral + error;
   derivative = error - prev_error;
-  ClearScreen();
-  TextOut(0, LCD_LINE1, "ultrasonic");
-  NumOut(0, LCD_LINE2, SensorUS(IN_4));
-  if (error < 5 && error > -5)
+  if (error < 4 && error > -4)
   // if error small drive straight
   {
-   power_left = power*1.4;
-   power_right = power*1.4;
+   power_left = power*1.3;
+   power_right = power*1.3;
   }
   else if (error < 8 && error > -8)
   {
@@ -68,7 +65,7 @@ void drive()
 void turn_right()
 /* turn 90 degrees right*/
 {
-  OnRev(motor_right, 30);
+  OnRev(motor_right, 25);
   OnFwd(motor_left, 20);
   Wait(1200);
 }
@@ -77,7 +74,7 @@ void turn_right()
 void turn_left()
 /* turn 90 degrees left*/
 {
-  OnRev(motor_left, 25);
+  OnRev(motor_left, 20);
   OnFwd(motor_right, 20);
   Wait(1200);
 }
@@ -118,7 +115,7 @@ void barcode()
 
 void push()
 /* push block over the edge by driving until distance too low
-   stop and go back same distance */
+   stop turn and go back to barcode */
 {
   OnFwd(motor_right, 40);
   OnFwd(motor_left, 40);
@@ -141,7 +138,8 @@ void push()
   Off(OUT_AB);
   OnRev(motor_right, 40);
   OnRev(motor_left, 40);
-  Wait(1000);
+  Wait(500);
+  turn_right();
   turn_right();
   barcode();
 }
@@ -154,61 +152,71 @@ task main()
   SetSensorLight(IN_3);
   SetSensorLowspeed(IN_4);
 
-  // Initialize difference
-  //get_difference();
-
   // wait before starting
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Waiting");
   Wait(5000);
 
   // drive while no obstacle in sight
-  //catch_obstacle(25);
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Obstacle?");
+  catch_obstacle(25);
 
   // turn to go back
-  //turn_right();
-  //turn_right();
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Turning");
+  turn_right();
+  turn_right();
 
   // drive until you reach ball dropping point
-  //catch_obstacle(10);
-  //Off(OUT_AB);
-  //Wait(5000);
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Obstacle");
+  catch_obstacle(10);
+  Off(OUT_AB);
+  Wait(5000);
 
   // drive until you reach barcode
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Waiting for barcode");
   barcode();
 
   // turn right
   turn_right();
 
   // Push obstacle until it drops
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Push block");
+  not_black = TRUE;
   push();
   
   turn_right();
 
   // FOR TESTING ONLY
-  counter = 0;
-  while (counter < 800)
-  {
-   OnFwd(motor_right, 30);
-   OnFwd(motor_left, 30);
-   Wait(3);
-   counter = counter + 1;
-  }
-  Off(OUT_AB);
+  //counter = 0;
+  //while (counter < 800)
+  //{
+  // OnFwd(motor_right, 30);
+  // OnFwd(motor_left, 30);
+  // Wait(3);
+  // counter = counter + 1;
+  //}
+  //Off(OUT_AB);
 
-  while (counter > 0)
-  {
-    OnRev(motor_right, 30);
-    OnRev(motor_left, 30);
-    counter = counter - 1;
-    Wait(3);
-  }
-  Off(OUT_AB);
+  //while (counter > 0)
+  //{
+  //  OnRev(motor_right, 30);
+  //  OnRev(motor_left, 30);
+  //  counter = counter - 1;
+  //  Wait(3);
+  //}
+  //Off(OUT_AB);
   // END FOR TESTING ONLY
 
 
-  // turn left
-  turn_left();
-
   // drive until ball dropoff
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "Waiting for finish");
+  
   catch_obstacle(10);
 
   //drop ball
