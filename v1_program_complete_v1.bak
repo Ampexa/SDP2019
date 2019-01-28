@@ -14,17 +14,11 @@ int power = 50;             // power motors
 int power_low = 20;
 int power_left, power_right;  // power left and right
 int error = 0;
-int prev_error = 0;
-int derivative = 0;
-int integral = 0;
 float kp = 0.8;
 float kp2 = 1.2;
-float ki = 0;
-float kd = 0;
 int turn;
 bool not_black = TRUE;
 bool no_obstacle = TRUE;
-int counter;                   // for push exercise
 
 
 /* function definition */
@@ -34,13 +28,12 @@ void drive()
 /* function for regular line following */
 {
   error = (sensor_left-sensor_right);
-  integral = integral + error;
-  derivative = error - prev_error;
   if (error < 3 && error > -3)
   // if error small drive straight
   {
    power_left = power*1.5;
-   power_right = power*1.5;
+   power_right = power*1.5
+   ;
   }
   else if (error < 5 && error > -5)
   {
@@ -57,7 +50,6 @@ void drive()
   }
   OnFwd(motor_left, power_left);
   OnFwd(motor_right, power_right);
-  prev_error = error;
   Wait(3);
 }
 
@@ -114,8 +106,8 @@ void barcode()
 
 
 void push()
-/* push block over the edge by driving until distance too low
-   stop turn and go back to barcode */
+/* push block over the edge by driving until distance large
+   stop, turn and go back to barcode */
 {
   OnFwd(motor_right, 40);
   OnFwd(motor_left, 40);
@@ -123,22 +115,29 @@ void push()
   no_obstacle = TRUE;
   while (no_obstacle)
   {
-    if (SensorUS(IN_4) < 20)
+    if (SensorUS(IN_4) < 30)
     {
       no_obstacle = FALSE;
     }
+    ClearScreen();
+    TextOut(0, LCD_LINE2, "obstacle?");
+    NumOut(40, LCD_LINE3, SensorUS(IN_4));
     drive();
     Wait(3);
   }
-  while (SensorUS(IN_4) < 23)
+  while (SensorUS(IN_4) < 30)
   {
-   OnFwd(motor_right, 20);
-   OnFwd(motor_left, 20);
+   ClearScreen();
+   TextOut(0, LCD_LINE2, "push!");
+   OnFwd(motor_right, 40);
+   OnFwd(motor_left, 40);
   }
   Off(OUT_AC);
+  ClearScreen();
+  TextOut(0, LCD_LINE2, "go back");
   OnRev(motor_right, 40);
   OnRev(motor_left, 40);
-  Wait(500);
+  Wait(800);
   turn_right();
   turn_right();
   barcode();
@@ -183,12 +182,14 @@ task main()
   ClearScreen();
   TextOut(0, LCD_LINE2, "Obstacle");
   NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  catch_obstacle(10);
+  catch_obstacle(15);
   ClearScreen();
   NumOut(40, LCD_LINE3, SensorUS(IN_4));
   Off(OUT_AC);
   Wait(5000);
-
+  RotateMotor(motor_arm, 20, 90);
+  
+  
   // drive until you reach barcode
   ClearScreen();
   TextOut(0, LCD_LINE2, "Waiting for barcode");
@@ -209,13 +210,10 @@ task main()
   ClearScreen();
   TextOut(0, LCD_LINE2, "Waiting for finish");
   NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  catch_obstacle(10);
+  catch_obstacle(15);
   ClearScreen();
   NumOut(40, LCD_LINE3, SensorUS(IN_4));
   drop();
-  
 
-  //drop ball
-  // TO DO!  
 
 }

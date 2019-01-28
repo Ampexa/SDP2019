@@ -1,8 +1,8 @@
-/* Version 2: System Design Project */
+                  /* Version 2: System Design Project */
 
 #define BTNCENTER BTN4
-#define motor_left OUT_C
-#define motor_right OUT_A
+#define motor_left OUT_A
+#define motor_right OUT_C
 #define motor_arm OUT_B
 #define sensor_right SENSOR_2
 #define sensor_mid SENSOR_1
@@ -157,63 +157,11 @@ task main()
   SetSensorLight(IN_3);
   SetSensorLowspeed(IN_4);
 
-  // wait before starting
-  ClearScreen();
-  TextOut(0, LCD_LINE2, "Waiting");
-  NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  Wait(5000);
-
-  // drive while no obstacle in sight
-  ClearScreen();
-  TextOut(0, LCD_LINE2, "Obstacle?");
-  NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  catch_obstacle(25);
-  ClearScreen();
-  NumOut(40, LCD_LINE3, SensorUS(IN_4));
-
-  // turn to go back
-  ClearScreen();
-  TextOut(0, LCD_LINE2, "Turning");
-  NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  turn_right();
-  turn_right();
-
-  // drive until you reach ball dropping point
-  ClearScreen();
-  TextOut(0, LCD_LINE2, "Obstacle");
-  NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  catch_obstacle(15);
-  ClearScreen();
-  NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  Off(OUT_AC);
-  Wait(5000);
-  //RotateMotor(motor_arm, 20, 90);
-  
-  
-  // drive until you reach barcode
-  ClearScreen();
-  TextOut(0, LCD_LINE2, "Waiting for barcode");
-  barcode();
-
-  // turn right
-  turn_right();
-
-  // Push obstacle until it drops
-  ClearScreen();
-  TextOut(0, LCD_LINE2, "Push block");
-  not_black = TRUE;
-  push();
-  
-  turn_right();
-
-  // drive until ball dropoff
-  ClearScreen();
-  TextOut(0, LCD_LINE2, "Waiting for finish");
-  NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  catch_obstacle(15);
-  ClearScreen();
-  NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  drop();
+  while(TRUE)
+  {
+   drive();
+   Wait(3);
+  }
 
 
 }
