@@ -1,63 +1,193 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__DU0SetSensorLowspeed_inline_main	5	1	0	4	5
-1	__signed_stack_001drive	6	1	4	4	22
-2	__D0SetSensorLowspeed_inline_main	6	1	8	4	2
-3	__D0SetSensorLight_inline_main	6	1	12	4	6
-4	__DU0SetSensorLight_inline_main	5	1	16	4	15
-5	__float_stack_001drive	10	1	20	4	4
-6	__Wait_7qG2_ms_7qG2_000_inline_drive	5	1	24	4	2
-7	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	28	4	2
-8	__constValf1P5	10	0	32	4	2
-9	kp	10	0	36	4	1
-10	kp2	10	0	40	4	1
-11	__D0main	6	1	44	4	4
-12	__D0drive	6	1	48	4	34
-13	power_left	4	1	52	2	4
-14	power_low	4	0	54	2	2
-15	power_right	4	1	56	2	4
-16	turn	4	1	58	2	6
-17	error	4	1	60	2	7
-18	power	4	0	62	2	4
-19	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	64	1	6
-20	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	65	1	6
-21	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	66	1	3
-22	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	67	1	6
-23	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	68	1	15
-24	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	69	1	6
-25	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	70	1	6
-26	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	71	1	2
-27	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	72	1	2
-28	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	73	1	2
-29	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	74	1	2
-30	__constVal32	2	0	75	1	6
-31	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	76	1	4
-32	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	77	1	2
-33	____initialize_global_data_return	1	1	78	1	3
-34	__ResetSensorTmp	1	1	79	1	2
-35	__ResetSensorPort	1	1	80	1	6
-36	__constVal3	2	0	81	1	2
-37	____ResetSensorSubroutine_return	1	1	82	1	6
-38	__constVal15	2	0	83	1	4
-39	__PFTmp	1	1	84	1	1
-40	__constVal2	2	0	85	1	2
-41	__constVal96	2	0	86	1	2
-42	__constVal63	2	0	87	1	2
-43	__constVal1	2	0	88	1	6
-44	__constValNeg5	2	0	89	1	1
-45	__drive_return	1	1	90	1	3
-46	__constValNeg3	2	0	91	1	1
-47	__constVal0	2	1	92	1	7
+0	__DU0push	5	1	0	4	2
+1	__D0turn_right	6	1	4	4	4
+2	__D0main	6	1	8	4	27
+3	__D0push	6	1	12	4	27
+4	__D0SetSensorLight_inline_main	6	1	16	4	6
+5	__DU0SetSensorLowspeed_inline_main	5	1	20	4	5
+6	__signed_stack_001barcode	6	1	24	4	4
+7	__DU0SetSensorLight_inline_main	5	1	28	4	15
+8	__D0SetSensorLowspeed_inline_main	6	1	32	4	2
+9	__DU0goback	5	1	36	4	2
+10	__D0barcode	6	1	40	4	10
+11	__DU0barcode	5	1	44	4	2
+12	__PointOutMutex	9	0	48	4	24
+13	__RLSBmutex3	9	0	52	4	22
+14	__D0catch_obstacle	6	1	56	4	8
+15	__D0drop	6	1	60	4	2
+16	__D0goback	6	1	64	4	11
+17	__DU0catch_obstacle	5	1	68	4	2
+18	__D0drive	6	1	72	4	34
+19	__signed_stack_001catch_obstacle	6	1	76	4	2
+20	__Wait_7qG2_ms_7qG2_000_inline_drive	5	1	80	4	2
+21	__Wait_7qG2_ms_7qG2_000_inline_turn_right	5	1	84	4	2
+22	kp2	10	0	88	4	1
+23	__constValf1P5	10	0	92	4	2
+24	__Wait_7qG2_ms_7qG2_000_inline_catch_obstacle	5	1	96	4	2
+25	__Wait_7qG2_ms_7qG2_000_inline_goback	5	1	100	4	4
+26	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	104	4	4
+27	__Wait_7qG2_ms_7qG2_000_inline_barcode	5	1	108	4	2
+28	__Wait_7qG2_ms_7qG2_000_inline_push	5	1	112	4	4
+29	kp	10	0	116	4	1
+30	__signed_stack_001drop	6	1	120	4	2
+31	__signed_stack_001goback	6	1	124	4	4
+32	__signed_stack_001drive	6	1	128	4	22
+33	__float_stack_001drive	10	1	132	4	4
+34	__signed_stack_002goback	6	1	136	4	2
+35	__signed_stack_001push	6	1	140	4	10
+36	__signed_stack_002push	6	1	144	4	6
+37	__signed_stack_001main	6	1	148	4	26
+38	__signed_stack_002main	6	1	152	4	26
+39	__CLSCSMutex3	9	0	156	4	2
+40	__CLSWMutex3	9	0	160	4	2
+41	__CLSRMutex3	9	0	164	4	2
+42	__rotate_angle1	6	1	168	4	4
+43	__OnRevMutex	9	0	172	4	6
+44	__rotate_theAngle1	5	1	176	4	2
+45	__TextOutMutex	9	0	180	4	34
+46	power_left	4	1	184	2	4
+47	power_low	4	0	186	2	2
+48	__rotate_OldRotCount1	4	1	188	2	2
+49	__rotate_RotCount1	4	1	190	2	4
+50	power_right	4	1	192	2	4
+51	__constVal200	4	0	194	2	24
+52	__catch_obstacle_7qG2_distance_7qG2_000	4	1	196	2	4
+53	turn	4	1	198	2	6
+54	error	4	1	200	2	7
+55	power	4	0	202	2	4
+56	__catch_obstacle_return	1	1	204	1	5
+57	__turn_right_return	1	1	205	1	8
+58	__rotate_firstPort1	1	1	206	1	5
+59	__drive_return	1	1	207	1	6
+60	__constValNeg3	2	0	208	1	1
+61	not_black	1	0	209	1	5
+62	no_obstacle	1	0	210	1	6
+63	__constVal96	2	0	211	1	14
+64	__constVal63	2	0	212	1	13
+65	__rotate_sync1	1	1	213	1	2
+66	__constValNeg5	2	0	214	1	1
+67	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	215	1	3
+68	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	216	1	4
+69	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	217	1	6
+70	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	218	1	6
+71	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	219	1	6
+72	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	220	1	2
+73	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	221	1	2
+74	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	222	1	2
+75	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	223	1	2
+76	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	224	1	2
+77	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	225	1	6
+78	__goback_return	1	1	226	1	3
+79	__OnRev_Tmp	2	1	227	1	6
+80	__push_return	1	1	228	1	3
+81	__barcode_return	1	1	229	1	3
+82	__rotate_power1	1	1	230	1	4
+83	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	231	1	15
+84	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	232	1	6
+85	____initialize_global_data_return	1	1	233	1	3
+86	__drop_return	1	1	234	1	3
+87	__constValNeg20	2	0	235	1	1
+88	__rotate_stop1	1	1	236	1	2
+89	____RotateMotor1_return	1	1	237	1	3
+90	__constVal3	2	0	238	1	14
+91	__LSWriteOptions3	1	1	239	1	1
+92	__constVal1	2	0	240	1	24
+93	__constVal0	2	1	241	1	56
+94	____ReadLSBytes3_return	1	1	242	1	13
+95	__RLSBIterations3	1	1	243	1	4
+96	__ResetSensorTmp	1	1	244	1	2
+97	____ResetSensorSubroutine_return	1	1	245	1	6
+98	__RLSBResult3	2	1	246	1	7
+99	__ResetSensorPort	1	1	247	1	6
+100	__RLSBytesCount3	1	1	248	1	17
+101	__constVal32	2	0	249	1	43
+102	__rotate_theRM1	1	1	250	1	4
+103	__rotate_theRS1	1	1	251	1	3
+104	__rotate_theRVP1	1	1	252	1	2
+105	__rotate_turnpct1	2	1	253	1	3
+106	__rotate_theUF1	1	1	254	1	6
+107	__rotate_theOM1	1	1	255	1	7
+108	__rotate_thePower1	2	1	256	1	4
+109	__rotate_theTurnPct1	2	1	257	1	4
+110	__constVal2	2	0	258	1	6
+111	__rotate_rs1	1	1	259	1	2
+112	__rotate_theRVI1	1	1	260	1	2
+113	__rotate_theRVD1	1	1	261	1	2
+114	__CLSRArgs3	8	0	4	12	5
+115	__CLSRArgs3.Result	2	1	264	1	5
+116	__CLSRArgs3.Port	1	1	265	1	5
+117	__CLSRArgs3.Buffer	7	0	266	4	5
+118	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+119	__CLSRArgs3.BufferLen	1	1	268	1	5
+120	__TextOutArgs	8	0	4	16	102
+121	__TextOutArgs.Result	2	1	272	1	102
+122	__TextOutArgs.Location	8	0	2	4	102
+123	__TextOutArgs.Location.X	4	1	276	2	102
+124	__TextOutArgs.Location.Y	4	1	278	2	102
+125	__TextOutArgs.Text	7	0	280	4	102
+126	__TextOutArgs.Text.Text_type	1	0	0	1	0
+127	__TextOutArgs.Options	5	1	284	4	102
+128	__CLSWArgs3	8	0	4	12	5
+129	__CLSWArgs3.Result	2	1	288	1	5
+130	__CLSWArgs3.Port	1	1	289	1	5
+131	__CLSWArgs3.Buffer	7	0	290	4	5
+132	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+133	__CLSWArgs3.ReturnLen	1	1	292	1	5
+134	__PointOutArgs	8	0	3	12	48
+135	__PointOutArgs.Result	2	1	296	1	48
+136	__PointOutArgs.Location	8	0	2	4	48
+137	__PointOutArgs.Location.X	4	1	300	2	48
+138	__PointOutArgs.Location.Y	4	1	302	2	48
+139	__PointOutArgs.Options	5	1	304	4	48
+140	__CLSCSArgs3	8	0	3	4	4
+141	__CLSCSArgs3.Result	2	1	308	1	4
+142	__CLSCSArgs3.Port	1	1	309	1	4
+143	__CLSCSArgs3.BytesReady	1	1	310	1	4
+144	__constStr0015	7	0	312	4	1
+145	__constStr0015.__constStr0015_type	1	1	0	1	0
+146	__constStr0016	7	0	314	4	1
+147	__constStr0016.__constStr0016_type	1	1	0	1	0
+148	__constStr0017	7	0	316	4	1
+149	__constStr0017.__constStr0017_type	1	1	0	1	0
+150	__constStr0014	7	0	318	4	1
+151	__constStr0014.__constStr0014_type	1	1	0	1	0
+152	__constStr0012	7	0	320	4	1
+153	__constStr0012.__constStr0012_type	1	1	0	1	0
+154	__OUT_AC	7	0	322	4	3
+155	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+156	__constStr0013	7	0	324	4	1
+157	__constStr0013.__constStr0013_type	1	1	0	1	0
+158	__RLSBbufLSWrite1	7	0	326	4	11
+159	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+160	__strbufmain	7	0	328	4	12
+161	__strbufmain.__strbufmain_type	1	0	0	1	0
+162	__constStr0009	7	0	330	4	1
+163	__constStr0009.__constStr0009_type	1	1	0	1	0
+164	__rotate_ports1	7	0	332	4	6
+165	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+166	__strbufpush	7	0	334	4	4
+167	__strbufpush.__strbufpush_type	1	0	0	1	0
+168	__constStr0010	7	0	336	4	1
+169	__constStr0010.__constStr0010_type	1	1	0	1	0
+170	__RLSReadBuf3	7	0	338	4	28
+171	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+172	__RLSLastGoodRead3	7	0	340	4	2
+173	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+174	__constStr0011	7	0	342	4	1
+175	__constStr0011.__constStr0011_type	1	1	0	1	0
+176	__strbufgoback	7	0	344	4	2
+177	__strbufgoback.__strbufgoback_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	154	0	#line 154 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	155	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	154	2	#line 154 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	154	2	#line 154 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	155	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
-0	154	5	#line 154 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	155	5	#line 155 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	156	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	160	0	#line 160 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	161	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	160	2	#line 160 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	160	2	#line 160 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	161	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	160	5	#line 160 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	161	5	#line 161 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	162	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	4313	7	#line 4313 "NXCDefs.h"
 0	4314	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4313	9	#line 4313 "NXCDefs.h"
@@ -98,15 +228,15 @@ Clump	Line	PC	Source
 0	4279	42	#pragma macro 4
 0	4279	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4279	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	5034	46	#line 5034 "NXCDefs.h"
+0	8074	46	#line 8074 "NXCDefs.h"
 0	4278	46	#line 4278 "NXCDefs.h"
 0	4316	46	#line 4316 "NXCDefs.h"
-0	155	46	#line 155 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	155	46	#line 155 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	156	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
-0	155	49	#line 155 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	156	49	#line 156 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	157	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	161	46	#line 161 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	161	46	#line 161 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	162	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	161	49	#line 161 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	162	49	#line 162 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	163	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	4313	51	#line 4313 "NXCDefs.h"
 0	4314	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4313	53	#line 4313 "NXCDefs.h"
@@ -147,15 +277,15 @@ Clump	Line	PC	Source
 0	4279	86	#pragma macro 4
 0	4279	86		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4279	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	5097	90	#line 5097 "NXCDefs.h"
+0	8137	90	#line 8137 "NXCDefs.h"
 0	4278	90	#line 4278 "NXCDefs.h"
 0	4316	90	#line 4316 "NXCDefs.h"
-0	156	90	#line 156 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	156	90	#line 156 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	157	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
-0	156	93	#line 156 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	157	93	#line 157 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	158	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	162	90	#line 162 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	162	90	#line 162 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	163	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	162	93	#line 162 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	163	93	#line 163 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	164	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	4313	95	#line 4313 "NXCDefs.h"
 0	4314	95		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4313	97	#line 4313 "NXCDefs.h"
@@ -196,15 +326,15 @@ Clump	Line	PC	Source
 0	4279	130	#pragma macro 4
 0	4279	130		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4279	132		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	5160	134	#line 5160 "NXCDefs.h"
+0	8200	134	#line 8200 "NXCDefs.h"
 0	4278	134	#line 4278 "NXCDefs.h"
 0	4316	134	#line 4316 "NXCDefs.h"
-0	157	134	#line 157 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	157	134	#line 157 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	158	134		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
-0	157	137	#line 157 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	159	137	#line 159 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	160	137		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	163	134	#line 163 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	163	134	#line 163 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	164	134		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	163	137	#line 163 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	166	137	#line 166 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	167	137		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
 0	4342	139	#line 4342 "NXCDefs.h"
 0	4343	139		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4342	141	#line 4342 "NXCDefs.h"
@@ -244,184 +374,1266 @@ Clump	Line	PC	Source
 0	4279	172	#pragma macro 4
 0	4279	172		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4279	174		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	5251	176	#line 5251 "NXCDefs.h"
+0	8291	176	#line 8291 "NXCDefs.h"
 0	4278	176	#line 4278 "NXCDefs.h"
 0	4345	176	#line 4345 "NXCDefs.h"
-0	159	176	#line 159 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	160	176	#line 160 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	161	176		set __D0main, 1
-0	161	179	#line 161 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	162	179		tst 5, __D0main, __D0main
-0	161	182	#line 161 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	162	182		brtst 4, __ASM_Label_623, __D0main
-0	162	185	#line 162 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	163	185		subcall drive, __drive_return
-0	162	187	#line 162 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	162	187	#line 162 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	163	187		set __Wait_7qG2_ms_7qG2_000_inline_main, 3
-0	162	190	#line 162 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	8551	190	#line 8551 "NXCDefs.h"
-0	8552	190		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	193	#line 8551 "NXCDefs.h"
-0	163	193	#line 163 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	168	193	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	169	193		jmp __ASM_Label_622
-0	168	195	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-0	169	195		exit -1, -1
-1	5476	0		setin __constVal1, __ResetSensorPort, 5
-1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-1	5480	11		subret ____ResetSensorSubroutine_return
-2	29	0	#line 29 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	30	0		getin __signed_stack_001drive, __constVal2, 4
-2	29	4	#line 29 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	29	4	#line 29 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	30	4		getin __D0drive, __constVal1, 4
-2	29	8	#line 29 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	30	8		sub error, __signed_stack_001drive, __D0drive
-2	30	12	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	30	12	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	30	12	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	30	12	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	31	12		mov __signed_stack_001drive, error
-2	30	14	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	30	14	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	31	14		set __D0drive, 3
-2	30	17	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	31	17		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
-2	30	21	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	31	21		brtst 4, __ASM_Label_494, __D0drive
-2	30	24	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	31	24		mov __signed_stack_001drive, error
-2	30	26	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	32	26	#line 32 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	33	26		mov __D0drive, __constValNeg3
-2	32	28	#line 32 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	33	28		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
-2	33	32	#line 33 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	34	32		brtst 4, __ASM_Label_495, __D0drive
-2	33	35	#line 33 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	34	35		mov __signed_stack_001drive, power
-2	33	37	#line 33 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	34	37	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	34	37	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	35	37		mul power_left, __signed_stack_001drive, __constValf1P5
-2	34	41	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	34	41	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	34	41	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	35	41		mov __signed_stack_001drive, power
-2	34	43	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	36	43	#line 36 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	36	43	#line 36 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	37	43		mul power_right, __signed_stack_001drive, __constValf1P5
-2	36	47	#line 36 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	36	47	#line 36 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	37	47	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	38	47		jmp __ASM_Label_500
-2	37	49	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	38	49		mov __signed_stack_001drive, error
-2	37	51	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	37	51	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	38	51		set __D0drive, 5
-2	37	54	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	38	54		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
-2	37	58	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	38	58		brtst 4, __ASM_Label_502, __D0drive
-2	37	61	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	38	61		mov __signed_stack_001drive, error
-2	37	63	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	38	63	#line 38 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	39	63		mov __D0drive, __constValNeg5
-2	38	65	#line 38 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	39	65		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
-2	39	69	#line 39 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	40	69		brtst 4, __ASM_Label_503, __D0drive
-2	39	72	#line 39 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	40	72		mov __float_stack_001drive, kp
-2	39	74	#line 39 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	40	74	#line 40 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	41	74		mov __D0drive, error
-2	40	76	#line 40 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	41	76		mul turn, __float_stack_001drive, __D0drive
-2	40	80	#line 40 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	40	80	#line 40 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	40	80	#line 40 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	41	80		mov __signed_stack_001drive, power
-2	40	82	#line 40 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	41	82	#line 41 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	42	82		mov __D0drive, turn
-2	41	84	#line 41 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	42	84		add power_left, __signed_stack_001drive, __D0drive
-2	41	88	#line 41 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	41	88	#line 41 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	41	88	#line 41 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	42	88		mov __signed_stack_001drive, power
-2	41	90	#line 41 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	42	90	#line 42 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	43	90		mov __D0drive, turn
-2	42	92	#line 42 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	43	92		sub power_right, __signed_stack_001drive, __D0drive
-2	42	96	#line 42 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	42	96	#line 42 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	46	96	#line 46 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	47	96		jmp __ASM_Label_510
-2	46	98	#line 46 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	47	98		mov __float_stack_001drive, kp2
-2	46	100	#line 46 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	47	100	#line 47 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	48	100		mov __D0drive, error
-2	47	102	#line 47 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	48	102		mul turn, __float_stack_001drive, __D0drive
-2	47	106	#line 47 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	47	106	#line 47 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	47	106	#line 47 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	48	106		mov __signed_stack_001drive, power_low
-2	47	108	#line 47 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	48	108	#line 48 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	49	108		mov __D0drive, turn
-2	48	110	#line 48 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	49	110		add power_left, __signed_stack_001drive, __D0drive
-2	48	114	#line 48 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	48	114	#line 48 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	48	114	#line 48 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	49	114		mov __signed_stack_001drive, power_low
-2	48	116	#line 48 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	49	116	#line 49 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	50	116		mov __D0drive, turn
-2	49	118	#line 49 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	50	118		sub power_right, __signed_stack_001drive, __D0drive
-2	49	122	#line 49 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	49	122	#line 49 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	50	122	#line 50 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	50	122	#line 50 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	50	122	#line 50 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	51	122		mov __D0drive, power_left
-2	51	124	#line 51 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	52	124	#pragma macro 7
-2	52	124		setout __constVal0, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-2	4440	147	#line 4440 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	51	147	#line 51 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	51	147	#line 51 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	52	147		mov __D0drive, power_right
-2	52	149	#line 52 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	53	149	#pragma macro 7
-2	53	149		setout __constVal2, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-2	4447	172	#line 4447 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	52	172	#line 52 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	52	172	#line 52 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	53	172		set __Wait_7qG2_ms_7qG2_000_inline_drive, 3
-2	52	175	#line 52 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	8551	175	#line 8551 "NXCDefs.h"
-2	8552	175		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drive
-2	8551	178	#line 8551 "NXCDefs.h"
-2	53	178	#line 53 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	56	178	#line 56 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-2	57	178		subret __drive_return
-3	169	0	#line 169 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
-3	170	0		subret ____initialize_global_data_return
+0	166	176	#line 166 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	6678	176	#line 6678 "NXCDefs.h"
+0	6679	176	#pragma macro 6
+0	6679	176		acquire __PointOutMutex
+0	6679	177		mov __PointOutArgs.Location.X, __constVal200
+0	6679	179		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	181		mov __PointOutArgs.Options, __constVal1
+0	6679	183		syscall 14, __PointOutArgs
+0	6679	186		release __PointOutMutex
+0	8296	187	#line 8296 "NXCDefs.h"
+0	6678	187	#line 6678 "NXCDefs.h"
+0	167	187	#line 167 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	167	187	#line 167 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	168	187		set __signed_stack_001main, 0
+0	167	190	#line 167 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	167	190	#line 167 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	168	190		set __signed_stack_002main, 48
+0	167	193	#line 167 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	167	193	#line 167 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	168	193		strcat __strbufmain, __constStr0012
+0	168	197	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	169	197		acquire __TextOutMutex
+0	168	198	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	169	198		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	168	200	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	169	200		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	168	202	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	169	202		set __TextOutArgs.Options, 0
+0	168	205	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	169	205		mov __TextOutArgs.Text, __strbufmain
+0	168	207	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	169	207		syscall 13, __TextOutArgs
+0	168	210	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	169	210		mov __D0main, __TextOutArgs.Result
+0	168	212	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	169	212		release __TextOutMutex
+0	168	213	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	168	213	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	169	213		set __Wait_7qG2_ms_7qG2_000_inline_main, 3000
+0	168	216	#line 168 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	8551	216	#line 8551 "NXCDefs.h"
+0	8552	216		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	218	#line 8551 "NXCDefs.h"
+0	171	218	#line 171 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	6678	218	#line 6678 "NXCDefs.h"
+0	6679	218	#pragma macro 6
+0	6679	218		acquire __PointOutMutex
+0	6679	219		mov __PointOutArgs.Location.X, __constVal200
+0	6679	221		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	223		mov __PointOutArgs.Options, __constVal1
+0	6679	225		syscall 14, __PointOutArgs
+0	6679	228		release __PointOutMutex
+0	8343	229	#line 8343 "NXCDefs.h"
+0	6678	229	#line 6678 "NXCDefs.h"
+0	172	229	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	172	229	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	173	229		set __signed_stack_001main, 0
+0	172	232	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	172	232	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	173	232		set __signed_stack_002main, 48
+0	172	235	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	172	235	#line 172 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	173	235		strcat __strbufmain, __constStr0013
+0	173	239	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	239		acquire __TextOutMutex
+0	173	240	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	240		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	173	242	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	242		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	173	244	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	244		set __TextOutArgs.Options, 0
+0	173	247	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	247		mov __TextOutArgs.Text, __strbufmain
+0	173	249	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	249		syscall 13, __TextOutArgs
+0	173	252	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	252		mov __D0main, __TextOutArgs.Result
+0	173	254	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	254		release __TextOutMutex
+0	173	255	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	173	255	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	255		set __signed_stack_001main, 40
+0	173	258	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	173	258	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	258		set __signed_stack_002main, 40
+0	173	261	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	173	261	#line 173 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	261	#pragma macro 26
+0	174	261		acquire __RLSBmutex3
+0	174	262		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	174	264		set __RLSBytesCount3, 1
+0	174	267		wait 15
+0	174	269		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	174	271		index __D0main, __RLSReadBuf3, 65535
+0	174	275		release __RLSBmutex3
+0	8388	276	#line 8388 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	276	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	276		acquire __TextOutMutex
+0	174	277	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	277		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	174	279	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	279		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	174	281	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	281		set __TextOutArgs.Options, 0
+0	174	284	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	284		numtostr __TextOutArgs.Text, __D0main
+0	174	287	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	287		syscall 13, __TextOutArgs
+0	174	290	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	290		mov __D0main, __TextOutArgs.Result
+0	174	292	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	292		release __TextOutMutex
+0	174	293	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	293	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	174	293	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	293		set __catch_obstacle_7qG2_distance_7qG2_000, 25
+0	174	296	#line 174 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	175	296	#line 175 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	176	296		subcall catch_obstacle, __catch_obstacle_return
+0	175	298	#line 175 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	6678	298	#line 6678 "NXCDefs.h"
+0	6679	298	#pragma macro 6
+0	6679	298		acquire __PointOutMutex
+0	6679	299		mov __PointOutArgs.Location.X, __constVal200
+0	6679	301		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	303		mov __PointOutArgs.Options, __constVal1
+0	6679	305		syscall 14, __PointOutArgs
+0	6679	308		release __PointOutMutex
+0	8419	309	#line 8419 "NXCDefs.h"
+0	6678	309	#line 6678 "NXCDefs.h"
+0	176	309	#line 176 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	176	309	#line 176 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	177	309		set __signed_stack_001main, 40
+0	176	312	#line 176 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	176	312	#line 176 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	177	312		set __signed_stack_002main, 40
+0	176	315	#line 176 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	176	315	#line 176 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	177	315	#pragma macro 26
+0	177	315		acquire __RLSBmutex3
+0	177	316		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	177	318		set __RLSBytesCount3, 1
+0	177	321		wait 15
+0	177	323		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	177	325		index __D0main, __RLSReadBuf3, 65535
+0	177	329		release __RLSBmutex3
+0	8433	330	#line 8433 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	179	330	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	330		acquire __TextOutMutex
+0	179	331	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	331		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	179	333	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	333		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	179	335	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	335		set __TextOutArgs.Options, 0
+0	179	338	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	338		numtostr __TextOutArgs.Text, __D0main
+0	179	341	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	341		syscall 13, __TextOutArgs
+0	179	344	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	344		mov __D0main, __TextOutArgs.Result
+0	179	346	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	346		release __TextOutMutex
+0	179	347	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	179	347	#line 179 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	6678	347	#line 6678 "NXCDefs.h"
+0	6679	347	#pragma macro 6
+0	6679	347		acquire __PointOutMutex
+0	6679	348		mov __PointOutArgs.Location.X, __constVal200
+0	6679	350		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	352		mov __PointOutArgs.Options, __constVal1
+0	6679	354		syscall 14, __PointOutArgs
+0	6679	357		release __PointOutMutex
+0	8457	358	#line 8457 "NXCDefs.h"
+0	6678	358	#line 6678 "NXCDefs.h"
+0	180	358	#line 180 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	358	#line 180 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	181	358		set __signed_stack_001main, 0
+0	180	361	#line 180 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	361	#line 180 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	181	361		set __signed_stack_002main, 48
+0	180	364	#line 180 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	180	364	#line 180 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	181	364		strcat __strbufmain, __constStr0014
+0	181	368	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	368		acquire __TextOutMutex
+0	181	369	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	369		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	181	371	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	371		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	181	373	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	373		set __TextOutArgs.Options, 0
+0	181	376	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	376		mov __TextOutArgs.Text, __strbufmain
+0	181	378	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	378		syscall 13, __TextOutArgs
+0	181	381	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	381		mov __D0main, __TextOutArgs.Result
+0	181	383	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	383		release __TextOutMutex
+0	181	384	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	181	384	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	384		set __signed_stack_001main, 40
+0	181	387	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	181	387	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	387		set __signed_stack_002main, 40
+0	181	390	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	181	390	#line 181 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	390	#pragma macro 26
+0	182	390		acquire __RLSBmutex3
+0	182	391		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	182	393		set __RLSBytesCount3, 1
+0	182	396		wait 15
+0	182	398		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	182	400		index __D0main, __RLSReadBuf3, 65535
+0	182	404		release __RLSBmutex3
+0	8502	405	#line 8502 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	405	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	183	405		acquire __TextOutMutex
+0	182	406	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	183	406		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	182	408	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	183	408		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	182	410	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	183	410		set __TextOutArgs.Options, 0
+0	182	413	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	183	413		numtostr __TextOutArgs.Text, __D0main
+0	182	416	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	183	416		syscall 13, __TextOutArgs
+0	182	419	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	183	419		mov __D0main, __TextOutArgs.Result
+0	182	421	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	183	421		release __TextOutMutex
+0	182	422	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	182	422	#line 182 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	183	422	#line 183 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	184	422		subcall turn_right, __turn_right_return
+0	183	424	#line 183 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	186	424	#line 186 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	187	424		subcall turn_right, __turn_right_return
+0	186	426	#line 186 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	6678	426	#line 6678 "NXCDefs.h"
+0	6679	426	#pragma macro 6
+0	6679	426		acquire __PointOutMutex
+0	6679	427		mov __PointOutArgs.Location.X, __constVal200
+0	6679	429		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	431		mov __PointOutArgs.Options, __constVal1
+0	6679	433		syscall 14, __PointOutArgs
+0	6679	436		release __PointOutMutex
+0	8532	437	#line 8532 "NXCDefs.h"
+0	6678	437	#line 6678 "NXCDefs.h"
+0	187	437	#line 187 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	187	437	#line 187 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	188	437		set __signed_stack_001main, 0
+0	187	440	#line 187 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	187	440	#line 187 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	188	440		set __signed_stack_002main, 48
+0	187	443	#line 187 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	187	443	#line 187 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	188	443		strcat __strbufmain, __constStr0015
+0	188	447	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	447		acquire __TextOutMutex
+0	188	448	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	448		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	188	450	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	450		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	188	452	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	452		set __TextOutArgs.Options, 0
+0	188	455	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	455		mov __TextOutArgs.Text, __strbufmain
+0	188	457	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	457		syscall 13, __TextOutArgs
+0	188	460	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	460		mov __D0main, __TextOutArgs.Result
+0	188	462	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	462		release __TextOutMutex
+0	188	463	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	188	463	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	463		set __signed_stack_001main, 40
+0	188	466	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	188	466	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	466		set __signed_stack_002main, 40
+0	188	469	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	188	469	#line 188 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	469	#pragma macro 26
+0	189	469		acquire __RLSBmutex3
+0	189	470		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	189	472		set __RLSBytesCount3, 1
+0	189	475		wait 15
+0	189	477		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	189	479		index __D0main, __RLSReadBuf3, 65535
+0	189	483		release __RLSBmutex3
+0	8577	484	#line 8577 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	484	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	484		acquire __TextOutMutex
+0	189	485	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	485		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	189	487	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	487		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	189	489	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	489		set __TextOutArgs.Options, 0
+0	189	492	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	492		numtostr __TextOutArgs.Text, __D0main
+0	189	495	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	495		syscall 13, __TextOutArgs
+0	189	498	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	498		mov __D0main, __TextOutArgs.Result
+0	189	500	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	500		release __TextOutMutex
+0	189	501	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	501	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	189	501	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	501		set __catch_obstacle_7qG2_distance_7qG2_000, 15
+0	189	504	#line 189 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	190	504	#line 190 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	191	504		subcall catch_obstacle, __catch_obstacle_return
+0	190	506	#line 190 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	6678	506	#line 6678 "NXCDefs.h"
+0	6679	506	#pragma macro 6
+0	6679	506		acquire __PointOutMutex
+0	6679	507		mov __PointOutArgs.Location.X, __constVal200
+0	6679	509		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	511		mov __PointOutArgs.Options, __constVal1
+0	6679	513		syscall 14, __PointOutArgs
+0	6679	516		release __PointOutMutex
+0	8608	517	#line 8608 "NXCDefs.h"
+0	6678	517	#line 6678 "NXCDefs.h"
+0	191	517	#line 191 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	191	517	#line 191 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	192	517		set __signed_stack_001main, 40
+0	191	520	#line 191 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	191	520	#line 191 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	192	520		set __signed_stack_002main, 40
+0	191	523	#line 191 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	191	523	#line 191 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	192	523	#pragma macro 26
+0	192	523		acquire __RLSBmutex3
+0	192	524		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	192	526		set __RLSBytesCount3, 1
+0	192	529		wait 15
+0	192	531		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	192	533		index __D0main, __RLSReadBuf3, 65535
+0	192	537		release __RLSBmutex3
+0	8622	538	#line 8622 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	192	538	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	538		acquire __TextOutMutex
+0	192	539	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	539		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	192	541	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	541		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	192	543	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	543		set __TextOutArgs.Options, 0
+0	192	546	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	546		numtostr __TextOutArgs.Text, __D0main
+0	192	549	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	549		syscall 13, __TextOutArgs
+0	192	552	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	552		mov __D0main, __TextOutArgs.Result
+0	192	554	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	554		release __TextOutMutex
+0	192	555	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	192	555	#line 192 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	555	#line 193 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	194	555	#pragma macro 7
+0	194	555		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8646	578	#line 8646 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	578	#line 193 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	193	578	#line 193 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	194	578		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	193	581	#line 193 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	8551	581	#line 8551 "NXCDefs.h"
+0	8552	581		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	583	#line 8551 "NXCDefs.h"
+0	197	583	#line 197 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	6678	583	#line 6678 "NXCDefs.h"
+0	6679	583	#pragma macro 6
+0	6679	583		acquire __PointOutMutex
+0	6679	584		mov __PointOutArgs.Location.X, __constVal200
+0	6679	586		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	588		mov __PointOutArgs.Options, __constVal1
+0	6679	590		syscall 14, __PointOutArgs
+0	6679	593		release __PointOutMutex
+0	8657	594	#line 8657 "NXCDefs.h"
+0	6678	594	#line 6678 "NXCDefs.h"
+0	198	594	#line 198 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	198	594	#line 198 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	199	594		set __signed_stack_001main, 0
+0	198	597	#line 198 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	198	597	#line 198 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	199	597		set __signed_stack_002main, 48
+0	198	600	#line 198 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	198	600	#line 198 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	199	600		strcat __strbufmain, __constStr0016
+0	199	604	#line 199 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	200	604		acquire __TextOutMutex
+0	199	605	#line 199 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	200	605		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	199	607	#line 199 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	200	607		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	199	609	#line 199 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	200	609		set __TextOutArgs.Options, 0
+0	199	612	#line 199 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	200	612		mov __TextOutArgs.Text, __strbufmain
+0	199	614	#line 199 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	200	614		syscall 13, __TextOutArgs
+0	199	617	#line 199 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	200	617		mov __D0main, __TextOutArgs.Result
+0	199	619	#line 199 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	200	619		release __TextOutMutex
+0	199	620	#line 199 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	202	620	#line 202 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	203	620		subcall barcode, __barcode_return
+0	202	622	#line 202 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	205	622	#line 205 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	206	622		subcall push, __push_return
+0	205	624	#line 205 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	208	624	#line 208 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	209	624		subcall goback, __goback_return
+0	208	626	#line 208 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	6678	626	#line 6678 "NXCDefs.h"
+0	6679	626	#pragma macro 6
+0	6679	626		acquire __PointOutMutex
+0	6679	627		mov __PointOutArgs.Location.X, __constVal200
+0	6679	629		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	631		mov __PointOutArgs.Options, __constVal1
+0	6679	633		syscall 14, __PointOutArgs
+0	6679	636		release __PointOutMutex
+0	8701	637	#line 8701 "NXCDefs.h"
+0	6678	637	#line 6678 "NXCDefs.h"
+0	209	637	#line 209 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	209	637	#line 209 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	210	637		set __signed_stack_001main, 0
+0	209	640	#line 209 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	209	640	#line 209 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	210	640		set __signed_stack_002main, 48
+0	209	643	#line 209 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	209	643	#line 209 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	210	643		strcat __strbufmain, __constStr0017
+0	210	647	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	647		acquire __TextOutMutex
+0	210	648	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	648		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	210	650	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	650		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	210	652	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	652		set __TextOutArgs.Options, 0
+0	210	655	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	655		mov __TextOutArgs.Text, __strbufmain
+0	210	657	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	657		syscall 13, __TextOutArgs
+0	210	660	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	660		mov __D0main, __TextOutArgs.Result
+0	210	662	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	662		release __TextOutMutex
+0	210	663	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	210	663	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	663		set __signed_stack_001main, 40
+0	210	666	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	210	666	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	666		set __signed_stack_002main, 40
+0	210	669	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	210	669	#line 210 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	669	#pragma macro 26
+0	211	669		acquire __RLSBmutex3
+0	211	670		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	211	672		set __RLSBytesCount3, 1
+0	211	675		wait 15
+0	211	677		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	211	679		index __D0main, __RLSReadBuf3, 65535
+0	211	683		release __RLSBmutex3
+0	8746	684	#line 8746 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	684	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	684		acquire __TextOutMutex
+0	211	685	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	685		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	211	687	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	687		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	211	689	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	689		set __TextOutArgs.Options, 0
+0	211	692	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	692		numtostr __TextOutArgs.Text, __D0main
+0	211	695	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	695		syscall 13, __TextOutArgs
+0	211	698	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	698		mov __D0main, __TextOutArgs.Result
+0	211	700	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	700		release __TextOutMutex
+0	211	701	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	701	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	211	701	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	701		set __catch_obstacle_7qG2_distance_7qG2_000, 15
+0	211	704	#line 211 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	212	704	#line 212 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	213	704		subcall catch_obstacle, __catch_obstacle_return
+0	212	706	#line 212 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	6678	706	#line 6678 "NXCDefs.h"
+0	6679	706	#pragma macro 6
+0	6679	706		acquire __PointOutMutex
+0	6679	707		mov __PointOutArgs.Location.X, __constVal200
+0	6679	709		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	711		mov __PointOutArgs.Options, __constVal1
+0	6679	713		syscall 14, __PointOutArgs
+0	6679	716		release __PointOutMutex
+0	8777	717	#line 8777 "NXCDefs.h"
+0	6678	717	#line 6678 "NXCDefs.h"
+0	213	717	#line 213 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	213	717	#line 213 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	214	717		set __signed_stack_001main, 40
+0	213	720	#line 213 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	213	720	#line 213 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	214	720		set __signed_stack_002main, 40
+0	213	723	#line 213 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	213	723	#line 213 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	214	723	#pragma macro 26
+0	214	723		acquire __RLSBmutex3
+0	214	724		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	214	726		set __RLSBytesCount3, 1
+0	214	729		wait 15
+0	214	731		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	214	733		index __D0main, __RLSReadBuf3, 65535
+0	214	737		release __RLSBmutex3
+0	8791	738	#line 8791 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	214	738	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	215	738		acquire __TextOutMutex
+0	214	739	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	215	739		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	214	741	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	215	741		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	214	743	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	215	743		set __TextOutArgs.Options, 0
+0	214	746	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	215	746		numtostr __TextOutArgs.Text, __D0main
+0	214	749	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	215	749		syscall 13, __TextOutArgs
+0	214	752	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	215	752		mov __D0main, __TextOutArgs.Result
+0	214	754	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	215	754		release __TextOutMutex
+0	214	755	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	214	755	#line 214 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	217	755	#line 217 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	218	755		subcall drop, __drop_return
+0	217	757	#line 217 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+0	218	757		exit -1, -1
+1	5120	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	5121	3		sign __rotate_thePower1, __rotate_angle1
+1	5122	6		abs __rotate_theAngle1, __rotate_angle1
+1	5123	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	5125	13		set __rotate_theUF1, 23
+1	5126	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	5127	19		set __rotate_theOM1, 7
+1	5128	22		set __rotate_theRM1, 2
+1	5129	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	5130	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	5131	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	5132	34		jmp __rotate_Start1
+1	5134	36		set __rotate_theOM1, 3
+1	5135	39		set __rotate_theRM1, 0
+1	5136	42		set __rotate_theTurnPct1, 0
+1	5138	45		set __rotate_theRS1, 32
+1	5139	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	5142	71		index __rotate_firstPort1, __rotate_ports1, 65535
+1	5144	75		getout __rotate_power1, __rotate_firstPort1, 2
+1	5145	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	5146	82		getout __rotate_rs1, __rotate_firstPort1, 6
+1	5147	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	5149	90		brtst 4, __rotate_Reset1, __rotate_stop1
+1	5151	93		set __rotate_theOM1, 7
+1	5152	96		set __rotate_theUF1, 7
+1	5153	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	5155	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	5157	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	5158	120		wait 50
+1	5160	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	5161	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	5162	130		set __rotate_theOM1, 4
+1	5163	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	5166	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	5167	147		setout __rotate_ports1, 0, __constVal32
+1	5169	152		subret ____RotateMotor1_return
+2	5476	0		setin __constVal1, __ResetSensorPort, 5
+2	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	5480	11		subret ____ResetSensorSubroutine_return
+3	6393	0	#pragma macro 25
+3	6393	0		acquire __CLSWMutex3
+3	6393	1		or __CLSWArgs3.Port, __constVal3, __LSWriteOptions3
+3	6393	5		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+3	6393	7		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+3	6393	9		syscall 21, __CLSWArgs3
+3	6393	12		mov __RLSBResult3, __CLSWArgs3.Result
+3	6393	14		release __CLSWMutex3
+3	6393	15	#line 6393 "NXTDefs.h"
+3	6394	15		brtst 5, __RLSBError3, __RLSBResult3
+3	6395	18		set __RLSBIterations3, 60
+3	6397	21	#pragma macro 23
+3	6397	21		acquire __CLSCSMutex3
+3	6397	22		set __CLSCSArgs3.Port, 3
+3	6397	25		syscall 23, __CLSCSArgs3
+3	6397	28		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+3	6397	30		mov __RLSBResult3, __CLSCSArgs3.Result
+3	6397	32		release __CLSCSMutex3
+3	6397	33	#line 6397 "NXTDefs.h"
+3	6398	33		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+3	6399	37		brtst 2, __RLSBError3, __RLSBIterations3
+3	6400	40		brtst 0, __RLSBError3, __RLSBResult3
+3	6401	43		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+3	6403	46		wait 1
+3	6404	48		jmp __RLSBDoCheckStatus3
+3	6406	50		brtst 4, __RLSBReturn3, __RLSBytesCount3
+3	6407	53		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+3	6409	57	#pragma macro 25
+3	6409	57		acquire __CLSRMutex3
+3	6409	58		set __CLSRArgs3.Port, 3
+3	6409	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+3	6409	63		syscall 22, __CLSRArgs3
+3	6409	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+3	6409	68		mov __RLSBResult3, __CLSRArgs3.Result
+3	6409	70		release __CLSRMutex3
+3	6409	71	#line 6409 "NXTDefs.h"
+3	6410	71		brtst 5, __RLSBError3, __RLSBResult3
+3	6411	74		mov __RLSLastGoodRead3, __RLSReadBuf3
+3	6412	76		jmp __RLSBDone3
+3	6414	78		mov __RLSReadBuf3, __RLSLastGoodRead3
+3	6416	80		arrsize __RLSBytesCount3, __RLSReadBuf3
+3	6418	83		subret ____ReadLSBytes3_return
+4	26	0	#line 26 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	27	0		getin __signed_stack_001drive, __constVal2, 4
+4	26	4	#line 26 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	26	4	#line 26 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	27	4		getin __D0drive, __constVal1, 4
+4	26	8	#line 26 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	27	8		sub error, __signed_stack_001drive, __D0drive
+4	27	12	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	27	12	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	27	12	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	27	12	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	28	12		mov __signed_stack_001drive, error
+4	27	14	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	27	14	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	28	14		set __D0drive, 3
+4	27	17	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	28	17		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
+4	27	21	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	28	21		brtst 4, __ASM_Label_609, __D0drive
+4	27	24	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	28	24		mov __signed_stack_001drive, error
+4	27	26	#line 27 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	29	26	#line 29 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	30	26		mov __D0drive, __constValNeg3
+4	29	28	#line 29 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	30	28		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+4	30	32	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	31	32		brtst 4, __ASM_Label_610, __D0drive
+4	30	35	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	31	35		mov __signed_stack_001drive, power
+4	30	37	#line 30 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	31	37	#line 31 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	31	37	#line 31 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	32	37		mul power_left, __signed_stack_001drive, __constValf1P5
+4	31	41	#line 31 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	31	41	#line 31 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	31	41	#line 31 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	32	41		mov __signed_stack_001drive, power
+4	31	43	#line 31 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	33	43	#line 33 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	33	43	#line 33 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	34	43		mul power_right, __signed_stack_001drive, __constValf1P5
+4	33	47	#line 33 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	33	47	#line 33 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	34	47	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	35	47		jmp __ASM_Label_615
+4	34	49	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	35	49		mov __signed_stack_001drive, error
+4	34	51	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	34	51	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	35	51		set __D0drive, 5
+4	34	54	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	35	54		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
+4	34	58	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	35	58		brtst 4, __ASM_Label_617, __D0drive
+4	34	61	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	35	61		mov __signed_stack_001drive, error
+4	34	63	#line 34 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	35	63	#line 35 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	36	63		mov __D0drive, __constValNeg5
+4	35	65	#line 35 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	36	65		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+4	36	69	#line 36 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	37	69		brtst 4, __ASM_Label_618, __D0drive
+4	36	72	#line 36 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	37	72		mov __float_stack_001drive, kp
+4	36	74	#line 36 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	37	74	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	38	74		mov __D0drive, error
+4	37	76	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	38	76		mul turn, __float_stack_001drive, __D0drive
+4	37	80	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	37	80	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	37	80	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	38	80		mov __signed_stack_001drive, power
+4	37	82	#line 37 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	38	82	#line 38 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	39	82		mov __D0drive, turn
+4	38	84	#line 38 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	39	84		add power_left, __signed_stack_001drive, __D0drive
+4	38	88	#line 38 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	38	88	#line 38 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	38	88	#line 38 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	39	88		mov __signed_stack_001drive, power
+4	38	90	#line 38 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	39	90	#line 39 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	40	90		mov __D0drive, turn
+4	39	92	#line 39 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	40	92		sub power_right, __signed_stack_001drive, __D0drive
+4	39	96	#line 39 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	39	96	#line 39 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	43	96	#line 43 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	44	96		jmp __ASM_Label_625
+4	43	98	#line 43 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	44	98		mov __float_stack_001drive, kp2
+4	43	100	#line 43 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	44	100	#line 44 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	45	100		mov __D0drive, error
+4	44	102	#line 44 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	45	102		mul turn, __float_stack_001drive, __D0drive
+4	44	106	#line 44 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	44	106	#line 44 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	44	106	#line 44 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	45	106		mov __signed_stack_001drive, power_low
+4	44	108	#line 44 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	45	108	#line 45 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	46	108		mov __D0drive, turn
+4	45	110	#line 45 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	46	110		add power_left, __signed_stack_001drive, __D0drive
+4	45	114	#line 45 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	45	114	#line 45 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	45	114	#line 45 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	46	114		mov __signed_stack_001drive, power_low
+4	45	116	#line 45 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	46	116	#line 46 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	47	116		mov __D0drive, turn
+4	46	118	#line 46 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	47	118		sub power_right, __signed_stack_001drive, __D0drive
+4	46	122	#line 46 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	46	122	#line 46 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	47	122	#line 47 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	47	122	#line 47 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	47	122	#line 47 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	48	122		mov __D0drive, power_left
+4	48	124	#line 48 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	49	124	#pragma macro 7
+4	49	124		setout __constVal0, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7445	147	#line 7445 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	48	147	#line 48 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	48	147	#line 48 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	49	147		mov __D0drive, power_right
+4	49	149	#line 49 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	50	149	#pragma macro 7
+4	50	149		setout __constVal2, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7452	172	#line 7452 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	49	172	#line 49 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	49	172	#line 49 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	50	172		set __Wait_7qG2_ms_7qG2_000_inline_drive, 3
+4	49	175	#line 49 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	8551	175	#line 8551 "NXCDefs.h"
+4	8552	175		waitv __Wait_7qG2_ms_7qG2_000_inline_drive
+4	8551	177	#line 8551 "NXCDefs.h"
+4	50	177	#line 50 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	53	177	#line 53 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+4	54	177		subret __drive_return
+5	56	0	#line 56 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	57	0		set __D0turn_right, 25
+5	57	3	#line 57 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	58	3	#pragma macro 10
+5	58	3		acquire __OnRevMutex
+5	58	4		neg __OnRev_Tmp, __D0turn_right
+5	58	7		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	58	30		release __OnRevMutex
+5	7474	31	#line 7474 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	57	31	#line 57 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	57	31	#line 57 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	58	31		set __D0turn_right, 20
+5	58	34	#line 58 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	59	34	#pragma macro 7
+5	59	34		setout __constVal0, 2, __D0turn_right, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	7479	57	#line 7479 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	58	57	#line 58 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	58	57	#line 58 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	59	57		set __Wait_7qG2_ms_7qG2_000_inline_turn_right, 1200
+5	58	60	#line 58 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	8551	60	#line 8551 "NXCDefs.h"
+5	8552	60		waitv __Wait_7qG2_ms_7qG2_000_inline_turn_right
+5	8551	62	#line 8551 "NXCDefs.h"
+5	59	62	#line 59 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	62	62	#line 62 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+5	63	62		subret __turn_right_return
+6	67	0	#line 67 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	68	0		set no_obstacle, 1
+6	67	3	#line 67 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	67	3	#line 67 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	68	3	#line 68 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	69	3		mov __DU0catch_obstacle, no_obstacle
+6	69	5	#line 69 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	70	5		tst 5, __D0catch_obstacle, __DU0catch_obstacle
+6	69	8	#line 69 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	70	8		brtst 4, __ASM_Label_647, __D0catch_obstacle
+6	69	11	#line 69 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	70	11	#pragma macro 26
+6	70	11		acquire __RLSBmutex3
+6	70	12		mov __RLSReadBuf3, __RLSBbufLSWrite1
+6	70	14		set __RLSBytesCount3, 1
+6	70	17		wait 15
+6	70	19		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+6	70	21		index __D0catch_obstacle, __RLSReadBuf3, 65535
+6	70	25		release __RLSBmutex3
+6	7517	26	#line 7517 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	69	26	#line 69 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	70	26		mov __signed_stack_001catch_obstacle, __D0catch_obstacle
+6	70	28	#line 70 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	71	28		mov __D0catch_obstacle, __catch_obstacle_7qG2_distance_7qG2_000
+6	70	30	#line 70 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	71	30		cmp 0, __D0catch_obstacle, __signed_stack_001catch_obstacle, __D0catch_obstacle
+6	71	34	#line 71 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	72	34		brtst 4, __ASM_Label_652, __D0catch_obstacle
+6	72	37	#line 72 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	73	37		set no_obstacle, 0
+6	72	40	#line 72 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	72	40	#line 72 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	73	40	#line 73 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	74	40	#line 74 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	75	40		subcall drive, __drive_return
+6	74	42	#line 74 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	74	42	#line 74 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	75	42		set __Wait_7qG2_ms_7qG2_000_inline_catch_obstacle, 3
+6	74	45	#line 74 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	8551	45	#line 8551 "NXCDefs.h"
+6	8552	45		waitv __Wait_7qG2_ms_7qG2_000_inline_catch_obstacle
+6	8551	47	#line 8551 "NXCDefs.h"
+6	75	47	#line 75 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	76	47	#line 76 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	77	47		jmp __ASM_Label_646
+6	76	49	#line 76 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	77	49	#line 77 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	78	49	#pragma macro 7
+6	78	49		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	7557	72	#line 7557 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	77	72	#line 77 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	80	72	#line 80 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+6	81	72		subret __catch_obstacle_return
+7	84	0	#line 84 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	85	0		mov __DU0barcode, not_black
+7	85	2	#line 85 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	86	2		tst 5, __D0barcode, __DU0barcode
+7	85	5	#line 85 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	86	5		brtst 4, __ASM_Label_658, __D0barcode
+7	85	8	#line 85 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	86	8		getin __signed_stack_001barcode, __constVal0, 4
+7	85	12	#line 85 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	85	12	#line 85 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	86	12		set __D0barcode, 40
+7	85	15	#line 85 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	86	15		cmp 0, __D0barcode, __signed_stack_001barcode, __D0barcode
+7	85	19	#line 85 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	86	19		brtst 4, __ASM_Label_662, __D0barcode
+7	85	22	#line 85 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	86	22		getin __signed_stack_001barcode, __constVal1, 4
+7	85	26	#line 85 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	86	26	#line 86 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	87	26		set __D0barcode, 40
+7	86	29	#line 86 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	87	29		cmp 1, __D0barcode, __signed_stack_001barcode, __D0barcode
+7	87	33	#line 87 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	88	33		brtst 4, __ASM_Label_663, __D0barcode
+7	88	36	#line 88 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	89	36		set not_black, 0
+7	88	39	#line 88 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	88	39	#line 88 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	89	39	#line 89 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	90	39	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	91	39		subcall drive, __drive_return
+7	90	41	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	90	41	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	91	41		set __Wait_7qG2_ms_7qG2_000_inline_barcode, 3
+7	90	44	#line 90 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	8551	44	#line 8551 "NXCDefs.h"
+7	8552	44		waitv __Wait_7qG2_ms_7qG2_000_inline_barcode
+7	8551	46	#line 8551 "NXCDefs.h"
+7	91	46	#line 91 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	92	46	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	93	46		jmp __ASM_Label_657
+7	92	48	#line 92 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	93	48	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	94	48		subcall turn_right, __turn_right_return
+7	93	50	#line 93 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	96	50	#line 96 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+7	97	50		subret __barcode_return
+8	101	0	#line 101 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	102	0		set no_obstacle, 1
+8	101	3	#line 101 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	101	3	#line 101 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	101	3	#line 101 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	102	3		set __D0push, 30
+8	102	6	#line 102 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	103	6	#pragma macro 7
+8	103	6		setout __constVal2, 2, __D0push, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7641	29	#line 7641 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	102	29	#line 102 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	102	29	#line 102 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	103	29		set __D0push, 30
+8	103	32	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	104	32	#pragma macro 7
+8	104	32		setout __constVal0, 2, __D0push, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7646	55	#line 7646 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	103	55	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	103	55	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	104	55		set __Wait_7qG2_ms_7qG2_000_inline_push, 1000
+8	103	58	#line 103 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	8551	58	#line 8551 "NXCDefs.h"
+8	8552	58		waitv __Wait_7qG2_ms_7qG2_000_inline_push
+8	8551	60	#line 8551 "NXCDefs.h"
+8	104	60	#line 104 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	105	60	#line 105 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	106	60		mov __DU0push, no_obstacle
+8	106	62	#line 106 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	107	62		tst 5, __D0push, __DU0push
+8	106	65	#line 106 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	107	65		brtst 4, __ASM_Label_677, __D0push
+8	6678	68	#line 6678 "NXCDefs.h"
+8	6679	68	#pragma macro 6
+8	6679	68		acquire __PointOutMutex
+8	6679	69		mov __PointOutArgs.Location.X, __constVal200
+8	6679	71		mov __PointOutArgs.Location.Y, __constVal200
+8	6679	73		mov __PointOutArgs.Options, __constVal1
+8	6679	75		syscall 14, __PointOutArgs
+8	6679	78		release __PointOutMutex
+8	7670	79	#line 7670 "NXCDefs.h"
+8	6678	79	#line 6678 "NXCDefs.h"
+8	107	79	#line 107 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	107	79	#line 107 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	108	79		set __signed_stack_001push, 0
+8	107	82	#line 107 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	107	82	#line 107 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	108	82		set __signed_stack_002push, 48
+8	107	85	#line 107 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	107	85	#line 107 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	108	85		strcat __strbufpush, __constStr0009
+8	108	89	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	89		acquire __TextOutMutex
+8	108	90	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	90		mov __TextOutArgs.Location.X, __signed_stack_001push
+8	108	92	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	92		mov __TextOutArgs.Location.Y, __signed_stack_002push
+8	108	94	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	94		set __TextOutArgs.Options, 0
+8	108	97	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	97		mov __TextOutArgs.Text, __strbufpush
+8	108	99	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	99		syscall 13, __TextOutArgs
+8	108	102	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	102		mov __D0push, __TextOutArgs.Result
+8	108	104	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	104		release __TextOutMutex
+8	108	105	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	108	105	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	105		set __signed_stack_001push, 40
+8	108	108	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	108	108	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	108		set __signed_stack_002push, 40
+8	108	111	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	108	111	#line 108 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	111	#pragma macro 26
+8	109	111		acquire __RLSBmutex3
+8	109	112		mov __RLSReadBuf3, __RLSBbufLSWrite1
+8	109	114		set __RLSBytesCount3, 1
+8	109	117		wait 15
+8	109	119		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+8	109	121		index __D0push, __RLSReadBuf3, 65535
+8	109	125		release __RLSBmutex3
+8	7715	126	#line 7715 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	126	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	126		acquire __TextOutMutex
+8	109	127	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	127		mov __TextOutArgs.Location.X, __signed_stack_001push
+8	109	129	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	129		mov __TextOutArgs.Location.Y, __signed_stack_002push
+8	109	131	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	131		set __TextOutArgs.Options, 0
+8	109	134	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	134		numtostr __TextOutArgs.Text, __D0push
+8	109	137	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	137		syscall 13, __TextOutArgs
+8	109	140	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	140		mov __D0push, __TextOutArgs.Result
+8	109	142	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	142		release __TextOutMutex
+8	109	143	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	109	143	#line 109 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	143	#line 110 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	111	143		subcall drive, __drive_return
+8	110	145	#line 110 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	110	145	#line 110 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	111	145		set __Wait_7qG2_ms_7qG2_000_inline_push, 3
+8	110	148	#line 110 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	8551	148	#line 8551 "NXCDefs.h"
+8	8552	148		waitv __Wait_7qG2_ms_7qG2_000_inline_push
+8	8551	150	#line 8551 "NXCDefs.h"
+8	111	150	#line 111 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	111	150	#line 111 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	112	150	#pragma macro 26
+8	112	150		acquire __RLSBmutex3
+8	112	151		mov __RLSReadBuf3, __RLSBbufLSWrite1
+8	112	153		set __RLSBytesCount3, 1
+8	112	156		wait 15
+8	112	158		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+8	112	160		index __D0push, __RLSReadBuf3, 65535
+8	112	164		release __RLSBmutex3
+8	7750	165	#line 7750 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	111	165	#line 111 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	112	165		mov __signed_stack_001push, __D0push
+8	112	167	#line 112 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	113	167		set __D0push, 25
+8	112	170	#line 112 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	113	170		cmp 0, __D0push, __signed_stack_001push, __D0push
+8	113	174	#line 113 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	114	174		brtst 4, __ASM_Label_694, __D0push
+8	114	177	#line 114 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	115	177		set no_obstacle, 0
+8	114	180	#line 114 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	114	180	#line 114 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	116	180	#line 116 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	116	180	#line 116 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	117	180		jmp __ASM_Label_676
+8	116	182	#line 116 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	116	182	#line 116 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	117	182	#pragma macro 26
+8	117	182		acquire __RLSBmutex3
+8	117	183		mov __RLSReadBuf3, __RLSBbufLSWrite1
+8	117	185		set __RLSBytesCount3, 1
+8	117	188		wait 15
+8	117	190		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+8	117	192		index __D0push, __RLSReadBuf3, 65535
+8	117	196		release __RLSBmutex3
+8	7776	197	#line 7776 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	116	197	#line 116 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	117	197		mov __signed_stack_001push, __D0push
+8	117	199	#line 117 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	118	199		set __D0push, 30
+8	117	202	#line 117 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	118	202		cmp 0, __D0push, __signed_stack_001push, __D0push
+8	118	206	#line 118 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	119	206		brtst 4, __ASM_Label_698, __D0push
+8	6678	209	#line 6678 "NXCDefs.h"
+8	6679	209	#pragma macro 6
+8	6679	209		acquire __PointOutMutex
+8	6679	210		mov __PointOutArgs.Location.X, __constVal200
+8	6679	212		mov __PointOutArgs.Location.Y, __constVal200
+8	6679	214		mov __PointOutArgs.Options, __constVal1
+8	6679	216		syscall 14, __PointOutArgs
+8	6679	219		release __PointOutMutex
+8	7790	220	#line 7790 "NXCDefs.h"
+8	6678	220	#line 6678 "NXCDefs.h"
+8	119	220	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	119	220	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	120	220		set __signed_stack_001push, 0
+8	119	223	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	119	223	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	120	223		set __signed_stack_002push, 48
+8	119	226	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	119	226	#line 119 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	120	226		strcat __strbufpush, __constStr0010
+8	120	230	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	230		acquire __TextOutMutex
+8	120	231	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	231		mov __TextOutArgs.Location.X, __signed_stack_001push
+8	120	233	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	233		mov __TextOutArgs.Location.Y, __signed_stack_002push
+8	120	235	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	235		set __TextOutArgs.Options, 0
+8	120	238	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	238		mov __TextOutArgs.Text, __strbufpush
+8	120	240	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	240		syscall 13, __TextOutArgs
+8	120	243	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	243		mov __D0push, __TextOutArgs.Result
+8	120	245	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	245		release __TextOutMutex
+8	120	246	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	120	246	#line 120 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	246		set __D0push, 30
+8	121	249	#line 121 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	122	249	#pragma macro 7
+8	122	249		setout __constVal2, 2, __D0push, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7827	272	#line 7827 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	272	#line 121 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	121	272	#line 121 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	122	272		set __D0push, 30
+8	122	275	#line 122 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	123	275	#pragma macro 7
+8	123	275		setout __constVal0, 2, __D0push, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7832	298	#line 7832 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	122	298	#line 122 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	123	298	#line 123 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	124	298		jmp __ASM_Label_697
+8	123	300	#line 123 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	124	300	#line 124 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	125	300	#pragma macro 7
+8	125	300		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7839	323	#line 7839 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	124	323	#line 124 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	127	323	#line 127 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+8	128	323		subret __push_return
+9	131	0	#line 131 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	132	0		set not_black, 1
+9	131	3	#line 131 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	131	3	#line 131 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	6678	3	#line 6678 "NXCDefs.h"
+9	6679	3	#pragma macro 6
+9	6679	3		acquire __PointOutMutex
+9	6679	4		mov __PointOutArgs.Location.X, __constVal200
+9	6679	6		mov __PointOutArgs.Location.Y, __constVal200
+9	6679	8		mov __PointOutArgs.Options, __constVal1
+9	6679	10		syscall 14, __PointOutArgs
+9	6679	13		release __PointOutMutex
+9	7852	14	#line 7852 "NXCDefs.h"
+9	6678	14	#line 6678 "NXCDefs.h"
+9	132	14	#line 132 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	132	14	#line 132 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	133	14		set __signed_stack_001goback, 0
+9	132	17	#line 132 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	132	17	#line 132 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	133	17		set __signed_stack_002goback, 48
+9	132	20	#line 132 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	132	20	#line 132 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	133	20		strcat __strbufgoback, __constStr0011
+9	133	24	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	24		acquire __TextOutMutex
+9	133	25	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	25		mov __TextOutArgs.Location.X, __signed_stack_001goback
+9	133	27	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	27		mov __TextOutArgs.Location.Y, __signed_stack_002goback
+9	133	29	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	29		set __TextOutArgs.Options, 0
+9	133	32	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	32		mov __TextOutArgs.Text, __strbufgoback
+9	133	34	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	34		syscall 13, __TextOutArgs
+9	133	37	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	37		mov __D0goback, __TextOutArgs.Result
+9	133	39	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	39		release __TextOutMutex
+9	133	40	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	133	40	#line 133 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	40		set __D0goback, 40
+9	134	43	#line 134 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	135	43	#pragma macro 10
+9	135	43		acquire __OnRevMutex
+9	135	44		neg __OnRev_Tmp, __D0goback
+9	135	47		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	135	70		release __OnRevMutex
+9	7889	71	#line 7889 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	71	#line 134 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	134	71	#line 134 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	135	71		set __D0goback, 40
+9	135	74	#line 135 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	136	74	#pragma macro 10
+9	136	74		acquire __OnRevMutex
+9	136	75		neg __OnRev_Tmp, __D0goback
+9	136	78		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	136	101		release __OnRevMutex
+9	7894	102	#line 7894 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	135	102	#line 135 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	135	102	#line 135 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	136	102		set __Wait_7qG2_ms_7qG2_000_inline_goback, 500
+9	135	105	#line 135 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	8551	105	#line 8551 "NXCDefs.h"
+9	8552	105		waitv __Wait_7qG2_ms_7qG2_000_inline_goback
+9	8551	107	#line 8551 "NXCDefs.h"
+9	136	107	#line 136 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	137	107	#line 137 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	138	107		subcall turn_right, __turn_right_return
+9	137	109	#line 137 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	138	109	#line 138 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	139	109		subcall turn_right, __turn_right_return
+9	138	111	#line 138 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	139	111	#line 139 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	140	111		mov __DU0goback, not_black
+9	140	113	#line 140 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	141	113		tst 5, __D0goback, __DU0goback
+9	140	116	#line 140 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	141	116		brtst 4, __ASM_Label_722, __D0goback
+9	140	119	#line 140 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	141	119		getin __signed_stack_001goback, __constVal0, 4
+9	140	123	#line 140 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	141	123	#line 141 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	142	123		set __D0goback, 40
+9	141	126	#line 141 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	142	126		cmp 0, __D0goback, __signed_stack_001goback, __D0goback
+9	142	130	#line 142 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	143	130		brtst 4, __ASM_Label_727, __D0goback
+9	143	133	#line 143 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	144	133		set not_black, 0
+9	143	136	#line 143 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	143	136	#line 143 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	144	136	#line 144 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	145	136	#line 145 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	146	136		subcall drive, __drive_return
+9	145	138	#line 145 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	145	138	#line 145 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	146	138		set __Wait_7qG2_ms_7qG2_000_inline_goback, 3
+9	145	141	#line 145 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	8551	141	#line 8551 "NXCDefs.h"
+9	8552	141		waitv __Wait_7qG2_ms_7qG2_000_inline_goback
+9	8551	143	#line 8551 "NXCDefs.h"
+9	146	143	#line 146 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	147	143	#line 147 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	148	143		jmp __ASM_Label_721
+9	147	145	#line 147 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	148	145	#line 148 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	149	145		subcall turn_right, __turn_right_return
+9	148	147	#line 148 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	150	147	#line 150 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+9	151	147		subret __goback_return
+10	153	0	#line 153 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+10	154	0		mov __signed_stack_001drop, __constValNeg20
+10	153	2	#line 153 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+10	153	2	#line 153 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+10	154	2		set __D0drop, 180
+10	154	5	#line 154 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+10	155	5	#pragma macro 33
+10	155	5		arrbuild __rotate_ports1, __constVal1
+10	155	9		mov __rotate_power1, __signed_stack_001drop
+10	155	11		mov __rotate_angle1, __D0drop
+10	155	13		mov __rotate_turnpct1, __constVal0
+10	155	15		mov __rotate_sync1, __constVal0
+10	155	17		mov __rotate_stop1, __constVal1
+10	155	19		mov __rotate_theRVP1, __constVal32
+10	155	21		mov __rotate_theRVI1, __constVal0
+10	155	23		mov __rotate_theRVD1, __constVal96
+10	155	25		subcall __RotateMotor1, ____RotateMotor1_return
+10	7975	27	#line 7975 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+10	154	27	#line 154 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+10	158	27	#line 158 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+10	159	27		subret __drop_return
+11	220	0	#line 220 "C:\Users\Marion\AppData\Local\Temp\temp.nxc"
+11	221	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Marion\AppData\Local\Temp\temp.nxc
-1	__ResetSensorSubroutine	198	NXTDefs.h
-2	drive	211	C:\Users\Marion\AppData\Local\Temp\temp.nxc
-3	__initialize_global_data	391	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+1	__RotateMotor1	760	NXTDefs.h
+2	__ResetSensorSubroutine	914	NXTDefs.h
+3	__ReadLSBytes3	927	NXTDefs.h
+4	drive	1012	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+5	turn_right	1191	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+6	catch_obstacle	1255	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+7	barcode	1329	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+8	push	1381	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+9	goback	1706	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+10	drop	1855	C:\Users\Marion\AppData\Local\Temp\temp.nxc
+11	__initialize_global_data	1884	C:\Users\Marion\AppData\Local\Temp\temp.nxc
