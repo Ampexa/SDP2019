@@ -59,9 +59,9 @@ void drive()
 void turn_right()
 /* turn 90 degrees right*/
 {
-  OnRev(motor_right, 35);
-  OnFwd(motor_left, 35);
-  Wait(1000);
+  OnRev(motor_right, 25);
+  OnFwd(motor_left, 20);
+  Wait(1200);
 }
 
 
@@ -88,7 +88,7 @@ void barcode()
 {
   while (not_black)
   {
-    if (sensor_outer < 40 && sensor_right > 40)
+    if (sensor_outer < 40 && sensor_right > 40y)
     {
       not_black = FALSE;
     }
@@ -117,18 +117,17 @@ void push()
     NumOut(40, LCD_LINE3, SensorUS(IN_4));
     drive();
     Wait(3);
-    if (SensorUS(IN_4) < 15)
+    if (SensorUS(IN_4) < 25)
     {
       no_obstacle = FALSE;
     }
   }
-  while (SensorUS(IN_4) < 20)
+  while (SensorUS(IN_4) < 30)
   {
    ClearScreen();
    TextOut(0, LCD_LINE2, "push!");
-   NumOut(40, LCD_LINE3, SensorUS(IN_4));
-   OnFwd(motor_right, 40);
-   OnFwd(motor_left, 40);
+   OnFwd(motor_right, 30);
+   OnFwd(motor_left, 30);
   }
   Off(OUT_AC);
 }
@@ -200,12 +199,12 @@ task main()
   ClearScreen();
   TextOut(0, LCD_LINE2, "Obstacle");
   NumOut(40, LCD_LINE3, SensorUS(IN_4));
-  catch_obstacle(18);
+  catch_obstacle(15);
   ClearScreen();
   NumOut(40, LCD_LINE3, SensorUS(IN_4));
   Off(OUT_AC);
   Wait(5000);
-  RotateMotor(motor_arm, 20, 90);
+  //RotateMotor(motor_arm, 20, 90);
   
   // drive until you reach barcode
   ClearScreen();

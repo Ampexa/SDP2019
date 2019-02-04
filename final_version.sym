@@ -1,0 +1,1782 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0push	6	1	0	4	30
+1	__DU0push	5	1	4	4	2
+2	__D0main	6	1	8	4	32
+3	__DU0goback	5	1	12	4	2
+4	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	16	4	4
+5	__D0SetSensorLowspeed_inline_main	6	1	20	4	2
+6	__DU0SetSensorLowspeed_inline_main	5	1	24	4	5
+7	__DU0SetSensorLight_inline_main	5	1	28	4	15
+8	__D0turn_right	6	1	32	4	4
+9	__D0SetSensorLight_inline_main	6	1	36	4	6
+10	__D0barcode	6	1	40	4	14
+11	__DU0barcode	5	1	44	4	2
+12	__RLSBmutex3	9	0	48	4	26
+13	__TextOutMutex	9	0	52	4	38
+14	__PointOutMutex	9	0	56	4	24
+15	__D0drop	6	1	60	4	2
+16	__D0goback	6	1	64	4	15
+17	__D0drive	6	1	68	4	34
+18	__D0catch_obstacle	6	1	72	4	8
+19	__DU0catch_obstacle	5	1	76	4	2
+20	__constValf1P5	10	0	80	4	2
+21	__Wait_7qG2_ms_7qG2_000_inline_drive	5	1	84	4	2
+22	kp2	10	0	88	4	1
+23	__signed_stack_002push	6	1	92	4	8
+24	kp	10	0	96	4	1
+25	__Wait_7qG2_ms_7qG2_000_inline_push	5	1	100	4	4
+26	__Wait_7qG2_ms_7qG2_000_inline_goback	5	1	104	4	6
+27	__Wait_7qG2_ms_7qG2_000_inline_barcode	5	1	108	4	4
+28	__Wait_7qG2_ms_7qG2_000_inline_turn_right	5	1	112	4	2
+29	__Wait_7qG2_ms_7qG2_000_inline_catch_obstacle	5	1	116	4	2
+30	__float_stack_001drive	10	1	120	4	4
+31	__signed_stack_001drop	6	1	124	4	2
+32	__signed_stack_001drive	6	1	128	4	22
+33	__signed_stack_001barcode	6	1	132	4	4
+34	__signed_stack_001catch_obstacle	6	1	136	4	2
+35	__signed_stack_002main	6	1	140	4	28
+36	__signed_stack_001push	6	1	144	4	12
+37	__signed_stack_001main	6	1	148	4	30
+38	__signed_stack_001goback	6	1	152	4	4
+39	__signed_stack_002goback	6	1	156	4	2
+40	__CLSCSMutex3	9	0	160	4	2
+41	__OnRevMutex	9	0	164	4	6
+42	__CLSWMutex3	9	0	168	4	2
+43	__rotate_theAngle1	5	1	172	4	2
+44	__CLSRMutex3	9	0	176	4	2
+45	__rotateMutex1	9	0	180	4	4
+46	__rotate_angle1	6	1	184	4	6
+47	__rotate_RotCount1	4	1	188	2	4
+48	__rotate_OldRotCount1	4	1	190	2	2
+49	__constVal200	4	0	192	2	24
+50	__catch_obstacle_7qG2_distance_7qG2_000	4	1	194	2	4
+51	power_right	4	1	196	2	4
+52	error	4	1	198	2	7
+53	power_left	4	1	200	2	4
+54	power	4	0	202	2	4
+55	power_low	4	0	204	2	2
+56	turn	4	1	206	2	6
+57	not_black	1	0	208	1	5
+58	__drive_return	1	1	209	1	6
+59	no_obstacle	1	0	210	1	6
+60	__turn_right_return	1	1	211	1	8
+61	__constVal63	2	0	212	1	17
+62	__rotate_sync1	1	1	213	1	3
+63	__rotate_firstPort1	1	1	214	1	5
+64	__constValNeg3	2	0	215	1	1
+65	__constVal96	2	0	216	1	19
+66	__constValNeg5	2	0	217	1	1
+67	__rotate_power1	1	1	218	1	5
+68	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	219	1	6
+69	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	220	1	6
+70	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	221	1	6
+71	____initialize_global_data_return	1	1	222	1	3
+72	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	223	1	15
+73	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	224	1	4
+74	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	225	1	2
+75	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	226	1	3
+76	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	227	1	6
+77	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	228	1	6
+78	__OnRev_Tmp	2	1	229	1	6
+79	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	230	1	2
+80	__push_return	1	1	231	1	3
+81	__catch_obstacle_return	1	1	232	1	5
+82	__barcode_return	1	1	233	1	3
+83	__drop_return	1	1	234	1	3
+84	__constValNeg20	2	0	235	1	1
+85	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	236	1	2
+86	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	237	1	2
+87	__goback_return	1	1	238	1	3
+88	__ResetSensorPort	1	1	239	1	6
+89	__constVal3	2	0	240	1	18
+90	____ResetSensorSubroutine_return	1	1	241	1	6
+91	__ResetSensorTmp	1	1	242	1	2
+92	__constVal50	2	0	243	1	1
+93	__constVal0	2	1	244	1	73
+94	____RotateMotor1_sign_tmp	2	1	245	1	4
+95	____RotateMotor1_return	1	1	246	1	4
+96	____ReadLSBytes3_return	1	1	247	1	15
+97	__RLSBResult3	2	1	248	1	7
+98	__LSWriteOptions3	1	1	249	1	1
+99	__constVal2	2	0	250	1	8
+100	__PFTmp	1	1	251	1	1
+101	__constVal15	2	0	252	1	26
+102	__RLSBytesCount3	1	1	253	1	19
+103	__RLSBIterations3	1	1	254	1	4
+104	__rotate_theRS1	1	1	255	1	3
+105	__rotate_theRM1	1	1	256	1	4
+106	__rotate_theRVI1	1	1	257	1	3
+107	__rotate_theRVP1	1	1	258	1	3
+108	__rotate_turnpct1	2	1	259	1	4
+109	__rotate_stop1	1	1	260	1	3
+110	__rotate_theOM1	1	1	261	1	7
+111	__rotate_theUF1	1	1	262	1	6
+112	__rotate_theRVD1	1	1	263	1	3
+113	__constVal32	2	0	264	1	56
+114	__rotate_theTurnPct1	2	1	265	1	4
+115	__constVal1	2	0	266	1	27
+116	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	267	1	2
+117	__rotate_thePower1	2	1	268	1	4
+118	__rotate_rs1	1	1	269	1	2
+119	__CLSRArgs3	8	0	4	12	5
+120	__CLSRArgs3.Result	2	1	272	1	5
+121	__CLSRArgs3.Port	1	1	273	1	5
+122	__CLSRArgs3.Buffer	7	0	274	4	5
+123	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+124	__CLSRArgs3.BufferLen	1	1	276	1	5
+125	__CLSCSArgs3	8	0	3	4	4
+126	__CLSCSArgs3.Result	2	1	280	1	4
+127	__CLSCSArgs3.Port	1	1	281	1	4
+128	__CLSCSArgs3.BytesReady	1	1	282	1	4
+129	__TextOutArgs	8	0	4	16	114
+130	__TextOutArgs.Result	2	1	284	1	114
+131	__TextOutArgs.Location	8	0	2	4	114
+132	__TextOutArgs.Location.X	4	1	288	2	114
+133	__TextOutArgs.Location.Y	4	1	290	2	114
+134	__TextOutArgs.Text	7	0	292	4	114
+135	__TextOutArgs.Text.Text_type	1	0	0	1	0
+136	__TextOutArgs.Options	5	1	296	4	114
+137	__PointOutArgs	8	0	3	12	48
+138	__PointOutArgs.Result	2	1	300	1	48
+139	__PointOutArgs.Location	8	0	2	4	48
+140	__PointOutArgs.Location.X	4	1	304	2	48
+141	__PointOutArgs.Location.Y	4	1	306	2	48
+142	__PointOutArgs.Options	5	1	308	4	48
+143	__CLSWArgs3	8	0	4	12	5
+144	__CLSWArgs3.Result	2	1	312	1	5
+145	__CLSWArgs3.Port	1	1	313	1	5
+146	__CLSWArgs3.Buffer	7	0	314	4	5
+147	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+148	__CLSWArgs3.ReturnLen	1	1	316	1	5
+149	__constStr0016	7	0	318	4	1
+150	__constStr0016.__constStr0016_type	1	1	0	1	0
+151	__constStr0013	7	0	320	4	1
+152	__constStr0013.__constStr0013_type	1	1	0	1	0
+153	__constStr0017	7	0	322	4	1
+154	__constStr0017.__constStr0017_type	1	1	0	1	0
+155	__constStr0012	7	0	324	4	1
+156	__constStr0012.__constStr0012_type	1	1	0	1	0
+157	__constStr0015	7	0	326	4	1
+158	__constStr0015.__constStr0015_type	1	1	0	1	0
+159	__constStr0014	7	0	328	4	1
+160	__constStr0014.__constStr0014_type	1	1	0	1	0
+161	__RLSLastGoodRead3	7	0	330	4	2
+162	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+163	__RLSReadBuf3	7	0	332	4	32
+164	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+165	__RLSBbufLSWrite1	7	0	334	4	13
+166	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+167	__OUT_AC	7	0	336	4	3
+168	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+169	__rotate_ports1	7	0	338	4	7
+170	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+171	__strbufgoback	7	0	340	4	2
+172	__strbufgoback.__strbufgoback_type	1	0	0	1	0
+173	__constStr0010	7	0	342	4	1
+174	__constStr0010.__constStr0010_type	1	1	0	1	0
+175	__constStr0011	7	0	344	4	1
+176	__constStr0011.__constStr0011_type	1	1	0	1	0
+177	__constStr0009	7	0	346	4	1
+178	__constStr0009.__constStr0009_type	1	1	0	1	0
+179	__strbufmain	7	0	348	4	12
+180	__strbufmain.__strbufmain_type	1	0	0	1	0
+181	__strbufpush	7	0	350	4	4
+182	__strbufpush.__strbufpush_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	172	0	#line 172 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	173	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	172	2	#line 172 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	172	2	#line 172 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	173	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	172	5	#line 172 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	173	5	#line 173 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	174	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	7	#line 4313 "NXCDefs.h"
+0	4314	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	9	#line 4313 "NXCDefs.h"
+0	4313	9	#line 4313 "NXCDefs.h"
+0	4314	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	11	#line 4313 "NXCDefs.h"
+0	4314	11		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	14	#line 4313 "NXCDefs.h"
+0	4314	14		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	17	#line 4313 "NXCDefs.h"
+0	4314	17		set __DU0SetSensorLight_inline_main, 5
+0	4313	20	#line 4313 "NXCDefs.h"
+0	4313	20	#line 4313 "NXCDefs.h"
+0	4314	20		jmp __001__ASM_Label_5
+0	4313	22	#line 4313 "NXCDefs.h"
+0	4314	22		set __DU0SetSensorLight_inline_main, 6
+0	4313	25	#line 4313 "NXCDefs.h"
+0	4313	25	#line 4313 "NXCDefs.h"
+0	4314	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4314	31	#line 4314 "NXCDefs.h"
+0	4314	31	#line 4314 "NXCDefs.h"
+0	4315	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	33	#line 4314 "NXCDefs.h"
+0	4314	33	#line 4314 "NXCDefs.h"
+0	4315	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	36	#line 4314 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4315	40	#line 4315 "NXCDefs.h"
+0	4315	40	#line 4315 "NXCDefs.h"
+0	4316	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	42	#line 4315 "NXCDefs.h"
+0	4278	42	#line 4278 "NXCDefs.h"
+0	4279	42	#pragma macro 4
+0	4279	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5223	46	#line 5223 "NXCDefs.h"
+0	4278	46	#line 4278 "NXCDefs.h"
+0	4316	46	#line 4316 "NXCDefs.h"
+0	173	46	#line 173 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	173	46	#line 173 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	174	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	173	49	#line 173 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	174	49	#line 174 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	175	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	51	#line 4313 "NXCDefs.h"
+0	4314	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	53	#line 4313 "NXCDefs.h"
+0	4313	53	#line 4313 "NXCDefs.h"
+0	4314	53		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	55	#line 4313 "NXCDefs.h"
+0	4314	55		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	58	#line 4313 "NXCDefs.h"
+0	4314	58		brtst 4, __002__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	61	#line 4313 "NXCDefs.h"
+0	4314	61		set __DU0SetSensorLight_inline_main, 5
+0	4313	64	#line 4313 "NXCDefs.h"
+0	4313	64	#line 4313 "NXCDefs.h"
+0	4314	64		jmp __002__ASM_Label_5
+0	4313	66	#line 4313 "NXCDefs.h"
+0	4314	66		set __DU0SetSensorLight_inline_main, 6
+0	4313	69	#line 4313 "NXCDefs.h"
+0	4313	69	#line 4313 "NXCDefs.h"
+0	4314	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	71	#line 4247 "NXCDefs.h"
+0	4248	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	75	#line 4247 "NXCDefs.h"
+0	4314	75	#line 4314 "NXCDefs.h"
+0	4314	75	#line 4314 "NXCDefs.h"
+0	4315	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	77	#line 4314 "NXCDefs.h"
+0	4314	77	#line 4314 "NXCDefs.h"
+0	4315	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	80	#line 4314 "NXCDefs.h"
+0	4260	80	#line 4260 "NXCDefs.h"
+0	4261	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	84	#line 4260 "NXCDefs.h"
+0	4315	84	#line 4315 "NXCDefs.h"
+0	4315	84	#line 4315 "NXCDefs.h"
+0	4316	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	86	#line 4315 "NXCDefs.h"
+0	4278	86	#line 4278 "NXCDefs.h"
+0	4279	86	#pragma macro 4
+0	4279	86		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5286	90	#line 5286 "NXCDefs.h"
+0	4278	90	#line 4278 "NXCDefs.h"
+0	4316	90	#line 4316 "NXCDefs.h"
+0	174	90	#line 174 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	174	90	#line 174 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	175	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	174	93	#line 174 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	175	93	#line 175 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	176	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	95	#line 4313 "NXCDefs.h"
+0	4314	95		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	97	#line 4313 "NXCDefs.h"
+0	4313	97	#line 4313 "NXCDefs.h"
+0	4314	97		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	99	#line 4313 "NXCDefs.h"
+0	4314	99		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	102	#line 4313 "NXCDefs.h"
+0	4314	102		brtst 4, __003__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	105	#line 4313 "NXCDefs.h"
+0	4314	105		set __DU0SetSensorLight_inline_main, 5
+0	4313	108	#line 4313 "NXCDefs.h"
+0	4313	108	#line 4313 "NXCDefs.h"
+0	4314	108		jmp __003__ASM_Label_5
+0	4313	110	#line 4313 "NXCDefs.h"
+0	4314	110		set __DU0SetSensorLight_inline_main, 6
+0	4313	113	#line 4313 "NXCDefs.h"
+0	4313	113	#line 4313 "NXCDefs.h"
+0	4314	113		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	115	#line 4247 "NXCDefs.h"
+0	4248	115		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	119	#line 4247 "NXCDefs.h"
+0	4314	119	#line 4314 "NXCDefs.h"
+0	4314	119	#line 4314 "NXCDefs.h"
+0	4315	119		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	121	#line 4314 "NXCDefs.h"
+0	4314	121	#line 4314 "NXCDefs.h"
+0	4315	121		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	124	#line 4314 "NXCDefs.h"
+0	4260	124	#line 4260 "NXCDefs.h"
+0	4261	124		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	128	#line 4260 "NXCDefs.h"
+0	4315	128	#line 4315 "NXCDefs.h"
+0	4315	128	#line 4315 "NXCDefs.h"
+0	4316	128		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	130	#line 4315 "NXCDefs.h"
+0	4278	130	#line 4278 "NXCDefs.h"
+0	4279	130	#pragma macro 4
+0	4279	130		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	132		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5349	134	#line 5349 "NXCDefs.h"
+0	4278	134	#line 4278 "NXCDefs.h"
+0	4316	134	#line 4316 "NXCDefs.h"
+0	175	134	#line 175 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	175	134	#line 175 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	176	134		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	175	137	#line 175 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	178	137	#line 178 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	179	137		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	139	#line 4342 "NXCDefs.h"
+0	4343	139		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	141	#line 4342 "NXCDefs.h"
+0	4342	141	#line 4342 "NXCDefs.h"
+0	4343	141		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	143	#line 4342 "NXCDefs.h"
+0	4343	143		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	146	#line 4342 "NXCDefs.h"
+0	4343	146		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	149	#line 4342 "NXCDefs.h"
+0	4343	149		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	152	#line 4342 "NXCDefs.h"
+0	4342	152	#line 4342 "NXCDefs.h"
+0	4343	152		jmp __004__ASM_Label_37
+0	4342	154	#line 4342 "NXCDefs.h"
+0	4343	154		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	157	#line 4342 "NXCDefs.h"
+0	4342	157	#line 4342 "NXCDefs.h"
+0	4343	157		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	159	#line 4247 "NXCDefs.h"
+0	4248	159		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	163	#line 4247 "NXCDefs.h"
+0	4343	163	#line 4343 "NXCDefs.h"
+0	4343	163	#line 4343 "NXCDefs.h"
+0	4344	163		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	165	#line 4343 "NXCDefs.h"
+0	4343	165	#line 4343 "NXCDefs.h"
+0	4344	165		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	168	#line 4343 "NXCDefs.h"
+0	4260	168	#line 4260 "NXCDefs.h"
+0	4261	168		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	172	#line 4260 "NXCDefs.h"
+0	4344	172	#line 4344 "NXCDefs.h"
+0	4344	172	#line 4344 "NXCDefs.h"
+0	4344	172	#line 4344 "NXCDefs.h"
+0	4278	172	#line 4278 "NXCDefs.h"
+0	4279	172	#pragma macro 4
+0	4279	172		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	174		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5440	176	#line 5440 "NXCDefs.h"
+0	4278	176	#line 4278 "NXCDefs.h"
+0	4345	176	#line 4345 "NXCDefs.h"
+0	178	176	#line 178 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	6678	176	#line 6678 "NXCDefs.h"
+0	6679	176	#pragma macro 6
+0	6679	176		acquire __PointOutMutex
+0	6679	177		mov __PointOutArgs.Location.X, __constVal200
+0	6679	179		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	181		mov __PointOutArgs.Options, __constVal1
+0	6679	183		syscall 14, __PointOutArgs
+0	6679	186		release __PointOutMutex
+0	5445	187	#line 5445 "NXCDefs.h"
+0	6678	187	#line 6678 "NXCDefs.h"
+0	179	187	#line 179 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	179	187	#line 179 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	180	187		set __signed_stack_001main, 0
+0	179	190	#line 179 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	179	190	#line 179 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	180	190		set __signed_stack_002main, 48
+0	179	193	#line 179 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	179	193	#line 179 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	180	193		strcat __strbufmain, __constStr0012
+0	180	197	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	197		acquire __TextOutMutex
+0	180	198	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	198		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	180	200	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	200		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	180	202	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	202		set __TextOutArgs.Options, 0
+0	180	205	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	205		mov __TextOutArgs.Text, __strbufmain
+0	180	207	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	207		syscall 13, __TextOutArgs
+0	180	210	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	210		mov __D0main, __TextOutArgs.Result
+0	180	212	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	212		release __TextOutMutex
+0	180	213	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	180	213	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	213		set __signed_stack_001main, 40
+0	180	216	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	180	216	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	216		set __signed_stack_002main, 40
+0	180	219	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	180	219	#line 180 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	219	#pragma macro 26
+0	181	219		acquire __RLSBmutex3
+0	181	220		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	181	222		set __RLSBytesCount3, 1
+0	181	225		wait2 NA, __constVal15
+0	181	228		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	181	230		index __D0main, __RLSReadBuf3, 65535
+0	181	234		release __RLSBmutex3
+0	5490	235	#line 5490 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	235	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	182	235		acquire __TextOutMutex
+0	181	236	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	182	236		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	181	238	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	182	238		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	181	240	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	182	240		set __TextOutArgs.Options, 0
+0	181	243	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	182	243		numtostr __TextOutArgs.Text, __D0main
+0	181	246	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	182	246		syscall 13, __TextOutArgs
+0	181	249	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	182	249		mov __D0main, __TextOutArgs.Result
+0	181	251	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	182	251		release __TextOutMutex
+0	181	252	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	252	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	181	252	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	182	252		set __Wait_7qG2_ms_7qG2_000_inline_main, 3000
+0	181	255	#line 181 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	8551	255	#line 8551 "NXCDefs.h"
+0	8552	255		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	258	#line 8551 "NXCDefs.h"
+0	184	258	#line 184 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	6678	258	#line 6678 "NXCDefs.h"
+0	6679	258	#pragma macro 6
+0	6679	258		acquire __PointOutMutex
+0	6679	259		mov __PointOutArgs.Location.X, __constVal200
+0	6679	261		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	263		mov __PointOutArgs.Options, __constVal1
+0	6679	265		syscall 14, __PointOutArgs
+0	6679	268		release __PointOutMutex
+0	5526	269	#line 5526 "NXCDefs.h"
+0	6678	269	#line 6678 "NXCDefs.h"
+0	185	269	#line 185 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	185	269	#line 185 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	186	269		set __signed_stack_001main, 0
+0	185	272	#line 185 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	185	272	#line 185 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	186	272		set __signed_stack_002main, 48
+0	185	275	#line 185 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	185	275	#line 185 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	186	275		strcat __strbufmain, __constStr0013
+0	186	279	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	279		acquire __TextOutMutex
+0	186	280	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	280		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	186	282	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	282		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	186	284	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	284		set __TextOutArgs.Options, 0
+0	186	287	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	287		mov __TextOutArgs.Text, __strbufmain
+0	186	289	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	289		syscall 13, __TextOutArgs
+0	186	292	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	292		mov __D0main, __TextOutArgs.Result
+0	186	294	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	294		release __TextOutMutex
+0	186	295	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	186	295	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	295		set __signed_stack_001main, 40
+0	186	298	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	186	298	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	298		set __signed_stack_002main, 40
+0	186	301	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	186	301	#line 186 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	301	#pragma macro 26
+0	187	301		acquire __RLSBmutex3
+0	187	302		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	187	304		set __RLSBytesCount3, 1
+0	187	307		wait2 NA, __constVal15
+0	187	310		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	187	312		index __D0main, __RLSReadBuf3, 65535
+0	187	316		release __RLSBmutex3
+0	5571	317	#line 5571 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	317	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	317		acquire __TextOutMutex
+0	187	318	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	318		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	187	320	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	320		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	187	322	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	322		set __TextOutArgs.Options, 0
+0	187	325	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	325		numtostr __TextOutArgs.Text, __D0main
+0	187	328	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	328		syscall 13, __TextOutArgs
+0	187	331	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	331		mov __D0main, __TextOutArgs.Result
+0	187	333	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	333		release __TextOutMutex
+0	187	334	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	334	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	187	334	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	334		set __catch_obstacle_7qG2_distance_7qG2_000, 25
+0	187	337	#line 187 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	188	337	#line 188 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	189	337		subcall catch_obstacle, __catch_obstacle_return
+0	188	339	#line 188 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	6678	339	#line 6678 "NXCDefs.h"
+0	6679	339	#pragma macro 6
+0	6679	339		acquire __PointOutMutex
+0	6679	340		mov __PointOutArgs.Location.X, __constVal200
+0	6679	342		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	344		mov __PointOutArgs.Options, __constVal1
+0	6679	346		syscall 14, __PointOutArgs
+0	6679	349		release __PointOutMutex
+0	5602	350	#line 5602 "NXCDefs.h"
+0	6678	350	#line 6678 "NXCDefs.h"
+0	189	350	#line 189 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	189	350	#line 189 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	190	350		set __signed_stack_001main, 40
+0	189	353	#line 189 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	189	353	#line 189 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	190	353		set __signed_stack_002main, 40
+0	189	356	#line 189 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	189	356	#line 189 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	190	356	#pragma macro 26
+0	190	356		acquire __RLSBmutex3
+0	190	357		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	190	359		set __RLSBytesCount3, 1
+0	190	362		wait2 NA, __constVal15
+0	190	365		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	190	367		index __D0main, __RLSReadBuf3, 65535
+0	190	371		release __RLSBmutex3
+0	5616	372	#line 5616 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	192	372	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	372		acquire __TextOutMutex
+0	192	373	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	373		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	192	375	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	375		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	192	377	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	377		set __TextOutArgs.Options, 0
+0	192	380	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	380		numtostr __TextOutArgs.Text, __D0main
+0	192	383	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	383		syscall 13, __TextOutArgs
+0	192	386	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	386		mov __D0main, __TextOutArgs.Result
+0	192	388	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	388		release __TextOutMutex
+0	192	389	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	192	389	#line 192 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	6678	389	#line 6678 "NXCDefs.h"
+0	6679	389	#pragma macro 6
+0	6679	389		acquire __PointOutMutex
+0	6679	390		mov __PointOutArgs.Location.X, __constVal200
+0	6679	392		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	394		mov __PointOutArgs.Options, __constVal1
+0	6679	396		syscall 14, __PointOutArgs
+0	6679	399		release __PointOutMutex
+0	5640	400	#line 5640 "NXCDefs.h"
+0	6678	400	#line 6678 "NXCDefs.h"
+0	193	400	#line 193 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	400	#line 193 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	194	400		set __signed_stack_001main, 0
+0	193	403	#line 193 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	403	#line 193 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	194	403		set __signed_stack_002main, 48
+0	193	406	#line 193 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	193	406	#line 193 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	194	406		strcat __strbufmain, __constStr0014
+0	194	410	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	410		acquire __TextOutMutex
+0	194	411	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	411		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	194	413	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	413		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	194	415	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	415		set __TextOutArgs.Options, 0
+0	194	418	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	418		mov __TextOutArgs.Text, __strbufmain
+0	194	420	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	420		syscall 13, __TextOutArgs
+0	194	423	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	423		mov __D0main, __TextOutArgs.Result
+0	194	425	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	425		release __TextOutMutex
+0	194	426	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	194	426	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	426		set __signed_stack_001main, 40
+0	194	429	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	194	429	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	429		set __signed_stack_002main, 40
+0	194	432	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	194	432	#line 194 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	432	#pragma macro 26
+0	195	432		acquire __RLSBmutex3
+0	195	433		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	195	435		set __RLSBytesCount3, 1
+0	195	438		wait2 NA, __constVal15
+0	195	441		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	195	443		index __D0main, __RLSReadBuf3, 65535
+0	195	447		release __RLSBmutex3
+0	5685	448	#line 5685 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	448	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	196	448		acquire __TextOutMutex
+0	195	449	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	196	449		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	195	451	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	196	451		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	195	453	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	196	453		set __TextOutArgs.Options, 0
+0	195	456	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	196	456		numtostr __TextOutArgs.Text, __D0main
+0	195	459	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	196	459		syscall 13, __TextOutArgs
+0	195	462	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	196	462		mov __D0main, __TextOutArgs.Result
+0	195	464	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	196	464		release __TextOutMutex
+0	195	465	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	195	465	#line 195 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	196	465	#line 196 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	197	465		subcall turn_right, __turn_right_return
+0	196	467	#line 196 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	199	467	#line 199 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	200	467		subcall turn_right, __turn_right_return
+0	199	469	#line 199 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	6678	469	#line 6678 "NXCDefs.h"
+0	6679	469	#pragma macro 6
+0	6679	469		acquire __PointOutMutex
+0	6679	470		mov __PointOutArgs.Location.X, __constVal200
+0	6679	472		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	474		mov __PointOutArgs.Options, __constVal1
+0	6679	476		syscall 14, __PointOutArgs
+0	6679	479		release __PointOutMutex
+0	5715	480	#line 5715 "NXCDefs.h"
+0	6678	480	#line 6678 "NXCDefs.h"
+0	200	480	#line 200 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	200	480	#line 200 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	201	480		set __signed_stack_001main, 0
+0	200	483	#line 200 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	200	483	#line 200 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	201	483		set __signed_stack_002main, 48
+0	200	486	#line 200 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	200	486	#line 200 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	201	486		strcat __strbufmain, __constStr0015
+0	201	490	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	490		acquire __TextOutMutex
+0	201	491	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	491		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	201	493	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	493		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	201	495	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	495		set __TextOutArgs.Options, 0
+0	201	498	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	498		mov __TextOutArgs.Text, __strbufmain
+0	201	500	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	500		syscall 13, __TextOutArgs
+0	201	503	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	503		mov __D0main, __TextOutArgs.Result
+0	201	505	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	505		release __TextOutMutex
+0	201	506	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	201	506	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	506		set __signed_stack_001main, 40
+0	201	509	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	201	509	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	509		set __signed_stack_002main, 40
+0	201	512	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	201	512	#line 201 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	512	#pragma macro 26
+0	202	512		acquire __RLSBmutex3
+0	202	513		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	202	515		set __RLSBytesCount3, 1
+0	202	518		wait2 NA, __constVal15
+0	202	521		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	202	523		index __D0main, __RLSReadBuf3, 65535
+0	202	527		release __RLSBmutex3
+0	5760	528	#line 5760 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	528	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	528		acquire __TextOutMutex
+0	202	529	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	529		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	202	531	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	531		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	202	533	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	533		set __TextOutArgs.Options, 0
+0	202	536	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	536		numtostr __TextOutArgs.Text, __D0main
+0	202	539	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	539		syscall 13, __TextOutArgs
+0	202	542	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	542		mov __D0main, __TextOutArgs.Result
+0	202	544	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	544		release __TextOutMutex
+0	202	545	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	545	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	202	545	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	545		set __catch_obstacle_7qG2_distance_7qG2_000, 18
+0	202	548	#line 202 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	203	548	#line 203 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	204	548		subcall catch_obstacle, __catch_obstacle_return
+0	203	550	#line 203 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	6678	550	#line 6678 "NXCDefs.h"
+0	6679	550	#pragma macro 6
+0	6679	550		acquire __PointOutMutex
+0	6679	551		mov __PointOutArgs.Location.X, __constVal200
+0	6679	553		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	555		mov __PointOutArgs.Options, __constVal1
+0	6679	557		syscall 14, __PointOutArgs
+0	6679	560		release __PointOutMutex
+0	5791	561	#line 5791 "NXCDefs.h"
+0	6678	561	#line 6678 "NXCDefs.h"
+0	204	561	#line 204 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	204	561	#line 204 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	205	561		set __signed_stack_001main, 40
+0	204	564	#line 204 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	204	564	#line 204 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	205	564		set __signed_stack_002main, 40
+0	204	567	#line 204 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	204	567	#line 204 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	205	567	#pragma macro 26
+0	205	567		acquire __RLSBmutex3
+0	205	568		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	205	570		set __RLSBytesCount3, 1
+0	205	573		wait2 NA, __constVal15
+0	205	576		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	205	578		index __D0main, __RLSReadBuf3, 65535
+0	205	582		release __RLSBmutex3
+0	5805	583	#line 5805 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	205	583	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	583		acquire __TextOutMutex
+0	205	584	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	584		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	205	586	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	586		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	205	588	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	588		set __TextOutArgs.Options, 0
+0	205	591	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	591		numtostr __TextOutArgs.Text, __D0main
+0	205	594	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	594		syscall 13, __TextOutArgs
+0	205	597	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	597		mov __D0main, __TextOutArgs.Result
+0	205	599	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	599		release __TextOutMutex
+0	205	600	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	205	600	#line 205 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	600	#line 206 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	207	600	#pragma macro 7
+0	207	600		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5829	623	#line 5829 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	623	#line 206 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	206	623	#line 206 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	207	623		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	206	626	#line 206 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	8551	626	#line 8551 "NXCDefs.h"
+0	8552	626		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	629	#line 8551 "NXCDefs.h"
+0	207	629	#line 207 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	207	629	#line 207 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	208	629		set __signed_stack_001main, 20
+0	207	632	#line 207 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	207	632	#line 207 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	208	632		set __D0main, 90
+0	210	635	#line 210 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	211	635	#pragma macro 33
+0	211	635		acquire __rotateMutex1
+0	211	636		arrbuild __rotate_ports1, __constVal1
+0	211	640		mov __rotate_power1, __signed_stack_001main
+0	211	642		mov __rotate_angle1, __D0main
+0	211	644		mov __rotate_turnpct1, __constVal0
+0	211	646		mov __rotate_sync1, __constVal0
+0	211	648		mov __rotate_stop1, __constVal1
+0	211	650		mov __rotate_theRVP1, __constVal32
+0	211	652		mov __rotate_theRVI1, __constVal0
+0	211	654		mov __rotate_theRVD1, __constVal96
+0	211	656		subcall __RotateMotor1, ____RotateMotor1_return
+0	211	658		release __rotateMutex1
+0	5847	659	#line 5847 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	210	659	#line 210 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	6678	659	#line 6678 "NXCDefs.h"
+0	6679	659	#pragma macro 6
+0	6679	659		acquire __PointOutMutex
+0	6679	660		mov __PointOutArgs.Location.X, __constVal200
+0	6679	662		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	664		mov __PointOutArgs.Options, __constVal1
+0	6679	666		syscall 14, __PointOutArgs
+0	6679	669		release __PointOutMutex
+0	5851	670	#line 5851 "NXCDefs.h"
+0	6678	670	#line 6678 "NXCDefs.h"
+0	211	670	#line 211 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	211	670	#line 211 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	212	670		set __signed_stack_001main, 0
+0	211	673	#line 211 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	211	673	#line 211 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	212	673		set __signed_stack_002main, 48
+0	211	676	#line 211 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	211	676	#line 211 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	212	676		strcat __strbufmain, __constStr0016
+0	212	680	#line 212 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	213	680		acquire __TextOutMutex
+0	212	681	#line 212 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	213	681		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	212	683	#line 212 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	213	683		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	212	685	#line 212 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	213	685		set __TextOutArgs.Options, 0
+0	212	688	#line 212 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	213	688		mov __TextOutArgs.Text, __strbufmain
+0	212	690	#line 212 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	213	690		syscall 13, __TextOutArgs
+0	212	693	#line 212 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	213	693		mov __D0main, __TextOutArgs.Result
+0	212	695	#line 212 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	213	695		release __TextOutMutex
+0	212	696	#line 212 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	215	696	#line 215 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	216	696		subcall barcode, __barcode_return
+0	215	698	#line 215 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	218	698	#line 218 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	219	698		subcall push, __push_return
+0	218	700	#line 218 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	221	700	#line 221 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	222	700		subcall goback, __goback_return
+0	221	702	#line 221 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	6678	702	#line 6678 "NXCDefs.h"
+0	6679	702	#pragma macro 6
+0	6679	702		acquire __PointOutMutex
+0	6679	703		mov __PointOutArgs.Location.X, __constVal200
+0	6679	705		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	707		mov __PointOutArgs.Options, __constVal1
+0	6679	709		syscall 14, __PointOutArgs
+0	6679	712		release __PointOutMutex
+0	5895	713	#line 5895 "NXCDefs.h"
+0	6678	713	#line 6678 "NXCDefs.h"
+0	222	713	#line 222 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	222	713	#line 222 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	223	713		set __signed_stack_001main, 0
+0	222	716	#line 222 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	222	716	#line 222 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	223	716		set __signed_stack_002main, 48
+0	222	719	#line 222 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	222	719	#line 222 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	223	719		strcat __strbufmain, __constStr0017
+0	223	723	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	723		acquire __TextOutMutex
+0	223	724	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	724		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	223	726	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	726		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	223	728	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	728		set __TextOutArgs.Options, 0
+0	223	731	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	731		mov __TextOutArgs.Text, __strbufmain
+0	223	733	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	733		syscall 13, __TextOutArgs
+0	223	736	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	736		mov __D0main, __TextOutArgs.Result
+0	223	738	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	738		release __TextOutMutex
+0	223	739	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	223	739	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	739		set __signed_stack_001main, 40
+0	223	742	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	223	742	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	742		set __signed_stack_002main, 40
+0	223	745	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	223	745	#line 223 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	745	#pragma macro 26
+0	224	745		acquire __RLSBmutex3
+0	224	746		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	224	748		set __RLSBytesCount3, 1
+0	224	751		wait2 NA, __constVal15
+0	224	754		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	224	756		index __D0main, __RLSReadBuf3, 65535
+0	224	760		release __RLSBmutex3
+0	5940	761	#line 5940 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	761	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	761		acquire __TextOutMutex
+0	224	762	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	762		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	224	764	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	764		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	224	766	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	766		set __TextOutArgs.Options, 0
+0	224	769	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	769		numtostr __TextOutArgs.Text, __D0main
+0	224	772	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	772		syscall 13, __TextOutArgs
+0	224	775	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	775		mov __D0main, __TextOutArgs.Result
+0	224	777	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	777		release __TextOutMutex
+0	224	778	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	778	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	224	778	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	778		set __catch_obstacle_7qG2_distance_7qG2_000, 15
+0	224	781	#line 224 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	225	781	#line 225 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	226	781		subcall catch_obstacle, __catch_obstacle_return
+0	225	783	#line 225 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	6678	783	#line 6678 "NXCDefs.h"
+0	6679	783	#pragma macro 6
+0	6679	783		acquire __PointOutMutex
+0	6679	784		mov __PointOutArgs.Location.X, __constVal200
+0	6679	786		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	788		mov __PointOutArgs.Options, __constVal1
+0	6679	790		syscall 14, __PointOutArgs
+0	6679	793		release __PointOutMutex
+0	5971	794	#line 5971 "NXCDefs.h"
+0	6678	794	#line 6678 "NXCDefs.h"
+0	226	794	#line 226 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	226	794	#line 226 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	227	794		set __signed_stack_001main, 40
+0	226	797	#line 226 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	226	797	#line 226 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	227	797		set __signed_stack_002main, 40
+0	226	800	#line 226 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	226	800	#line 226 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	227	800	#pragma macro 26
+0	227	800		acquire __RLSBmutex3
+0	227	801		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	227	803		set __RLSBytesCount3, 1
+0	227	806		wait2 NA, __constVal15
+0	227	809		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	227	811		index __D0main, __RLSReadBuf3, 65535
+0	227	815		release __RLSBmutex3
+0	5985	816	#line 5985 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	227	816	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	228	816		acquire __TextOutMutex
+0	227	817	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	228	817		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	227	819	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	228	819		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	227	821	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	228	821		set __TextOutArgs.Options, 0
+0	227	824	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	228	824		numtostr __TextOutArgs.Text, __D0main
+0	227	827	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	228	827		syscall 13, __TextOutArgs
+0	227	830	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	228	830		mov __D0main, __TextOutArgs.Result
+0	227	832	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	228	832		release __TextOutMutex
+0	227	833	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	227	833	#line 227 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	230	833	#line 230 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	231	833		subcall drop, __drop_return
+0	230	835	#line 230 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+0	231	835		exit -1, -1
+1	5120	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	5121	3		set ____RotateMotor1_sign_tmp, 0
+1	5121	6		brtst EQ, __sign_1, __rotate_angle1
+1	5121	9		set ____RotateMotor1_sign_tmp, -1
+1	5121	12		brtst LT, __sign_1, __rotate_angle1
+1	5121	15		set ____RotateMotor1_sign_tmp, 1
+1	5121	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
+1	5122	20		abs __rotate_theAngle1, __rotate_angle1
+1	5123	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	5125	27		set __rotate_theUF1, 23
+1	5126	30		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	5127	33		set __rotate_theOM1, 7
+1	5128	36		set __rotate_theRM1, 2
+1	5129	39		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	5130	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	5131	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	5132	48		jmp __rotate_Start1
+1	5134	50		set __rotate_theOM1, 3
+1	5135	53		set __rotate_theRM1, 0
+1	5136	56		set __rotate_theTurnPct1, 0
+1	5138	59		set __rotate_theRS1, 32
+1	5139	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	5142	85		index __rotate_firstPort1, __rotate_ports1, 65535
+1	5144	89		getout __rotate_power1, __rotate_firstPort1, 2
+1	5145	93		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	5146	96		getout __rotate_rs1, __rotate_firstPort1, 6
+1	5147	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	5149	104		brtst 4, __rotate_Reset1, __rotate_stop1
+1	5151	107		set __rotate_theOM1, 7
+1	5152	110		set __rotate_theUF1, 7
+1	5153	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	5155	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	5157	132		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	5158	134		wait2 NA, __constVal50
+1	5160	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	5161	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	5162	145		set __rotate_theOM1, 4
+1	5163	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	5166	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	5167	162		setout __rotate_ports1, 0, __constVal32
+1	5169	167		subret ____RotateMotor1_return
+2	5476	0		setin __constVal1, __ResetSensorPort, 5
+2	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	5480	11		subret ____ResetSensorSubroutine_return
+3	6393	0	#pragma macro 25
+3	6393	0		acquire __CLSWMutex3
+3	6393	1		or __CLSWArgs3.Port, __constVal3, __LSWriteOptions3
+3	6393	5		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+3	6393	7		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+3	6393	9		syscall 21, __CLSWArgs3
+3	6393	12		mov __RLSBResult3, __CLSWArgs3.Result
+3	6393	14		release __CLSWMutex3
+3	6393	15	#line 6393 "NXTDefs.h"
+3	6394	15		brtst 5, __RLSBError3, __RLSBResult3
+3	6395	18		set __RLSBIterations3, 60
+3	6397	21	#pragma macro 23
+3	6397	21		acquire __CLSCSMutex3
+3	6397	22		set __CLSCSArgs3.Port, 3
+3	6397	25		syscall 23, __CLSCSArgs3
+3	6397	28		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+3	6397	30		mov __RLSBResult3, __CLSCSArgs3.Result
+3	6397	32		release __CLSCSMutex3
+3	6397	33	#line 6397 "NXTDefs.h"
+3	6398	33		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+3	6399	37		brtst 2, __RLSBError3, __RLSBIterations3
+3	6400	40		brtst 0, __RLSBError3, __RLSBResult3
+3	6401	43		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+3	6403	46		wait2 NA, __constVal1
+3	6404	49		jmp __RLSBDoCheckStatus3
+3	6406	51		brtst 4, __RLSBReturn3, __RLSBytesCount3
+3	6407	54		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+3	6409	58	#pragma macro 25
+3	6409	58		acquire __CLSRMutex3
+3	6409	59		set __CLSRArgs3.Port, 3
+3	6409	62		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+3	6409	64		syscall 22, __CLSRArgs3
+3	6409	67		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+3	6409	69		mov __RLSBResult3, __CLSRArgs3.Result
+3	6409	71		release __CLSRMutex3
+3	6409	72	#line 6409 "NXTDefs.h"
+3	6410	72		brtst 5, __RLSBError3, __RLSBResult3
+3	6411	75		mov __RLSLastGoodRead3, __RLSReadBuf3
+3	6412	77		jmp __RLSBDone3
+3	6414	79		mov __RLSReadBuf3, __RLSLastGoodRead3
+3	6416	81		arrsize __RLSBytesCount3, __RLSReadBuf3
+3	6418	84		subret ____ReadLSBytes3_return
+4	31	0	#line 31 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	32	0		getin __signed_stack_001drive, __constVal2, 4
+4	31	4	#line 31 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	31	4	#line 31 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	32	4		getin __D0drive, __constVal1, 4
+4	31	8	#line 31 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	32	8		sub error, __signed_stack_001drive, __D0drive
+4	32	12	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	32	12	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	32	12	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	32	12	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	33	12		mov __signed_stack_001drive, error
+4	32	14	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	32	14	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	33	14		set __D0drive, 3
+4	32	17	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	33	17		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
+4	32	21	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	33	21		brtst 4, __ASM_Label_494, __D0drive
+4	32	24	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	33	24		mov __signed_stack_001drive, error
+4	32	26	#line 32 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	34	26	#line 34 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	35	26		mov __D0drive, __constValNeg3
+4	34	28	#line 34 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	35	28		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+4	35	32	#line 35 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	36	32		brtst 4, __ASM_Label_495, __D0drive
+4	35	35	#line 35 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	36	35		mov __signed_stack_001drive, power
+4	35	37	#line 35 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	36	37	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	36	37	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	37	37		mul power_left, __signed_stack_001drive, __constValf1P5
+4	36	41	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	36	41	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	36	41	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	37	41		mov __signed_stack_001drive, power
+4	36	43	#line 36 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	38	43	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	38	43	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	39	43		mul power_right, __signed_stack_001drive, __constValf1P5
+4	38	47	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	38	47	#line 38 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	39	47	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	40	47		jmp __ASM_Label_500
+4	39	49	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	40	49		mov __signed_stack_001drive, error
+4	39	51	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	39	51	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	40	51		set __D0drive, 5
+4	39	54	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	40	54		cmp 0, __D0drive, __signed_stack_001drive, __D0drive
+4	39	58	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	40	58		brtst 4, __ASM_Label_502, __D0drive
+4	39	61	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	40	61		mov __signed_stack_001drive, error
+4	39	63	#line 39 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	40	63	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	41	63		mov __D0drive, __constValNeg5
+4	40	65	#line 40 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	41	65		cmp 1, __D0drive, __signed_stack_001drive, __D0drive
+4	41	69	#line 41 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	42	69		brtst 4, __ASM_Label_503, __D0drive
+4	41	72	#line 41 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	42	72		mov __float_stack_001drive, kp
+4	41	74	#line 41 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	42	74	#line 42 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	43	74		mov __D0drive, error
+4	42	76	#line 42 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	43	76		mul turn, __float_stack_001drive, __D0drive
+4	42	80	#line 42 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	42	80	#line 42 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	42	80	#line 42 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	43	80		mov __signed_stack_001drive, power
+4	42	82	#line 42 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	43	82	#line 43 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	44	82		mov __D0drive, turn
+4	43	84	#line 43 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	44	84		add power_left, __signed_stack_001drive, __D0drive
+4	43	88	#line 43 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	43	88	#line 43 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	43	88	#line 43 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	44	88		mov __signed_stack_001drive, power
+4	43	90	#line 43 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	44	90	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	45	90		mov __D0drive, turn
+4	44	92	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	45	92		sub power_right, __signed_stack_001drive, __D0drive
+4	44	96	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	44	96	#line 44 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	48	96	#line 48 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	49	96		jmp __ASM_Label_510
+4	48	98	#line 48 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	49	98		mov __float_stack_001drive, kp2
+4	48	100	#line 48 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	49	100	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	50	100		mov __D0drive, error
+4	49	102	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	50	102		mul turn, __float_stack_001drive, __D0drive
+4	49	106	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	49	106	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	49	106	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	50	106		mov __signed_stack_001drive, power_low
+4	49	108	#line 49 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	50	108	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	51	108		mov __D0drive, turn
+4	50	110	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	51	110		add power_left, __signed_stack_001drive, __D0drive
+4	50	114	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	50	114	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	50	114	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	51	114		mov __signed_stack_001drive, power_low
+4	50	116	#line 50 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	51	116	#line 51 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	52	116		mov __D0drive, turn
+4	51	118	#line 51 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	52	118		sub power_right, __signed_stack_001drive, __D0drive
+4	51	122	#line 51 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	51	122	#line 51 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	52	122	#line 52 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	52	122	#line 52 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	52	122	#line 52 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	53	122		mov __D0drive, power_left
+4	53	124	#line 53 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	54	124	#pragma macro 7
+4	54	124		setout __constVal0, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4524	147	#line 4524 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	53	147	#line 53 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	53	147	#line 53 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	54	147		mov __D0drive, power_right
+4	54	149	#line 54 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	55	149	#pragma macro 7
+4	55	149		setout __constVal2, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4531	172	#line 4531 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	54	172	#line 54 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	54	172	#line 54 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	55	172		set __Wait_7qG2_ms_7qG2_000_inline_drive, 3
+4	54	175	#line 54 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	8551	175	#line 8551 "NXCDefs.h"
+4	8552	175		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drive
+4	8551	178	#line 8551 "NXCDefs.h"
+4	55	178	#line 55 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	58	178	#line 58 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+4	59	178		subret __drive_return
+5	61	0	#line 61 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	62	0		set __D0turn_right, 35
+5	62	3	#line 62 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	63	3	#pragma macro 10
+5	63	3		acquire __OnRevMutex
+5	63	4		neg __OnRev_Tmp, __D0turn_right
+5	63	7		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	63	30		release __OnRevMutex
+5	4553	31	#line 4553 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	62	31	#line 62 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	62	31	#line 62 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	63	31		set __D0turn_right, 35
+5	63	34	#line 63 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	64	34	#pragma macro 7
+5	64	34		setout __constVal0, 2, __D0turn_right, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4558	57	#line 4558 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	63	57	#line 63 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	63	57	#line 63 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	64	57		set __Wait_7qG2_ms_7qG2_000_inline_turn_right, 1000
+5	63	60	#line 63 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	8551	60	#line 8551 "NXCDefs.h"
+5	8552	60		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_turn_right
+5	8551	63	#line 8551 "NXCDefs.h"
+5	64	63	#line 64 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	67	63	#line 67 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+5	68	63		subret __turn_right_return
+6	72	0	#line 72 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	73	0		set no_obstacle, 1
+6	72	3	#line 72 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	72	3	#line 72 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	73	3	#line 73 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	74	3		mov __DU0catch_obstacle, no_obstacle
+6	74	5	#line 74 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	75	5		tst 5, __D0catch_obstacle, __DU0catch_obstacle
+6	74	8	#line 74 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	75	8		brtst 4, __ASM_Label_532, __D0catch_obstacle
+6	74	11	#line 74 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	75	11	#pragma macro 26
+6	75	11		acquire __RLSBmutex3
+6	75	12		mov __RLSReadBuf3, __RLSBbufLSWrite1
+6	75	14		set __RLSBytesCount3, 1
+6	75	17		wait2 NA, __constVal15
+6	75	20		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+6	75	22		index __D0catch_obstacle, __RLSReadBuf3, 65535
+6	75	26		release __RLSBmutex3
+6	4596	27	#line 4596 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	74	27	#line 74 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	75	27		mov __signed_stack_001catch_obstacle, __D0catch_obstacle
+6	75	29	#line 75 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	76	29		mov __D0catch_obstacle, __catch_obstacle_7qG2_distance_7qG2_000
+6	75	31	#line 75 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	76	31		cmp 0, __D0catch_obstacle, __signed_stack_001catch_obstacle, __D0catch_obstacle
+6	76	35	#line 76 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	77	35		brtst 4, __ASM_Label_537, __D0catch_obstacle
+6	77	38	#line 77 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	78	38		set no_obstacle, 0
+6	77	41	#line 77 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	77	41	#line 77 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	78	41	#line 78 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	79	41	#line 79 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	80	41		subcall drive, __drive_return
+6	79	43	#line 79 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	79	43	#line 79 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	80	43		set __Wait_7qG2_ms_7qG2_000_inline_catch_obstacle, 3
+6	79	46	#line 79 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	8551	46	#line 8551 "NXCDefs.h"
+6	8552	46		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_catch_obstacle
+6	8551	49	#line 8551 "NXCDefs.h"
+6	80	49	#line 80 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	81	49	#line 81 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	82	49		jmp __ASM_Label_531
+6	81	51	#line 81 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	82	51	#line 82 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	83	51	#pragma macro 7
+6	83	51		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4636	74	#line 4636 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	82	74	#line 82 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	85	74	#line 85 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+6	86	74		subret __catch_obstacle_return
+7	89	0	#line 89 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	90	0		mov __DU0barcode, not_black
+7	90	2	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	91	2		tst 5, __D0barcode, __DU0barcode
+7	90	5	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	91	5		brtst 4, __ASM_Label_543, __D0barcode
+7	90	8	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	91	8		getin __signed_stack_001barcode, __constVal0, 4
+7	90	12	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	90	12	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	91	12		set __D0barcode, 40
+7	90	15	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	91	15		cmp 0, __D0barcode, __signed_stack_001barcode, __D0barcode
+7	90	19	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	91	19		brtst 4, __ASM_Label_547, __D0barcode
+7	90	22	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	91	22		getin __signed_stack_001barcode, __constVal1, 4
+7	90	26	#line 90 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	91	26	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	92	26		set __D0barcode, 40
+7	91	29	#line 91 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	92	29		cmp 1, __D0barcode, __signed_stack_001barcode, __D0barcode
+7	92	33	#line 92 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	93	33		brtst 4, __ASM_Label_548, __D0barcode
+7	93	36	#line 93 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	94	36		set not_black, 0
+7	93	39	#line 93 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	93	39	#line 93 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	94	39	#line 94 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	95	39	#line 95 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	96	39		subcall drive, __drive_return
+7	95	41	#line 95 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	95	41	#line 95 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	96	41		set __Wait_7qG2_ms_7qG2_000_inline_barcode, 3
+7	95	44	#line 95 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	8551	44	#line 8551 "NXCDefs.h"
+7	8552	44		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_barcode
+7	8551	47	#line 8551 "NXCDefs.h"
+7	96	47	#line 96 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	97	47	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	98	47		jmp __ASM_Label_542
+7	97	49	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	97	49	#line 97 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	98	49		set __D0barcode, 30
+7	98	52	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	99	52	#pragma macro 7
+7	99	52		setout __constVal2, 2, __D0barcode, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4707	75	#line 4707 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	98	75	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	98	75	#line 98 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	99	75		set __D0barcode, 30
+7	99	78	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	100	78	#pragma macro 7
+7	100	78		setout __constVal0, 2, __D0barcode, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4712	101	#line 4712 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	99	101	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	99	101	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	100	101		set __Wait_7qG2_ms_7qG2_000_inline_barcode, 500
+7	99	104	#line 99 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	8551	104	#line 8551 "NXCDefs.h"
+7	8552	104		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_barcode
+7	8551	107	#line 8551 "NXCDefs.h"
+7	100	107	#line 100 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	101	107	#line 101 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	102	107		subcall turn_right, __turn_right_return
+7	101	109	#line 101 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	104	109	#line 104 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+7	105	109		subret __barcode_return
+8	109	0	#line 109 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	110	0		set no_obstacle, 1
+8	109	3	#line 109 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	109	3	#line 109 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	109	3	#line 109 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	110	3		set __D0push, 40
+8	110	6	#line 110 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	111	6	#pragma macro 7
+8	111	6		setout __constVal2, 2, __D0push, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4738	29	#line 4738 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	110	29	#line 110 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	110	29	#line 110 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	111	29		set __D0push, 40
+8	111	32	#line 111 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	112	32	#pragma macro 7
+8	112	32		setout __constVal0, 2, __D0push, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4743	55	#line 4743 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	111	55	#line 111 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	111	55	#line 111 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	112	55		set __Wait_7qG2_ms_7qG2_000_inline_push, 500
+8	111	58	#line 111 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	8551	58	#line 8551 "NXCDefs.h"
+8	8552	58		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_push
+8	8551	61	#line 8551 "NXCDefs.h"
+8	112	61	#line 112 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	113	61	#line 113 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	114	61		mov __DU0push, no_obstacle
+8	114	63	#line 114 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	115	63		tst 5, __D0push, __DU0push
+8	114	66	#line 114 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	115	66		brtst 4, __ASM_Label_568, __D0push
+8	6678	69	#line 6678 "NXCDefs.h"
+8	6679	69	#pragma macro 6
+8	6679	69		acquire __PointOutMutex
+8	6679	70		mov __PointOutArgs.Location.X, __constVal200
+8	6679	72		mov __PointOutArgs.Location.Y, __constVal200
+8	6679	74		mov __PointOutArgs.Options, __constVal1
+8	6679	76		syscall 14, __PointOutArgs
+8	6679	79		release __PointOutMutex
+8	4767	80	#line 4767 "NXCDefs.h"
+8	6678	80	#line 6678 "NXCDefs.h"
+8	115	80	#line 115 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	115	80	#line 115 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	116	80		set __signed_stack_001push, 0
+8	115	83	#line 115 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	115	83	#line 115 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	116	83		set __signed_stack_002push, 48
+8	115	86	#line 115 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	115	86	#line 115 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	116	86		strcat __strbufpush, __constStr0009
+8	116	90	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	90		acquire __TextOutMutex
+8	116	91	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	91		mov __TextOutArgs.Location.X, __signed_stack_001push
+8	116	93	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	93		mov __TextOutArgs.Location.Y, __signed_stack_002push
+8	116	95	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	95		set __TextOutArgs.Options, 0
+8	116	98	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	98		mov __TextOutArgs.Text, __strbufpush
+8	116	100	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	100		syscall 13, __TextOutArgs
+8	116	103	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	103		mov __D0push, __TextOutArgs.Result
+8	116	106	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	106		release __TextOutMutex
+8	116	107	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	116	107	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	107		set __signed_stack_001push, 40
+8	116	110	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	116	110	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	110		set __signed_stack_002push, 40
+8	116	113	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	116	113	#line 116 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	113	#pragma macro 26
+8	117	113		acquire __RLSBmutex3
+8	117	114		mov __RLSReadBuf3, __RLSBbufLSWrite1
+8	117	116		set __RLSBytesCount3, 1
+8	117	119		wait2 NA, __constVal15
+8	117	122		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+8	117	124		index __D0push, __RLSReadBuf3, 65535
+8	117	128		release __RLSBmutex3
+8	4812	129	#line 4812 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	129	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	129		acquire __TextOutMutex
+8	117	130	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	130		mov __TextOutArgs.Location.X, __signed_stack_001push
+8	117	132	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	132		mov __TextOutArgs.Location.Y, __signed_stack_002push
+8	117	134	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	134		set __TextOutArgs.Options, 0
+8	117	137	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	137		numtostr __TextOutArgs.Text, __D0push
+8	117	140	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	140		syscall 13, __TextOutArgs
+8	117	143	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	143		mov __D0push, __TextOutArgs.Result
+8	117	146	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	146		release __TextOutMutex
+8	117	147	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	117	147	#line 117 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	147	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	119	147		subcall drive, __drive_return
+8	118	149	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	118	149	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	119	149		set __Wait_7qG2_ms_7qG2_000_inline_push, 3
+8	118	152	#line 118 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	8551	152	#line 8551 "NXCDefs.h"
+8	8552	152		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_push
+8	8551	155	#line 8551 "NXCDefs.h"
+8	119	155	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	119	155	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	120	155	#pragma macro 26
+8	120	155		acquire __RLSBmutex3
+8	120	156		mov __RLSReadBuf3, __RLSBbufLSWrite1
+8	120	158		set __RLSBytesCount3, 1
+8	120	161		wait2 NA, __constVal15
+8	120	164		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+8	120	166		index __D0push, __RLSReadBuf3, 65535
+8	120	170		release __RLSBmutex3
+8	4847	171	#line 4847 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	119	171	#line 119 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	120	171		mov __signed_stack_001push, __D0push
+8	120	173	#line 120 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	121	173		set __D0push, 15
+8	120	176	#line 120 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	121	176		cmp 0, __D0push, __signed_stack_001push, __D0push
+8	121	180	#line 121 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	122	180		brtst 4, __ASM_Label_585, __D0push
+8	122	183	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	123	183		set no_obstacle, 0
+8	122	186	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	122	186	#line 122 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	124	186	#line 124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	124	186	#line 124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	125	186		jmp __ASM_Label_567
+8	124	188	#line 124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	124	188	#line 124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	125	188	#pragma macro 26
+8	125	188		acquire __RLSBmutex3
+8	125	189		mov __RLSReadBuf3, __RLSBbufLSWrite1
+8	125	191		set __RLSBytesCount3, 1
+8	125	194		wait2 NA, __constVal15
+8	125	197		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+8	125	199		index __D0push, __RLSReadBuf3, 65535
+8	125	203		release __RLSBmutex3
+8	4873	204	#line 4873 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	124	204	#line 124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	125	204		mov __signed_stack_001push, __D0push
+8	125	206	#line 125 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	126	206		set __D0push, 20
+8	125	209	#line 125 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	126	209		cmp 0, __D0push, __signed_stack_001push, __D0push
+8	126	213	#line 126 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	127	213		brtst 4, __ASM_Label_589, __D0push
+8	6678	216	#line 6678 "NXCDefs.h"
+8	6679	216	#pragma macro 6
+8	6679	216		acquire __PointOutMutex
+8	6679	217		mov __PointOutArgs.Location.X, __constVal200
+8	6679	219		mov __PointOutArgs.Location.Y, __constVal200
+8	6679	221		mov __PointOutArgs.Options, __constVal1
+8	6679	223		syscall 14, __PointOutArgs
+8	6679	226		release __PointOutMutex
+8	4887	227	#line 4887 "NXCDefs.h"
+8	6678	227	#line 6678 "NXCDefs.h"
+8	127	227	#line 127 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	127	227	#line 127 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	128	227		set __signed_stack_001push, 0
+8	127	230	#line 127 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	127	230	#line 127 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	128	230		set __signed_stack_002push, 48
+8	127	233	#line 127 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	127	233	#line 127 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	128	233		strcat __strbufpush, __constStr0010
+8	128	237	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	237		acquire __TextOutMutex
+8	128	238	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	238		mov __TextOutArgs.Location.X, __signed_stack_001push
+8	128	240	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	240		mov __TextOutArgs.Location.Y, __signed_stack_002push
+8	128	242	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	242		set __TextOutArgs.Options, 0
+8	128	245	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	245		mov __TextOutArgs.Text, __strbufpush
+8	128	247	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	247		syscall 13, __TextOutArgs
+8	128	250	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	250		mov __D0push, __TextOutArgs.Result
+8	128	253	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	253		release __TextOutMutex
+8	128	254	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	128	254	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	254		set __signed_stack_001push, 40
+8	128	257	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	128	257	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	257		set __signed_stack_002push, 40
+8	128	260	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	128	260	#line 128 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	260	#pragma macro 26
+8	129	260		acquire __RLSBmutex3
+8	129	261		mov __RLSReadBuf3, __RLSBbufLSWrite1
+8	129	263		set __RLSBytesCount3, 1
+8	129	266		wait2 NA, __constVal15
+8	129	269		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+8	129	271		index __D0push, __RLSReadBuf3, 65535
+8	129	275		release __RLSBmutex3
+8	4932	276	#line 4932 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	276	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	276		acquire __TextOutMutex
+8	129	277	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	277		mov __TextOutArgs.Location.X, __signed_stack_001push
+8	129	279	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	279		mov __TextOutArgs.Location.Y, __signed_stack_002push
+8	129	281	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	281		set __TextOutArgs.Options, 0
+8	129	284	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	284		numtostr __TextOutArgs.Text, __D0push
+8	129	287	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	287		syscall 13, __TextOutArgs
+8	129	290	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	290		mov __D0push, __TextOutArgs.Result
+8	129	293	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	293		release __TextOutMutex
+8	129	294	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	294	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	129	294	#line 129 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	294		set __D0push, 40
+8	130	297	#line 130 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	131	297	#pragma macro 7
+8	131	297		setout __constVal2, 2, __D0push, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4958	320	#line 4958 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	320	#line 130 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	130	320	#line 130 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	131	320		set __D0push, 40
+8	131	323	#line 131 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	132	323	#pragma macro 7
+8	132	323		setout __constVal0, 2, __D0push, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4963	346	#line 4963 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	131	346	#line 131 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	132	346	#line 132 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	133	346		jmp __ASM_Label_588
+8	132	348	#line 132 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	133	348	#line 133 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	134	348	#pragma macro 7
+8	134	348		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4970	371	#line 4970 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	133	371	#line 133 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	136	371	#line 136 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+8	137	371		subret __push_return
+9	140	0	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	141	0		set not_black, 1
+9	140	3	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	140	3	#line 140 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	6678	3	#line 6678 "NXCDefs.h"
+9	6679	3	#pragma macro 6
+9	6679	3		acquire __PointOutMutex
+9	6679	4		mov __PointOutArgs.Location.X, __constVal200
+9	6679	6		mov __PointOutArgs.Location.Y, __constVal200
+9	6679	8		mov __PointOutArgs.Options, __constVal1
+9	6679	10		syscall 14, __PointOutArgs
+9	6679	13		release __PointOutMutex
+9	4983	14	#line 4983 "NXCDefs.h"
+9	6678	14	#line 6678 "NXCDefs.h"
+9	141	14	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	141	14	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	142	14		set __signed_stack_001goback, 0
+9	141	17	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	141	17	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	142	17		set __signed_stack_002goback, 48
+9	141	20	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	141	20	#line 141 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	142	20		strcat __strbufgoback, __constStr0011
+9	142	24	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	24		acquire __TextOutMutex
+9	142	25	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	25		mov __TextOutArgs.Location.X, __signed_stack_001goback
+9	142	27	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	27		mov __TextOutArgs.Location.Y, __signed_stack_002goback
+9	142	29	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	29		set __TextOutArgs.Options, 0
+9	142	32	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	32		mov __TextOutArgs.Text, __strbufgoback
+9	142	34	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	34		syscall 13, __TextOutArgs
+9	142	37	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	37		mov __D0goback, __TextOutArgs.Result
+9	142	39	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	39		release __TextOutMutex
+9	142	40	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	142	40	#line 142 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	40		set __D0goback, 40
+9	143	43	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	144	43	#pragma macro 10
+9	144	43		acquire __OnRevMutex
+9	144	44		neg __OnRev_Tmp, __D0goback
+9	144	47		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	144	70		release __OnRevMutex
+9	5020	71	#line 5020 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	71	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	143	71	#line 143 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	144	71		set __D0goback, 40
+9	144	74	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	145	74	#pragma macro 10
+9	145	74		acquire __OnRevMutex
+9	145	75		neg __OnRev_Tmp, __D0goback
+9	145	78		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	145	101		release __OnRevMutex
+9	5025	102	#line 5025 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	144	102	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	144	102	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	145	102		set __Wait_7qG2_ms_7qG2_000_inline_goback, 500
+9	144	105	#line 144 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	8551	105	#line 8551 "NXCDefs.h"
+9	8552	105		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_goback
+9	8551	108	#line 8551 "NXCDefs.h"
+9	145	108	#line 145 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	146	108	#line 146 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	147	108		subcall turn_right, __turn_right_return
+9	146	110	#line 146 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	147	110	#line 147 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	148	110		subcall turn_right, __turn_right_return
+9	147	112	#line 147 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	148	112	#line 148 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	149	112		mov __DU0goback, not_black
+9	149	114	#line 149 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	150	114		tst 5, __D0goback, __DU0goback
+9	149	117	#line 149 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	150	117		brtst 4, __ASM_Label_619, __D0goback
+9	149	120	#line 149 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	150	120		getin __signed_stack_001goback, __constVal0, 4
+9	149	124	#line 149 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	150	124	#line 150 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	151	124		set __D0goback, 40
+9	150	127	#line 150 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	151	127		cmp 0, __D0goback, __signed_stack_001goback, __D0goback
+9	151	131	#line 151 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	152	131		brtst 4, __ASM_Label_624, __D0goback
+9	152	134	#line 152 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	153	134		set not_black, 0
+9	152	137	#line 152 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	152	137	#line 152 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	153	137	#line 153 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	154	137	#line 154 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	155	137		subcall drive, __drive_return
+9	154	139	#line 154 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	154	139	#line 154 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	155	139		set __Wait_7qG2_ms_7qG2_000_inline_goback, 3
+9	154	142	#line 154 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	8551	142	#line 8551 "NXCDefs.h"
+9	8552	142		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_goback
+9	8551	145	#line 8551 "NXCDefs.h"
+9	155	145	#line 155 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	156	145	#line 156 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	157	145		jmp __ASM_Label_618
+9	156	147	#line 156 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	156	147	#line 156 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	157	147		set __D0goback, 30
+9	157	150	#line 157 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	158	150	#pragma macro 7
+9	158	150		setout __constVal2, 2, __D0goback, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	5093	173	#line 5093 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	157	173	#line 157 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	157	173	#line 157 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	158	173		set __D0goback, 30
+9	158	176	#line 158 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	159	176	#pragma macro 7
+9	159	176		setout __constVal0, 2, __D0goback, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	5098	199	#line 5098 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	158	199	#line 158 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	158	199	#line 158 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	159	199		set __Wait_7qG2_ms_7qG2_000_inline_goback, 500
+9	158	202	#line 158 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	8551	202	#line 8551 "NXCDefs.h"
+9	8552	202		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_goback
+9	8551	205	#line 8551 "NXCDefs.h"
+9	159	205	#line 159 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	160	205	#line 160 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	161	205		subcall turn_right, __turn_right_return
+9	160	207	#line 160 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	162	207	#line 162 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+9	163	207		subret __goback_return
+10	165	0	#line 165 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+10	166	0		mov __signed_stack_001drop, __constValNeg20
+10	165	2	#line 165 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+10	165	2	#line 165 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+10	166	2		set __D0drop, 180
+10	166	5	#line 166 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+10	167	5	#pragma macro 33
+10	167	5		acquire __rotateMutex1
+10	167	6		arrbuild __rotate_ports1, __constVal1
+10	167	10		mov __rotate_power1, __signed_stack_001drop
+10	167	12		mov __rotate_angle1, __D0drop
+10	167	14		mov __rotate_turnpct1, __constVal0
+10	167	16		mov __rotate_sync1, __constVal0
+10	167	18		mov __rotate_stop1, __constVal1
+10	167	20		mov __rotate_theRVP1, __constVal32
+10	167	22		mov __rotate_theRVI1, __constVal0
+10	167	24		mov __rotate_theRVD1, __constVal96
+10	167	26		subcall __RotateMotor1, ____RotateMotor1_return
+10	167	28		release __rotateMutex1
+10	5124	29	#line 5124 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+10	166	29	#line 166 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+10	170	29	#line 170 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+10	171	29		subret __drop_return
+11	233	0	#line 233 "E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc"
+11	234	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc
+1	__RotateMotor1	838	NXTDefs.h
+2	__ResetSensorSubroutine	1007	NXTDefs.h
+3	__ReadLSBytes3	1020	NXTDefs.h
+4	drive	1106	E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc
+5	turn_right	1286	E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc
+6	catch_obstacle	1351	E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc
+7	barcode	1427	E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc
+8	push	1538	E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc
+9	goback	1911	E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc
+10	drop	2120	E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc
+11	__initialize_global_data	2151	E:\Eigene Dateien\Documents\GitHub\SDP2019\final_version.nxc
